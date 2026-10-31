@@ -16,6 +16,7 @@ const COMBOS = [
 ];
 
 export default function App() {
+    //states are like variable that hold what is assigned currently to whatever value
     const [query, setQuery] = useState("");
     const [tag, setTag] = useState("");
     const [tab, setTab] = useState("runes");
@@ -25,15 +26,19 @@ export default function App() {
     );
     const [targetSlot, setTargetSlot] = useState("Slot1");
 
+    //entries filters down our giant list of runes to what we're looking for
     const entries = useMemo(() => {
         const source = tab === "runes" ? RUNES : COMBOS;
         return source.filter(
             (r) =>
+            //search is only based on name at the moment
                 r.name.toLowerCase().includes(query.toLowerCase()) &&
+                //selected tag is empty or rune is the selected tag
                 (tag === "" || r.tag === tag)
         );
     }, [tab, query, tag]);
 
+    //builds the structure of each build, what it looks like
     const slot = (slot) => (
         <section
             onClick={() => setTargetSlot(slot)}
@@ -50,6 +55,7 @@ export default function App() {
             <main>
                 <div>
                     <div>
+                        {/* The text search box for names */}
                         <label htmlFor="search">Search</label>
                         <input
                             id="search"
@@ -61,6 +67,7 @@ export default function App() {
                     </div>
 
                     <div>
+                        {/* The filter dropdown for ?categories? */}
                         <label htmlFor="filter">Filter</label>
                         <select
                             id="filter"
@@ -75,6 +82,7 @@ export default function App() {
                     </div>
 
                     <div>
+                        {/* Tab selection */}
                         {["runes", "combos"].map((v) => (
                             <button
                                 key={v}
@@ -94,6 +102,8 @@ export default function App() {
                         {entries.length === 0 && (
                             <li>No matches. Clear the search or filter.</li>
                         )}
+
+                        {/* Turn filtered list of runes/combos into accordion items*/}
                         {entries.map((item) => {
                             const open = expandedID === item.id;
                             return (
@@ -118,6 +128,8 @@ export default function App() {
                     </ul>
                 </div>
 
+
+                {/* Build slots */}
                 <aside>
                     <h2>Build</h2>
                     <div>
