@@ -4,9 +4,9 @@ const SLOTS = ["Slot1", "Slot2", "Slot3", "Slot4", "Slot5"];
 const MAX_PER_SLOT = 3;
 const TAGS = ["Tag1", "Tag2", "Tag3", "Tag4"];
 
-const RUNES = Array.from({ length: 1 }, (_, i) => ({
+const RUNES = Array.from({ length: 2 }, (_, i) => ({
     id: i + 1,
-    name: "Master Rune of Examples",
+    name: "Master Rune of Examples" + " " + i,
     tag: TAGS[i % TAGS.length],
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 }));
