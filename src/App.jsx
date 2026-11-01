@@ -1,4 +1,6 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef } from "react";
+import BuildCard from './BuildCard';
+import {toPng} from 'html-to-image';
 
 const SLOTS = ["Slot1", "Slot2", "Slot3", "Slot4", "Slot5"];
 const MAX_PER_SLOT = 3;
@@ -38,6 +40,27 @@ export default function App() {
         );
     }, [tab, query, tag]);
 
+    const exportRef = useRef(null);
+    const [isExporting, setIsExporting] = useState(false);
+//This is the function that exports the build to png 
+    const handleExport = async () => {
+        if (!exportRef.current) return;
+
+        try {
+            setIsExporting(true);
+            const dataUrl = await toPng(exportRef.current, {cacheBust: true});
+        
+            const link = document.createElement('a');
+            link.download = 'my-rune-build.png';
+            link.href = dataUrl;
+            link.click();
+        } catch (err) {
+            console.error('Error exporting image:', err);
+        } finally {
+            setIsExporting(false);
+        }
+    }; 
+
     //builds the structure of each build, what it looks like
     const slot = (slot) => (
         <section
@@ -51,7 +74,23 @@ export default function App() {
     );
 
     return (
-        <div>
+        //This is the export button
+        <div style={{ display: 'flex', gap: '32px', padding: '24px', alignItems: 'flex-start' }}>
+            <aside style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                <BuildCard ref={exportRef} slot={slot} />
+                <button
+                    onClick={handleExport}
+                    disabled={isExporting}
+                    style={{
+                        padding: '10px 16px',
+                        cursor: isExporting ? 'not-allowed' : 'pointer',
+                        fontWeight: 'bold',
+                    }}
+                >
+                    {isExporting ? 'Exporting...' : 'Export as PNG'}
+                </button>
+            </aside>
+        
             <main>
                 <div>
                     <div>
@@ -127,19 +166,6 @@ export default function App() {
                         })}
                     </ul>
                 </div>
-
-
-                {/* Build slots */}
-                <aside>
-                    <h2>Build</h2>
-                    <div>
-                        <div>{slot("Slot1")}</div>
-                        <div>{slot("Slot2")}</div>
-                        <div>{slot("Slot3")}</div>
-                        <div>{slot("Slot4")}</div>
-                        <div>{slot("Slot5")}</div>
-                    </div>
-                </aside>
             </main>
         </div>
     );
