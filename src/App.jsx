@@ -14,8 +14,8 @@ import {
 
 const SLOTS = ["Banner", "Weapon", "Tailsman", "Shield", "Armor"];
 const MAX_PER_SLOT = 3;
-const MASTER_RUNE_TAG = "Master";
-const ALL_TAGS = "All Tags";
+const Master_Rune = "Master";
+const All_Tags = "All Tags";
 const TAGS = ["All Tags", "Armor", "Banner", "Tailsman", "Weapon", "Master"];
 
 // Example runes for each slot and one that fits anywhere
@@ -24,9 +24,9 @@ const RUNES = [
     { id: 2, name: "Standard Rune of Banner", tag: "Banner", description: "Example standard rune for the Banner slot." },
     { id: 3, name: "Standard Rune of Tailsman", tag: "Tailsman", description: "Example standard rune for the Tailsman slot." },
     { id: 4, name: "Standard Rune of Weapon", tag: "Weapon", description: "Example standard rune for the Weapon slot." },
-    { id: 5, name: "Standard Rune of Example", tag: ALL_TAGS, description: "Example standard rune that can go in any slot." },
-    { id: 6, name: "Master Rune of Example", tag: MASTER_RUNE_TAG, description: "Example Master Rune for testing the one-per-slot rule." },
-    { id: 7, name: "Master Rune of Example", tag: MASTER_RUNE_TAG, description: "Second example Master Rune for testing the one-per-slot rule." },
+    { id: 5, name: "Standard Rune of Example", tag: All_Tags, description: "Example standard rune that can go in any slot." },
+    { id: 6, name: "Master Rune of Example", tag: Master_Rune, description: "Example Master Rune for testing the one-per-slot rule." },
+    { id: 7, name: "Master Rune of Example", tag: Master_Rune, description: "Second example Master Rune for testing the one-per-slot rule." },
 ];
 
 const COMBOS = [
@@ -35,13 +35,28 @@ const COMBOS = [
 
 
 // Items use one slot unless they have a custom cost
-const slotCost = (item) => item.runeCount ?? 1;
-const slotUsed = (items) => items.reduce((sum, i) => sum + slotCost(i), 0);
+const slotCost = (item) => {
+    if (item.runeCount !== null && item.runeCount !== undefined) {
+        return item.runeCount;
+    }
+
+    return 1;
+};
+
+const slotUsed = (items) => {
+    let totalSlots = 0;
+
+    for (const item of items) {
+        totalSlots += slotCost(item);
+    }
+
+    return totalSlots;
+};
 // Used to enforce one Master Rune per slot
-const isMasterRune = (item) => item.tag === MASTER_RUNE_TAG;
+const isMasterRune = (item) => item.tag === Master_Rune;
 const canPlaceInSlot = (item, slotName) =>
     isMasterRune(item) ||
-    item.tag === ALL_TAGS ||
+    item.tag === All_Tags ||
     item.tag === slotName ||
     (item.tag === "Armor" && slotName === "Shield");
 
@@ -164,10 +179,12 @@ export default function App() {
     const [tag, setTag] = useState("All Tags");
     const [tab, setTab] = useState("runes");
     const [expandedID, setExpandedID] = useState(null);
-    const [build, setBuild] = useState(
-        Object.fromEntries(SLOTS.map((s) => [s, []]))
-    );
-    const [targetSlot, setTargetSlot] = useState("Banner");
+    const startingBuild = {};
+    for (const slotName of SLOTS) {
+        startingBuild[slotName] = [];
+    }
+    const [build, setBuild] = useState(startingBuild);
+    const [, setTargetSlot] = useState("Banner");
 
     // Used for the drag preview and slot-full message
     const [activeItem, setActiveItem] = useState(null);
@@ -181,15 +198,30 @@ export default function App() {
     );
 
     const entries = useMemo(() => {
-        const source = tab === "runes" ? RUNES : COMBOS;
-        const type = tab === "runes" ? "rune" : "combo";
-        return source
-            .filter(
-                (r) =>
-                    r.name.toLowerCase().includes(query.toLowerCase()) &&
-                    (tag === "All Tags" || r.tag === tag)
-            )
-            .map((r) => ({ ...r, type }));
+        let source;
+        let type;
+
+        if (tab === "runes") {
+            source = RUNES;
+            type = "rune";
+        } else {
+            source = COMBOS;
+            type = "combo";
+        }
+
+        const matchingEntries = [];
+        const searchText = query.toLowerCase();
+
+        for (const entry of source) {
+            const nameMatches = entry.name.toLowerCase().includes(searchText);
+            const tagMatches = tag === "All Tags" || entry.tag === tag;
+
+            if (nameMatches && tagMatches) {
+                matchingEntries.push(Object.assign({}, entry, { type }));
+            }
+        }
+
+        return matchingEntries;
     }, [tab, query, tag]);
 
     const exportRef = useRef(null);
@@ -225,18 +257,30 @@ export default function App() {
     };
 
     const removeFromSlot = (slotName, uid) => {
-        setBuild((prev) => ({
-            ...prev,
-            [slotName]: prev[slotName].filter((r) => r.uid !== uid),
-        }));
+        setBuild((previousBuild) => {
+            const updatedBuild = Object.assign({}, previousBuild);
+            const remainingItems = [];
+
+            for (const item of previousBuild[slotName]) {
+                if (item.uid !== uid) {
+                    remainingItems.push(item);
+                }
+            }
+
+            updatedBuild[slotName] = remainingItems;
+            return updatedBuild;
+        });
     };
 
-    const handleDragStart = ({ active }) => {
+    const handleDragStart = (dragEvent) => {
+        const active = dragEvent.active;
         setActiveItem(active.data.current.item);
         setError("");
     };
 
-    const handleDragEnd = ({ active, over }) => {
+    const handleDragEnd = (dragEvent) => {
+        const active = dragEvent.active;
+        const over = dragEvent.over;
         setActiveItem(null);
         if (!over) return;
 
@@ -271,10 +315,25 @@ export default function App() {
         }
 
         setBuild((prev) => {
-            const next = { ...prev };
-            if (from) next[from] = prev[from].filter((r) => r.uid !== item.uid);
+            const next = Object.assign({}, prev);
+            if (from) {
+                const remainingItems = [];
+                for (const placedItem of prev[from]) {
+                    if (placedItem.uid !== item.uid) {
+                        remainingItems.push(placedItem);
+                    }
+                }
+                next[from] = remainingItems;
+            }
+
             // Give placed items their own IDs
-            next[over.id] = [...prev[over.id], { ...item, uid: item.uid ?? crypto.randomUUID() }];
+            let itemId = item.uid;
+            if (itemId === null || itemId === undefined) {
+                itemId = crypto.randomUUID();
+            }
+
+            const placedItem = Object.assign({}, item, { uid: itemId });
+            next[over.id] = prev[over.id].concat(placedItem);
             return next;
         });
     };
