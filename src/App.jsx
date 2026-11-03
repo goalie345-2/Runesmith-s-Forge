@@ -25,8 +25,11 @@ const RUNES = [
     { id: 3, name: "Standard Rune of Tailsman", tag: "Tailsman", description: "Example standard rune for the Tailsman slot." },
     { id: 4, name: "Standard Rune of Weapon", tag: "Weapon", description: "Example standard rune for the Weapon slot." },
     { id: 5, name: "Standard Rune of Example", tag: All_Tags, description: "Example standard rune that can go in any slot." },
-    { id: 6, name: "Master Rune of Example", tag: Master_Rune, description: "Example Master Rune for testing the one-per-slot rule." },
-    { id: 7, name: "Master Rune of Example", tag: Master_Rune, description: "Second example Master Rune for testing the one-per-slot rule." },
+    { id: 6, name: "Master Rune of Example", tag: Master_Rune, slotTag: All_Tags, description: "Example Master Rune that can be placed in any slot." },
+    { id: 7, name: "Master Rune of Armor", tag: Master_Rune, slotTag: "Armor", description: "Master Rune that can only be placed in an Armor slot." },
+    { id: 8, name: "Master Rune of Banner", tag: Master_Rune, slotTag: "Banner", description: "Master Rune that can only be placed in a Banner slot." },
+    { id: 9, name: "Master Rune of Tailsman", tag: Master_Rune, slotTag: "Tailsman", description: "Master Rune that can only be placed in a Tailsman slot." },
+    { id: 10, name: "Master Rune of Weapon", tag: Master_Rune, slotTag: "Weapon", description: "Master Rune that can only be placed in a Weapon slot." },
 ];
 
 const COMBOS = [
@@ -55,7 +58,7 @@ const slotUsed = (items) => {
 // Used to enforce one Master Rune per slot
 const isMasterRune = (item) => item.tag === Master_Rune;
 const canPlaceInSlot = (item, slotName) =>
-    isMasterRune(item) ||
+    (isMasterRune(item) && (!item.slotTag || item.slotTag === All_Tags || item.slotTag === slotName)) ||
     item.tag === All_Tags ||
     item.tag === slotName ||
     (item.tag === "Armor" && slotName === "Shield");
@@ -295,7 +298,8 @@ export default function App() {
         if (over.id === from) return;
 
         if (!canPlaceInSlot(item, over.id)) {
-            showError(`${item.name} can only be placed in the ${item.tag} slot.`);
+            const requiredSlot = item.slotTag || item.tag;
+            showError(`${item.name} can only be placed in the ${requiredSlot} slot.`);
             return;
         }
 
