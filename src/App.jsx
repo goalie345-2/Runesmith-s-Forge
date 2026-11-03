@@ -100,7 +100,7 @@ function PlacedItem({ item, slotName, onRemove }) {
             >
                 {item.name}
             </span>
-            {/* Excluded from exported images */}
+            {/* Excludes unwanted elements from exported images */}
             <button
                 data-no-export="true"
                 onClick={(e) => {
