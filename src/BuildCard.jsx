@@ -21,11 +21,11 @@ import React, {forwardRef} from 'react';
                 className="slots-wrapper"
                 style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}
             >
-                <div className="slot-box">{slot('Slot1')}</div>
-                <div className="slot-box">{slot('Slot2')}</div>
-                <div className="slot-box">{slot('Slot3')}</div>
-                <div className="slot-box">{slot('Slot4')}</div>
-                <div className="slot-box">{slot('Slot5')}</div>
+                <div className="slot-box">{slot('Banner')}</div>
+                <div className="slot-box">{slot('Weapon')}</div>
+                <div className="slot-box">{slot('Tailsman')}</div>
+                <div className="slot-box">{slot('Shield')}</div>
+                <div className="slot-box">{slot('Armor')}</div>
             </div>
         </div>
     );
