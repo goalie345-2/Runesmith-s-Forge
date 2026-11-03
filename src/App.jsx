@@ -2,14 +2,14 @@ import { useState, useMemo, useRef } from "react";
 import BuildCard from './BuildCard';
 import {toPng} from 'html-to-image';
 import {
-    DndContext, // Enables drag and drop
-    DragOverlay, // Shows the item being dragged
-    PointerSensor, // Handles mouse dragging
-    KeyboardSensor, // Handles keyboard dragging
+    DndContext, 
+    DragOverlay, 
+    PointerSensor, 
+    KeyboardSensor, 
     useSensor,
     useSensors,
-    useDraggable, // Makes an item draggable
-    useDroppable, // Makes an area a drop target
+    useDraggable, 
+    useDroppable, 
 } from "@dnd-kit/core";
 
 const SLOTS = ["Banner", "Weapon", "Tailsman", "Shield", "Armor"];
