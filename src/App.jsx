@@ -1,5 +1,6 @@
 import { useState, useMemo, useRef } from "react";
 import BuildCard from './BuildCard';
+import './App.css';
 import {toPng} from 'html-to-image';
 import {
     DndContext, 
