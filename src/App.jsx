@@ -12,6 +12,8 @@ import {
     useDraggable, 
     useDroppable, 
 } from "@dnd-kit/core";
+import runeJson from "/runes.json";
+//import comboJson from "/combos.json";
 
 const SLOTS = ["Banner", "Weapon", "Tailsman", "Shield", "Armor"];
 const MAX_PER_SLOT = 3;
@@ -19,19 +21,21 @@ const Master_Rune = "Master";
 const All_Tags = "All Tags";
 const TAGS = ["All Tags", "Armor", "Banner", "Tailsman", "Weapon", "Master"];
 
+const RUNES = importRunes(runeJson);
+
 // Example runes for each slot and one that fits anywhere
-const RUNES = [
-    { id: 1, name: "Standard Rune of Armor", tag: "Armor", description: "Example standard rune for the Armor slot." },
-    { id: 2, name: "Standard Rune of Banner", tag: "Banner", description: "Example standard rune for the Banner slot." },
-    { id: 3, name: "Standard Rune of Tailsman", tag: "Tailsman", description: "Example standard rune for the Tailsman slot." },
-    { id: 4, name: "Standard Rune of Weapon", tag: "Weapon", description: "Example standard rune for the Weapon slot." },
-    { id: 5, name: "Standard Rune of Example", tag: All_Tags, description: "Example standard rune that can go in any slot." },
-    { id: 6, name: "Master Rune of Example", tag: Master_Rune, slotTag: All_Tags, description: "Example Master Rune that can be placed in any slot." },
-    { id: 7, name: "Master Rune of Armor", tag: Master_Rune, slotTag: "Armor", description: "Master Rune that can only be placed in an Armor slot." },
-    { id: 8, name: "Master Rune of Banner", tag: Master_Rune, slotTag: "Banner", description: "Master Rune that can only be placed in a Banner slot." },
-    { id: 9, name: "Master Rune of Tailsman", tag: Master_Rune, slotTag: "Tailsman", description: "Master Rune that can only be placed in a Tailsman slot." },
-    { id: 10, name: "Master Rune of Weapon", tag: Master_Rune, slotTag: "Weapon", description: "Master Rune that can only be placed in a Weapon slot." },
-];
+// const RUNES = [
+//     { id: 1, name: "Standard Rune of Armor", tag: "Armor", description: "Example standard rune for the Armor slot." },
+//     { id: 2, name: "Standard Rune of Banner", tag: "Banner", description: "Example standard rune for the Banner slot." },
+//     { id: 3, name: "Standard Rune of Tailsman", tag: "Tailsman", description: "Example standard rune for the Tailsman slot." },
+//     { id: 4, name: "Standard Rune of Weapon", tag: "Weapon", description: "Example standard rune for the Weapon slot." },
+//     { id: 5, name: "Standard Rune of Example", tag: All_Tags, description: "Example standard rune that can go in any slot." },
+//     { id: 6, name: "Master Rune of Example", tag: Master_Rune, slotTag: All_Tags, description: "Example Master Rune that can be placed in any slot." },
+//     { id: 7, name: "Master Rune of Armor", tag: Master_Rune, slotTag: "Armor", description: "Master Rune that can only be placed in an Armor slot." },
+//     { id: 8, name: "Master Rune of Banner", tag: Master_Rune, slotTag: "Banner", description: "Master Rune that can only be placed in a Banner slot." },
+//     { id: 9, name: "Master Rune of Tailsman", tag: Master_Rune, slotTag: "Tailsman", description: "Master Rune that can only be placed in a Tailsman slot." },
+//     { id: 10, name: "Master Rune of Weapon", tag: Master_Rune, slotTag: "Weapon", description: "Master Rune that can only be placed in a Weapon slot." },
+// ];
 
 const COMBOS = [
     { id: 1, name: "Grimnir's Burning Wroth", tag: "Banner", runeCount: 3, description: "When charging at an enemy or specific point, the user rapidly picks up speed and gains a protective shell of flame around them, gathering more and more energy until it can be released as an explosion of heat and power strong enough to melt steel or condensed into the user's weapon, allies unharmed." }
@@ -63,6 +67,27 @@ const canPlaceInSlot = (item, slotName) =>
     item.tag === All_Tags ||
     item.tag === slotName ||
     (item.tag === "Armor" && slotName === "Shield");
+
+function importRunes(data) {
+    return data.map((rune, index) => ({
+        id: index + 1,
+        name: rune["Rune Name"],
+        tag: rune["Rune Category"],
+        description: rune["Effect"],
+        type: rune["Rune Type"],
+        //Tags must be comma delimited
+        tags: (rune["Tags"])
+            .split(",")
+            .map(tag => tag.trim()),
+        status: rune["Status"],
+        reagents: rune["Reagent(s)"],
+        knownBy: rune["Known By"],
+        notes: rune["Notes/Development"],
+        creator: rune["Creator"],
+        lore: rune["Lore"],
+        attribution: rune["Attribution"],
+    }));
+}
 
 function DraggableListItem({ item, children }) {
     const { attributes, listeners, setNodeRef, setActivatorNodeRef, isDragging } = useDraggable({
