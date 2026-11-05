@@ -63,7 +63,7 @@ const slotUsed = (items) => {
     return totalSlots;
 };
 // Used to enforce one Master Rune per slot
-const isMasterRune = (item) => item.tag === Master_Rune;
+const isMasterRune = (item) => item.runeTypes.includes("Master Rune");
 const canPlaceInSlot = (item, slotName) =>
     (isMasterRune(item) && (!item.slotTag || item.slotTag === All_Tags || item.slotTag === slotName)) ||
     item.tag === All_Tags ||
@@ -76,7 +76,10 @@ function importRunes(data) {
         name: rune["Rune Name"],
         category: rune["Rune Category"],
         description: rune["Effect"],
-        type: rune["Rune Type"],
+        //Types must be comma delimited
+        runeTypes: (rune["Rune Type"])
+            .split(",")
+            .map(type => type.trim()),
         //Tags must be comma delimited
         tags: (rune["Tags"])
             .split(",")
@@ -95,7 +98,8 @@ function importCombos(data) {
     return data.map((combo, index) => ({
         id: index + 1,
         name: combo["Combo Name"],
-        type: combo["Combo Type"],
+        //we put this in category because it lines up with what runes call "category"
+        category: combo["Combo Type"],
         description: combo["Effect"],
         components: [
             combo["Component 1"],
@@ -493,7 +497,8 @@ export default function App() {
                                         {open && (
                                             <div>
                                                 <p>
-                                                    {item.description} <em>Tag: {item.tag}</em>
+                                                    {/* filtering only needed for components which may have empty entries */}
+                                                    {item.description} <em>Category: {item.category}</em> {item.runeTypes ? (<em>Type(s): {item.runeTypes.join(', ')}</em>) : ""} {item.tags ? (<em>Tag(s): {item.tags.join(', ')}</em>) : (<em>Component(s): {item.components.filter(Boolean).join(', ')}</em>)}
                                                 </p>
                                             </div>
                                         )}
