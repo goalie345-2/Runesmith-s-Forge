@@ -14,11 +14,18 @@ import {
 } from "@dnd-kit/core";
 import runeJson from "/runes.json";
 import comboJson from "/combos.json";
+import Select from 'react-select';
 
-const SLOTS = ["Banner", "Weapon", "Tailsman", "Shield", "Armor"];
+const SLOTS = ["Banner", "Weapon", "Tailsman", "Shield", "Armor", "Master"];
 const MAX_PER_SLOT = 3;
 const All_Tags = "All Tags";
-const TAGS = ["All Tags", "Armor", "Banner", "Tailsman", "Weapon", "Master"];
+const TAGS = [
+    { value: 'Armor', label: 'Armor' },
+    { value: 'Banner', label: 'Banner' },
+    { value: 'Talisman', label: 'Talisman' },
+    { value: 'Weapon', label: 'Weapon' },
+    { value: 'Armor', label: 'Armor' }
+];
 
 const RUNES = importRunes(runeJson);
 
@@ -229,7 +236,8 @@ function ListDropZone({ children }) {
 
 export default function App() {
     const [query, setQuery] = useState("");
-    const [tag, setTag] = useState("All Tags");
+    const [selectedTags, setSelectedTags] = useState([]);
+    const [isMasterChecked, setIsMasterChecked] = useState(false);
     const [tab, setTab] = useState("runes");
     const [expandedID, setExpandedID] = useState(null);
     const startingBuild = {};
@@ -267,15 +275,16 @@ export default function App() {
 
         for (const entry of source) {
             const nameMatches = entry.name.toLowerCase().includes(searchText);
-            const tagMatches = tag === "All Tags" || entry.tag === tag;
+            const tagMatches = selectedTags.length === 0 || selectedTags.some(x => x.value === entry.category);
+            const masterMatches = tab != "runes" || !isMasterChecked || isMasterChecked && isMasterRune(entry);
 
-            if (nameMatches && tagMatches) {
+            if (nameMatches && tagMatches && masterMatches) {
                 matchingEntries.push(Object.assign({}, entry, { type }));
             }
         }
 
         return matchingEntries;
-    }, [tab, query, tag]);
+    }, [tab, query, selectedTags, isMasterChecked]);
 
     const exportRef = useRef(null);
     const [isExporting, setIsExporting] = useState(false);
@@ -448,17 +457,21 @@ export default function App() {
                         <div>
                             {/* Filter by tag */}
                             <label htmlFor="filter">Filter</label>
-                            <select
-                                id="filter"
-                                value={tag}
-                                onChange={(e) => setTag(e.target.value)}
-                            >
-                                {TAGS.map((t) => (
-                                    <option key={t}>{t}</option>
-                                ))}
-                            </select>
+                            <Select
+                                options={TAGS}
+                                value={selectedTags}
+                                isMulti={true}
+                                onChange={(e) => setSelectedTags(e) }
+                            />
                         </div>
-
+                        {tab == "runes" ?
+                            (<div>
+                                <label>Show master runes only</label>
+                                <input type="checkbox"
+                                    checked={isMasterChecked}
+                                    onChange={e => setIsMasterChecked(e.target.checked)} />
+                            </div>) : ""
+                        }
                         <div>
                             {/* Switch between runes and combos */}
                             {["runes", "combos"].map((v) => (
