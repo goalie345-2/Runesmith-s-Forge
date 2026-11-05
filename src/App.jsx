@@ -17,7 +17,6 @@ import comboJson from "/combos.json";
 
 const SLOTS = ["Banner", "Weapon", "Tailsman", "Shield", "Armor"];
 const MAX_PER_SLOT = 3;
-const Master_Rune = "Master";
 const All_Tags = "All Tags";
 const TAGS = ["All Tags", "Armor", "Banner", "Tailsman", "Weapon", "Master"];
 
