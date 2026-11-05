@@ -13,7 +13,7 @@ import {
     useDroppable, 
 } from "@dnd-kit/core";
 import runeJson from "/runes.json";
-//import comboJson from "/combos.json";
+import comboJson from "/combos.json";
 
 const SLOTS = ["Banner", "Weapon", "Tailsman", "Shield", "Armor"];
 const MAX_PER_SLOT = 3;
@@ -37,9 +37,11 @@ const RUNES = importRunes(runeJson);
 //     { id: 10, name: "Master Rune of Weapon", tag: Master_Rune, slotTag: "Weapon", description: "Master Rune that can only be placed in a Weapon slot." },
 // ];
 
-const COMBOS = [
-    { id: 1, name: "Grimnir's Burning Wroth", tag: "Banner", runeCount: 3, description: "When charging at an enemy or specific point, the user rapidly picks up speed and gains a protective shell of flame around them, gathering more and more energy until it can be released as an explosion of heat and power strong enough to melt steel or condensed into the user's weapon, allies unharmed." }
-];
+const COMBOS = importCombos(comboJson);
+
+// const COMBOS = [
+//     { id: 1, name: "Grimnir's Burning Wroth", tag: "Banner", runeCount: 3, description: "When charging at an enemy or specific point, the user rapidly picks up speed and gains a protective shell of flame around them, gathering more and more energy until it can be released as an explosion of heat and power strong enough to melt steel or condensed into the user's weapon, allies unharmed." }
+// ];
 
 
 // Items use one slot unless they have a custom cost
@@ -72,7 +74,7 @@ function importRunes(data) {
     return data.map((rune, index) => ({
         id: index + 1,
         name: rune["Rune Name"],
-        tag: rune["Rune Category"],
+        category: rune["Rune Category"],
         description: rune["Effect"],
         type: rune["Rune Type"],
         //Tags must be comma delimited
@@ -86,6 +88,25 @@ function importRunes(data) {
         creator: rune["Creator"],
         lore: rune["Lore"],
         attribution: rune["Attribution"],
+    }));
+}
+
+function importCombos(data) {
+    return data.map((combo, index) => ({
+        id: index + 1,
+        name: combo["Combo Name"],
+        type: combo["Combo Type"],
+        description: combo["Effect"],
+        components: [
+            combo["Component 1"],
+            combo["Component 2"],
+            combo["Component 3"],
+            combo["Component 4"],
+            combo["Component 5"],
+        ]
+            .map(component => component.trim()),
+        notes: combo["Notes"],
+        creator: combo["Creator"],
     }));
 }
 
