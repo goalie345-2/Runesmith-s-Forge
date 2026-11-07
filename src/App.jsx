@@ -80,7 +80,9 @@ function importRunes(data) {
     return data.map((rune, index) => ({
         id: index + 1,
         name: rune["Rune Name"],
-        category: rune["Rune Category"],
+        category: (rune["Rune Category"])
+            .split(",")
+            .map(type => type.trim()),
         description: rune["Effect"],
         //Types must be comma delimited
         runeTypes: (rune["Rune Type"])
@@ -275,8 +277,9 @@ export default function App() {
 
         for (const entry of source) {
             const nameMatches = entry.name.toLowerCase().includes(searchText);
+            //tagmatches must be fixed now that categories is an array instead of a single value
             const tagMatches = selectedTags.length === 0 || selectedTags.some(x => x.value === entry.category);
-            const masterMatches = tab != "runes" || !isMasterChecked || isMasterChecked && isMasterRune(entry);
+            const masterMatches = tab != "runes" || !isMasterChecked || isMasterChecked && !isMasterRune(entry);
 
             if (nameMatches && tagMatches && masterMatches) {
                 matchingEntries.push(Object.assign({}, entry, { type }));
@@ -466,7 +469,7 @@ export default function App() {
                         </div>
                         {tab == "runes" ?
                             (<div>
-                                <label>Show master runes only</label>
+                                <label>Hide master runes</label>
                                 <input type="checkbox"
                                     checked={isMasterChecked}
                                     onChange={e => setIsMasterChecked(e.target.checked)} />
@@ -510,7 +513,7 @@ export default function App() {
                                             <div>
                                                 <p>
                                                     {/* filtering only needed for components which may have empty entries */}
-                                                    {item.description} <em>Category: {item.category}</em> {item.runeTypes ? (<em>Type(s): {item.runeTypes.join(', ')}</em>) : ""} {item.tags ? (<em>Tag(s): {item.tags.join(', ')}</em>) : (<em>Component(s): {item.components.filter(Boolean).join(', ')}</em>)}
+                                                    {item.description} <em>Category: {item.category.join(", ")}</em> {item.runeTypes ? (<em>Type(s): {item.runeTypes.join(', ')}</em>) : ""} {item.tags ? (<em>Tag(s): {item.tags.join(', ')}</em>) : (<em>Component(s): {item.components.filter(Boolean).join(', ')}</em>)}
                                                 </p>
                                             </div>
                                         )}
