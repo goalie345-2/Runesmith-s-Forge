@@ -1,33 +1,5 @@
 [
   {
-    "Rune Name": "Azamar",
-    "Rune Category": "Throne",
-    "Rune Type": "Lonely Rune",
-    "Effect": "Beyond the comprehension of mortal Dwarfs",
-    "Tags": "Not Your Problem",
-    "Status": "Inviolate, Immovable, Eternal",
-    "Reagent(s)": "",
-    "Known By": "Grungni",
-    "Notes/Development": "",
-    "Creator": "Grungni",
-    "Lore": "Skill issue, beardlings.",
-    "Attribution": "Canon"
-  },
-  {
-    "Rune Name": "Master Rune of Examples",
-    "Rune Category": "Talisman",
-    "Rune Type": "Master Rune",
-    "Effect": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "Tags": "Example Tags",
-    "Status": "Learned (Category #1, etc),\nUnknown (Category 2)",
-    "Reagent(s)": "T5 Examplium \nor T4 Examplium",
-    "Known By": "",
-    "Notes/Development": "Turn 43: Updated\nDerived/Developed/Derivative of [Rune Name]",
-    "Creator": "Example Examplesson",
-    "Lore": "A very boring master rune",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Master Rune of Abjuration/The Abjurer",
     "Rune Category": "Weapon",
     "Rune Type": "Master Rune",
@@ -43,7 +15,7 @@
   },
   {
     "Rune Name": "Master Rune of Acceleration",
-    "Rune Category": "Engineering",
+    "Rune Category": "Engineering, Weapon",
     "Rune Type": "Master Rune",
     "Effect": "Massively increases velocity of projectile fired",
     "Tags": "On Attack, Enchantment, Offensive, Physical, Solo ",
@@ -196,20 +168,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Master Rune of Anders Iron-Shaper",
-    "Rune Category": "Structural (Workshops)",
-    "Rune Type": "Master Rune",
-    "Effect": "Rooms or Structures bearing this Rune allow for fine control of heat within and prevent metal from cooling passively. Any inside must be able to withstand relevant heat.",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE, Metal, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "T4 Elder Wyrm's Brain and T3 Solar Ruby",
-    "Known By": "Gorra Fallasdottir",
-    "Notes/Development": "",
-    "Creator": "Anders Iron-Shaper",
-    "Lore": "",
-    "Attribution": "ThatOneGuy050"
-  },
-  {
     "Rune Name": "Master Rune of Angkra Amberplait",
     "Rune Category": "Armour",
     "Rune Type": "Master Rune, Lonely Rune",
@@ -222,20 +180,6 @@
     "Creator": "Angkra Amberplaits",
     "Lore": "",
     "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Archives/Lorekeeping",
-    "Rune Category": "Talisman (Books)",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Books can hold vastly more information than their shape would normally allow, scaling with size and quality of material. Users leafing through pages will end up on the page with the information they seek if its within the book.",
-    "Tags": "Constant, Trigger, Enchantment, Civilian, Solo, Odd, Lonely",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Carcer"
   },
   {
     "Rune Name": "Master Rune of Arete",
@@ -266,34 +210,6 @@
     "Attribution": "Soulcake"
   },
   {
-    "Rune Name": "Master Rune of Attackers' Folly",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Attacks against Dwarfs on or in structures or rooms bearing this Rune are less effective, and more likely to miss",
-    "Tags": "Constant, Multi, Defensive, Curse",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Master Rune of Avenging Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Causes structure to self destruct into an explosion/implosion",
-    "Tags": "Activation, Trigger, Enchantment, Offensive, Physical, Solo",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
     "Rune Name": "Master Rune of Balance",
     "Rune Category": "Talisman",
     "Rune Type": "Master Rune",
@@ -320,34 +236,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Master Rune of Belegar Grimbarag",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Grants war machine increased damage against magical beings, daemons and spellcraft",
-    "Tags": "On Attack, Offensive, Curse, Grudge",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Belegar Grimbarag",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Berg-breaking",
-    "Rune Category": "Engineering (Boats)",
-    "Rune Type": "Master Rune",
-    "Effect": "Ships bearing this Rune break through ice and suffer greatly reduced damage from impacting iceberg",
-    "Tags": "Constant, Enchantment, Flexible, Physical, Solo",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "BananaBuddy"
   },
   {
     "Rune Name": "Master Rune of Biding Fury",
@@ -588,20 +476,6 @@
     "Attribution": "BananaBuddy"
   },
   {
-    "Rune Name": "Master Rune of Caustic Strikes",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Grants war machine lingering acidic gas aoe attacks",
-    "Tags": "Offensive, On Hit, Curse, AOE",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
     "Rune Name": "Master Rune of Celestial Gravity",
     "Rune Category": "Armour (Not shields)",
     "Rune Type": "Master Rune",
@@ -658,34 +532,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Master Rune of Chaosward",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Allies gain a morale and combat bonus while fighting against Chaos-touched entities; such entities are burned while within effect range, and take penalties. Casters aligned to Chaos take even more penalties, their ability to cast magic severely hindered by the power of this Master Rune.",
-    "Tags": "Constant, Grudge, Augment, Defensive, AOE, Physical",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Charring",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Structures periodically release a pulse of extremely lethal flame on command or when in the presence of enemies",
-    "Tags": "Activation, Trigger, Elemental, Power, Offensive, AoE, IFF",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirum"
-  },
-  {
     "Rune Name": "Master Rune of Clear Path",
     "Rune Category": "Armour",
     "Rune Type": "Master Rune",
@@ -698,20 +544,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Voikirum"
-  },
-  {
-    "Rune Name": "Master Rune of Climate",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Controls all aspect of Room environment to specific parameters",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Elemental, AOE, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "T3 Wyrm's Brain x3",
-    "Known By": "Gorra Fallasdottir",
-    "Notes/Development": "",
-    "Creator": "Gorra Fallasdottir",
-    "Lore": "",
-    "Attribution": "fishsicles"
   },
   {
     "Rune Name": "Master Rune of Clouded Midnight",
@@ -768,34 +600,6 @@
     "Creator": "",
     "Lore": "The future Master Rune of Kragg the Grim",
     "Attribution": "Canon\nDark as Silver (Armour)"
-  },
-  {
-    "Rune Name": "Master Rune of Conflagration",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo fired will explode into a flaming explosion",
-    "Tags": "Offensive, On Attack, Elemental",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Master Rune of Contentment",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Crew are in control of mental faculties, remaining collected and can more easily focus on the task at hand",
-    "Tags": "Constant, Multi, Augment, Mental",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Master Rune of Convection",
@@ -882,34 +686,6 @@
     "Attribution": "Torroar"
   },
   {
-    "Rune Name": "Master Rune of Daemonward",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Allies under the effects of a structure bearing this master rune find their morale bolstered against daemonkind and gain combat bonuses against them, while daemons are burned within its field of effect and take penalties to all actions. This effect is even more pronounced against daemonic spellcasters.",
-    "Tags": "Constant, Grudge, Augment, Defensive, AOE, Physical",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Dark Power/Grunni Thungnisson",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Can animate Gronti much like the Master Rune of Waking. Its key difference is that the constructs so animated are empowered when near dark and especially Chaos magic.",
-    "Tags": "Constant, Enchantment, Magical, Solo, Construct, Odd",
-    "Status": "Lost",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "Developed from the Master Rune of Waking",
-    "Creator": "Grunni Thungnisson",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
     "Rune Name": "Master Rune of Deathstrike",
     "Rune Category": "Weapon",
     "Rune Type": "Master Rune",
@@ -924,20 +700,6 @@
     "Attribution": "kinglugia"
   },
   {
-    "Rune Name": "Master Rune of Defence",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Shots that would have hit the artillery crew will be directed towards the War Machine",
-    "Tags": "Constant, Defensive, Physical",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Canon"
-  },
-  {
     "Rune Name": "Master Rune of Defiance",
     "Rune Category": "Weapon\nBanner",
     "Rune Type": "Master Rune",
@@ -950,34 +712,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Defiant Light",
-    "Rune Category": "Structural (Crystal)",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "It must be inscribed on a crystal the size of a Dwarf's torso.  After a brief charging period, the gemstone fires a beam of light into the sky, after which a beam of extreme heat powerful enough to melt Pure Gromril will land from above at the targeted area. The beam's duration is inversely related to its strength. (Engine of the Gods)",
-    "Tags": "Cast, Offensive, Activation, Elemental, Lonely",
-    "Status": "Lost",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "Derivative of the Master Rune of Zon-Dum",
-    "Creator": "Barra Vanyasdottir",
-    "Lore": "Similarities to the Engine of the Gods is completely unintended.",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Master Rune of Defiant Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Structure will actively resist enemy infiltration",
-    "Tags": "Constant, Enchantment, Odd, Defensive, IFF",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Master Rune of Deluge",
@@ -1050,20 +784,6 @@
     "Attribution": "NSMS"
   },
   {
-    "Rune Name": "Master Rune of Devouring Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Magic cast at structure is unmade and fired back to attackers as an explosive blast of heat and force",
-    "Tags": "Trigger, Enchantment, Offensive, Magical, Elemental",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
     "Rune Name": "Master Rune of Diamond",
     "Rune Category": "Armour",
     "Rune Type": "Master Rune",
@@ -1076,20 +796,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Master Rune of Disguise",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "The war machine bearing this Rune will be almost invisible to enemies, aiming at it becomes difficult as minds are tricked into shooting in the wrong place.",
-    "Tags": "Constant, Enchantment, Curse, Defensive, Mental, Solo",
-    "Status": "Learned",
-    "Reagent(s)": "T2 Invisible Diamonds",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Canon"
   },
   {
     "Rune Name": "Master Rune of Disintegration",
@@ -1218,34 +924,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Master Rune of Earth's Maw",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Allows room bearing this Rune to crush and grind anything inside",
-    "Tags": "Activation, Odd, Physical, Lonely",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Master Rune of Earth's Strength",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Strikes carry incredible amount of force and vibration, equivalent to full locomotive energy of a running Gronti. Needs to be inscribed on sufficiently large objects to be practical.",
-    "Tags": "On Hit, Offensive, Physical, Power",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Eddor Khazadsson",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Master Rune of Echoed Memories",
     "Rune Category": "Talisman (Headgear)",
     "Rune Type": "Master Rune, Lonely Rune",
@@ -1258,34 +936,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Carcer"
-  },
-  {
-    "Rune Name": "Master Rune of Elemental Shifting",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo fired can be changed to one of three elemental effects, fire, ice or lightning",
-    "Tags": "On Attack, Odd, Elemental, Offensive",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Master Rune of Elemental Swarm",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "A more potent version of the regular Rune. The motes are larger, and can even coalesce into small Dwarf-shaped figures",
-    "Tags": "Trigger, Enchantment, Elemental, IFF, AOE, Construct, Odd",
-    "Status": "Lost",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Barra Vanyasdottir",
-    "Lore": "",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Master Rune of Elementbane",
@@ -1335,34 +985,6 @@
     "Rune Type": "Master Rune",
     "Effect": "Takes wasted energy of allies and enemies in range, storing it to be released as either fire or lightning from the banner",
     "Tags": "Constant, Offensive, Enchantment, Elemental, AOE, Power, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Master Rune of Energy/Invigoration",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Structures bearing this Rune greatly increase the speed and quickness of Dwarfs within/atop it",
-    "Tags": "Constant, Augment, Flexible, Physical, AOE",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Kazrik Pleasurebane",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Master Rune of Ensouled Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Structure has fully autnomous control of all parts connected to Rune",
-    "Tags": "Constant, Enchantment, Physical, Solo, Power, Odd, Construct",
     "Status": "Future",
     "Reagent(s)": "",
     "Known By": "",
@@ -1484,20 +1106,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Master Rune of Fierce Ancestors",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Allies in range have greatly increased martial skill, unbreakable and can fight on despite suffering mortal wounds",
-    "Tags": "Constant, AOE, Augment, Flexible, Mental, IFF",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
     "Rune Name": "Master Rune of Fiery Defence",
     "Rune Category": "Talisman",
     "Rune Type": "Master Rune",
@@ -1524,20 +1132,6 @@
     "Creator": "Fimbul Wintertouched",
     "Lore": "",
     "Attribution": "OceanReaper"
-  },
-  {
-    "Rune Name": "Master Rune of Flame Gas",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo fired will release a cloud of dense, flammable gas",
-    "Tags": "Offensive, On Attack, Elemental",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Master Rune of Flameward",
@@ -1594,34 +1188,6 @@
     "Creator": "Flork Florksson",
     "Lore": "",
     "Attribution": "ArchAlngel"
-  },
-  {
-    "Rune Name": "Master Rune of Flow",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Prevents damage from erosion and fluid pressure, and eliminates friction with fluids. Inscribed can remotely control physical mechanisms physically part of it. Routes do not need to obey conventional laws of fluid dynamics.",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE, Power, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "T3 Varn Leviathan's Brain",
-    "Known By": "Gorra Fallasdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "fishsicles"
-  },
-  {
-    "Rune Name": "Master Rune of Flying Shocks",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo fired is slower, but releases bolts of electricity at any enemies they pass while airborne before creating an explosion of electricity when landing",
-    "Tags": "Offensive, On Attack, Elemental",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Master Rune of Forgeflame",
@@ -1806,20 +1372,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Master Rune of Gold",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Metals being worked on in structures bearing this Rune have malleability and melting point of Gold",
-    "Tags": "Constant, Metal, Civilian, Lonely",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
     "Rune Name": "Master Rune of Golden Doom",
     "Rune Category": "Banner",
     "Rune Type": "Master Rune",
@@ -1890,20 +1442,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Master Rune of Grimnir's Ferocity",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Allies in the structure have improved combat ability and can ignore mortal wounds until combat end",
-    "Tags": "IFF, Augment, Mental, Multi",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Master Rune of Grimnir's Stars",
     "Rune Category": "Armour",
     "Rune Type": "Master Rune",
@@ -1960,20 +1498,6 @@
     "Attribution": "Canon"
   },
   {
-    "Rune Name": "Master Rune of Grudgefall",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo fired will be pulled towards target of strongest Grudge at apex of its flight, sometimes capable of dragging a target upwards to meet it",
-    "Tags": "Offensive, On Attack, Grudge, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Master Rune of Grudging Shadow",
     "Rune Category": "Talisman",
     "Rune Type": "Master Rune",
@@ -2002,48 +1526,6 @@
     "Attribution": "Canon\nSoulcake"
   },
   {
-    "Rune Name": "Master Rune of Grungni's Craftsmanship",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Greatly enhances a war machine's unique and specialized traits",
-    "Tags": "Constant, Enchantment, Physical",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Master Rune of Grungni's Foresight",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Rooms or Structures bearing this Rune grant those within a single vision or portent of some future negative event relative to their lives. The afflicted will not be able to recieve a new vision until that event comes to pass or is averted.",
-    "Tags": "Trigger, Augment, Curse, Mental, Multi, Odd, Lonely",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Master Rune of Grungni's Prodigal Wisdom",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Dwarfs in a room or structure can more easily make insights and connections between pieces of information in their head.",
-    "Tags": "Constant, Augment, Flexible, AOE, Physical, Odd, Lonely",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
     "Rune Name": "Master Rune of Grungni's Sun",
     "Rune Category": "Talisman",
     "Rune Type": "Master Rune",
@@ -2056,20 +1538,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Master Rune of Grungni's Talent",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Request actions spent in a structure inscribed with this Rune have a 35% chance to add 1 extra progress",
-    "Tags": "Constant, Augment, Civilian, Physical, AOE, Odd, Lonely",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Orgra Iggunsdottir\nVragni Silverbrand",
-    "Notes/Development": "Additive to Existing Production Traits",
-    "Creator": "Ogra Iggunsdottir",
-    "Lore": "Only two copies are known to exist. Ogra's and Vragni's in the Citadel of Creation",
-    "Attribution": "Soulcake"
   },
   {
     "Rune Name": "Master Rune of Grungni's Teachings",
@@ -2212,20 +1680,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Master Rune of Hungering Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Physical projectiles fired at structure are consumed and used as repair material",
-    "Tags": "Trigger, Physical, Odd",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
     "Rune Name": "Master Rune of Ignorance",
     "Rune Category": "Banner",
     "Rune Type": "Master Rune",
@@ -2240,34 +1694,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Master Rune of Immolation",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "The war machine bearing this Rune, when activated, will immolate. Exploding in a shower of flaming shards that burn as hot as dragon's fire.",
-    "Tags": "Activation, Offensive, Elemental, Physical",
-    "Status": "Learned",
-    "Reagent(s)": "T2 Dragon's Gas Sac\nor T3 Elder Dragon's Gas Sac\nor T4 Elder Wyrm's Gas Sac",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Canon"
-  },
-  {
-    "Rune Name": "Master Rune of Impalement",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo fired will strike near instanteneously, easily penetrates physical armour and magical defenses though to a lesser degree",
-    "Tags": "On Attack, Offensive, Enchantment",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
     "Rune Name": "Master Rune of Impersonation",
     "Rune Category": "Talisman",
     "Rune Type": "Master Rune",
@@ -2280,20 +1706,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Master Rune of Incineration",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo fired will release a stream of liquid dragon's fire into any enemy it strikes",
-    "Tags": "On Hit, Enchantment, Offensive, Elemental",
-    "Status": "Lost",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
   },
   {
     "Rune Name": "Master Rune of Inertness",
@@ -2366,20 +1778,6 @@
     "Attribution": "BananaBuddy"
   },
   {
-    "Rune Name": "Master Rune of Lasting Vengeance",
-    "Rune Category": "Structural (Pillar, Obelisk)",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Area around the inscribed will cause targets to suffer bad luck.",
-    "Tags": "Constant, Trigger, Curse, Flexible, Magical, Physical, Grudge, Odd",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "Requires the blood of the target species to be poured at time of creation.",
-    "Attribution": "Narasan"
-  },
-  {
     "Rune Name": "Master Rune of Lethargy",
     "Rune Category": "Banner",
     "Rune Type": "Master Rune",
@@ -2422,20 +1820,6 @@
     "Attribution": "kinglugia"
   },
   {
-    "Rune Name": "Master Rune of Lightning Strikes",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "The war machine bearing this Rune fires Ammo with thunderbolt level destructive power.",
-    "Tags": "Constant, Enchantment, Offensive, Elemental",
-    "Status": "Learned",
-    "Reagent(s)": "T3 Storm Wyrm's Blood\nor T3 Dragon Ogre Shaggoth's Blood\nor T4 Elder Storm Wyrm's Blood\nor T4 Elder Dragon Ogre Shaggoth's Blood",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Master Rune of Living Steel",
     "Rune Category": "Armour",
     "Rune Type": "Master Rune",
@@ -2448,20 +1832,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Living Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Structures regenerate from same surrounding material",
-    "Tags": "Activation, Flexible, Physical",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Soulcake"
   },
   {
     "Rune Name": "Master Rune of Magicbane",
@@ -2520,20 +1890,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Master Rune of Meteorstrike",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "War machine gains explosive flaming ammo, effect stronger the larger the projectile",
-    "Tags": "Enchantment, Elemental, Offensive, On Attack",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
     "Rune Name": "Master Rune of Mirages",
     "Rune Category": "Banner",
     "Rune Type": "Master Rune",
@@ -2546,20 +1902,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Master Rune of Monumental Waking",
-    "Rune Category": "Engineering (Monuments)",
-    "Rune Type": "Master Rune",
-    "Effect": "It must be inscribed on Monumental scale [15m+] constructs. Used to animate Monumental Scale Rune Golems/Ancestor Golems/Gronti Duraz. Not limited to bipedal/dwarf bodyplans. Starts to suffer efficiency and power issues animating constructs with any dimension over 49m\t",
-    "Tags": "Activation, Enchantment, Physical, Construct",
-    "Status": "Learned",
-    "Reagent(s)": "T2 Troll Hearts x2 ",
-    "Known By": "Snorri Klausson",
-    "Notes/Development": "Turn 60: COMPLETE\n\nDerivative of the Master Rune of Waking",
-    "Creator": "Snorri Klausson(?)",
-    "Lore": "",
-    "Attribution": "Soulcake"
   },
   {
     "Rune Name": "Master Rune of Morek Hopebearer",
@@ -2590,48 +1932,6 @@
     "Attribution": "ArchAlngel (Weapon, Talisman, Engineering)"
   },
   {
-    "Rune Name": "Master Rune of Morgrim's Efficiency",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "War machines have greatly increased durability and smooth operation. These effects grow more potent the older the machine gets after being inscribed.",
-    "Tags": "Constant, Enchantment, Flexible, Physical, Solo, Lonely",
-    "Status": "Learned",
-    "Reagent(s)": "T4 Elder Wyrm's Brain",
-    "Known By": "Snorri Klausson\nValma Hilldasdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "BananaBuddy"
-  },
-  {
-    "Rune Name": "Master Rune of Morgrim's Exacting Eye",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "War Machines operate at greatly increased efficiency, have no mechanical flaws, and crew have improved sight",
-    "Tags": "Constant, Augment, Enchantment, Physical",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
-    "Rune Name": "Master Rune of Morgrim's Torrent",
-    "Rune Category": "Engineering, Engineering (Gronti)",
-    "Rune Type": "Master Rune",
-    "Effect": "War Machine or Gronti inscribed have increased attack speed, can fire a field of energy that explodes on contact with enemies",
-    "Tags": "Constant, Trigger, Cast, Offensive, Odd, Construct",
-    "Status": "Learned",
-    "Reagent(s)": "T3 Thundertusk's Heart",
-    "Known By": "Snorri Klausson\nValma Hilldasdottir",
-    "Notes/Development": "",
-    "Creator": "Argalast Giantdoom",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
     "Rune Name": "Master Rune of Mortality",
     "Rune Category": "Weapon",
     "Rune Type": "Master Rune",
@@ -2646,20 +1946,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Master Rune of Mystifying Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Structure emits a strange fog that hinders enemy perception, including scrying and other magical means of perception. Allies are unaffected by the fog. Enemies within will also take casting penalties while within range",
-    "Tags": "Activation, IFF, Magical, AOE",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
     "Rune Name": "Master Rune of Nightmare's Bane",
     "Rune Category": "Armour, Banner",
     "Rune Type": "Master Rune",
@@ -2669,34 +1955,6 @@
     "Reagent(s)": "",
     "Known By": "",
     "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Master Rune of Obsidian",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo shatters into a multitude of shards upon entering the body, momentum of original shot preserved",
-    "Tags": "On Hit, Offensive, Enchantment, Physical",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Master Rune of Ore-sorting",
-    "Rune Category": "Talisman (Containers), Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "All: The inscribed minimizes loss of ore and filters waste/slag during metal refinement\n\nTalisman: Inscribed container will slowly begin separating raw ore from stone placed within.\n\nStructural: Inscribed prevents trace ores from being part of slag and cleanly separates molten metal ",
-    "Tags": "Activation, Enchantment, Civilian, Physical, AOE, Alchemy, Metal",
-    "Status": "Lost",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "Developed from the Rune of Sieving",
     "Creator": "",
     "Lore": "",
     "Attribution": "Voikirium"
@@ -2814,20 +2072,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Master Rune of Plenty",
-    "Rune Category": "Talisman (Food containers)\nStructural (Ovens and Stoves)",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "All: Food cooked will have vastly improved nutritional value and taste.\n\nTalisman: Inscribed must be a portable item for storing or cooking food. The inscribed will fill with the last meal made in it seven times a day if nothing new is cooked within it for more than two days. Food stored in the inscribed is kept perpetually fresh while inside and will perfectly replicate itself if the correct ingredients are put into it.\n\nStructural: Inscribed must be a stationary oven or stove. Effect spread across other cooking surfaces in the same room as the inscribed. Cooked food and stored ale within the inscribed room will stay fresh for far longer, until taken out.",
-    "Tags": "Constant, Trigger, Enchantment, Civilian, Physical, Odd, Lonely",
-    "Status": "Learned",
-    "Reagent(s)": "T2 Troll Stomach x3",
-    "Known By": "Snorri Klausson",
-    "Notes/Development": "Turn 61: DEVELOPED\n\nDeveloped from studying magical items from a Fimir fortress",
-    "Creator": "Snorri Klausson",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
     "Rune Name": "Master Rune of Poison",
     "Rune Category": "Weapon",
     "Rune Type": "Master Rune",
@@ -2868,20 +2112,6 @@
     "Creator": "Snorri Klausson",
     "Lore": "",
     "Attribution": "Soulcake"
-  },
-  {
-    "Rune Name": "Master Rune of Purifying Radiance",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Structure emites a heatless and incredibly bright light that bolsters ally morale and burns enemies, especially effective against Chaos alligned entities",
-    "Tags": "Constant, Enchantment, Augment, Curse, Offensive, Defensive, IFF, AOE",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
   },
   {
     "Rune Name": "Master Rune of Quality's Quantity",
@@ -2940,20 +2170,6 @@
     "Attribution": "kinglugia"
   },
   {
-    "Rune Name": "Master Rune of Reflective Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Mundane physical projectiles shots fired at structures or rooms bearing this Rune are reflected or blown off course by an energy shield. Allies in rooms or structures bearing this Rune gain a lesser version of this effect and are strengthened",
-    "Tags": "On Block, Trigger, Enchantment, Augment, Defensive, Physical, AOE",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
     "Rune Name": "Master Rune of Resonance",
     "Rune Category": "Weapon",
     "Rune Type": "Master Rune",
@@ -2968,39 +2184,11 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Master Rune of Restraint",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Dwarfs in a room or structure bearing this Rune will resist negative mental effects, and have increased discipline and mental endurance",
-    "Tags": "Augment, Defensive, Mental, Lonely",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
     "Rune Name": "Master Rune of Retribution",
     "Rune Category": "Talisman",
     "Rune Type": "Master Rune",
     "Effect": "More potent Master Rune of Spite, doesn't need to be hurt to activate",
     "Tags": "Trigger, Enchantment, Offensive, Physical, Solo, Power",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Retributive Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Structure absorbs incoming magic, at critical point it releases a wave of lava, force and heat towards enemies that repairs damage done to it",
-    "Tags": "Trigger, Enchantment, Defensive, Elemental, AOE",
     "Status": "Future",
     "Reagent(s)": "",
     "Known By": "",
@@ -3022,20 +2210,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Mr. Idiot"
-  },
-  {
-    "Rune Name": "Master Rune of Riverine Dynamism",
-    "Rune Category": "Engineering (Waterwheels)",
-    "Rune Type": "Master Rune",
-    "Effect": "Waterwheels inscribed with this Rune will collect ambient Winds within an area of the River they are in, storing or transferring that energy to any Runes within the connected structure, recharge rate especially effective for Healing Runes.",
-    "Tags": "Constant, Enchantment, Civilian, Meta, AoE, Odd, Power\n",
-    "Status": "Lost",
-    "Reagent(s)": "",
-    "Known By": "?",
-    "Notes/Development": "Collects mostly Ghyran, which is why it recharges Healing Runes so well",
-    "Creator": "Barra Vanyasdottir",
-    "Lore": "Only extant examples are in the Karaz (realm) Zorn and two in Karak Izril, the Engineers Guildhall and Temple of Valaya",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Master Rune of Saga Seeker",
@@ -3150,20 +2324,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Master Rune of Scouring Fury",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Periodic ammo fired causes an explosion of searing white flame as strong as dragon fire, that deals extra damage to magical entities.",
-    "Tags": "Activation, Offensive, Elemental, Magical, Lonely",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
     "Rune Name": "Master Rune of Seared Steel",
     "Rune Category": "Weapon",
     "Rune Type": "Master Rune",
@@ -3206,20 +2366,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Master Rune of Shackled Earth",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Mitigates effects of tectonics, must be scaled for area it covers",
-    "Tags": "Constant, Enchantment, Defensive, Physical, Lonely",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Master Rune of Shadow Stepping",
     "Rune Category": "Talisman",
     "Rune Type": "Master Rune",
@@ -3232,20 +2378,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Carcer"
-  },
-  {
-    "Rune Name": "Master Rune of Shardthrower",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo shatters into a multitude of shards on impact, momentum of original shot preserved",
-    "Tags": "On Hit, Physical, Offensive, Enchantment",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Master Rune of Shattering Sound",
@@ -3262,20 +2394,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Master Rune of Shattering Strikes",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Grants war machines improved damage against structures, creating explosions of deadly shrapnel formed from ammo and structure itself",
-    "Tags": "Constant, Enchantment, AOE, Physical, Offensive",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
     "Rune Name": "Master Rune of Shifting Steel",
     "Rune Category": "Weapon, Engineering",
     "Rune Type": "Master Rune",
@@ -3288,20 +2406,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Silverbrand",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Runesmiths within the structure are inspired when performing rune research and are able to develop new variants at a noticeably quicker pace, the effect's potency increases with the amount of Gift-bearing Dawi nearby (Cost of all rune compressions, conversions, and simplifications reduced by 1, minimum 0 for all normal rune conversions including MRune simplifications based on X number of Runesmiths)",
-    "Tags": "Constant, Civilian, Mental, AOE, Lonely",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "LaggPlaguedDuke"
   },
   {
     "Rune Name": "Master Rune of Simmering Grudges",
@@ -3344,34 +2448,6 @@
     "Creator": "Starri Starklad",
     "Lore": "",
     "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Skewering",
-    "Rune Category": "Engineering (Bolt Throwers)",
-    "Rune Type": "Master Rune",
-    "Effect": "Bolt Throwers only, on activation ammo fired is self guided and has massively increased damage",
-    "Tags": "On Attack, Offensive, Enchantment",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Canon"
-  },
-  {
-    "Rune Name": "Master Rune of Sky's Hate",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Structures bearing this Rune strikes enemies with the full force of a bolt of lightning and prevents the energy from grounding out of them",
-    "Tags": "Constant, IFF, Elemental, Offensive, Lonely",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Master Rune of Slicing Light",
@@ -3430,34 +2506,6 @@
     "Attribution": "Voikirium (Weapon, Banner, Talisman)"
   },
   {
-    "Rune Name": "Master Rune of Smednir's Bounty",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Refining metals in a room or structure becomes incredibly, sometimes supernaturally, efficient, leading to their average output increasing by a noticeable degree.",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE, Metal, Odd, Lonely",
-    "Status": "Learned",
-    "Reagent(s)": "T4 Elder Magma Wyrm's Heart\nT4 Elder Magma Wyrm's Blood",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "Ogra Iggunsdottir?",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Master Rune of Smednir's Fire",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Chosen material, inscribed with Smednir's mundane Rune, that enter a structure inscribed with this Rune are hardened but not made more brittle than they originally were",
-    "Tags": "Trigger, Enchantment, Physical, AOE, Alchemy, Odd, Metal",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
     "Rune Name": "Master Rune of Smiting",
     "Rune Category": "Weapon",
     "Rune Type": "Master Rune",
@@ -3498,20 +2546,6 @@
     "Creator": "Snorri Spangelhelm",
     "Lore": "",
     "Attribution": "Canon"
-  },
-  {
-    "Rune Name": "Master Rune of Snow Squalls",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Structures bearing this Rune can create a blizzard in miniature around them",
-    "Tags": "Activation, Enchantment, Elemental, AOE, Flexible",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Master Rune of Soulshredding",
@@ -3654,20 +2688,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Master Rune of Spiteful Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Physical projectiles fired at structure are consumed then spat back at attackers",
-    "Tags": "Trigger, Enchantment, Offensive, Physical, Solo, Power",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
     "Rune Name": "Master Rune of Splintering",
     "Rune Category": "Weapon",
     "Rune Type": "Master Rune",
@@ -3694,20 +2714,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "kinglugia\n\nVoikirium (Weapon)"
-  },
-  {
-    "Rune Name": "Master Rune of Star Scream",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo fired emits a high pitched, deblititating scream, when it lands it causes an even larger burst of sound that can permanently deafen those nearby",
-    "Tags": "Odd",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Master Rune of Star Shower",
@@ -3738,34 +2744,6 @@
     "Attribution": "Canon"
   },
   {
-    "Rune Name": "Master Rune of Still Waters",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Counteracts tumultuous weather conditions around vessel",
-    "Tags": "Constant, Enchantment, Defensive, Elemental",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Master Rune of Stolen Movement",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo fired will absorb kinectic energy around area it lands, transfering back to machine to increase firing speed",
-    "Tags": "On Hit, Enchantment, Odd, Power, Physical",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Master Rune of Stone Bones",
     "Rune Category": "Weapon, Armour, Banner",
     "Rune Type": "Master Rune",
@@ -3780,20 +2758,6 @@
     "Attribution": "kinglugia (Weapon, Armour)"
   },
   {
-    "Rune Name": "Master Rune of Stone's Embrace",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo fired causes ground to rise up and swallow whatever it hits",
-    "Tags": "On Hit, Curse, Elemental, Solo, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Master Rune of Stonehide",
     "Rune Category": "Armour",
     "Rune Type": "Master Rune",
@@ -3806,20 +2770,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Master Rune of Stonesight",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Light can be selectively allowed to pass through walls in room.",
-    "Tags": "Odd",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Master Rune of Stormbreaker",
@@ -3934,20 +2884,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Master Rune of Swiftbolt",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Ammo fired lands near instantaneously, prevents loss in altitude, no change in damage",
-    "Tags": "On Attack, Enchantment, Physical, Offensive",
-    "Status": "Learned",
-    "Reagent(s)": "T2 Great Eagle's Feathers x3",
-    "Known By": "Snorri Klausson\nValma Hilldasdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Master Rune of Swiftness",
     "Rune Category": "Weapon",
     "Rune Type": "Master Rune",
@@ -3962,34 +2898,6 @@
     "Attribution": "Canon"
   },
   {
-    "Rune Name": "Master Rune of Sympathy",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Binds user and structure to each other, both have vastly increased durability so long as the other exists, effect disappears and causes massive, temporary, weakness if one is killed/destroyed",
-    "Tags": "Constant, Enchantment, Augment, Odd, Defensive, Lonely",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Master Rune of Targeting",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Enemies glow and casters are highlighted. Magically concealed enemies have their protections degraded. All targets are marked and friendly projectiles fired within the area of influence of the rune curve towards their intended targets",
-    "Tags": "Constant, Magical, Curse, IFF, Offensive, Lonely",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Master Rune of Taunting",
     "Rune Category": "Banner",
     "Rune Type": "Master Rune",
@@ -4002,34 +2910,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Master Rune of Tectonics",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Kinetic energy from natural or artificial earthquakes and tremors are absorbed and dissipated over a period of time",
-    "Tags": "Constant, Enchantment, Physical, Defensive",
-    "Status": "Lost",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Master Rune of Terror",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Stronger variant of Master Rune of Fear, people assaulted with visions that instill fear in room",
-    "Tags": "Activation, IFF, Mental, Enchantment, Multi",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
   },
   {
     "Rune Name": "Master Rune of Terror's Rival",
@@ -4088,20 +2968,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Master Rune of the Eagle-Eyed",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "The war machine's accuracy is improved by a considerable degree, as is, if to a lesser extent, the vision of her crew.",
-    "Tags": "Constant, Enchantment, Augment, Flexible, Physical, Multi",
-    "Status": "Learned",
-    "Reagent(s)": "T2 Griffon's Brain\nor T4 Elder Griffon's Brain",
-    "Known By": "Brynna Kargasdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Master Rune of the Fate-Claimer",
     "Rune Category": "Talisman",
     "Rune Type": "Master Rune, Lonely Rune",
@@ -4114,20 +2980,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Master Rune of the Fortress",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Enemies glow in proportion to perceived danger. All enemies that approach the target have magical concealment stripped. Friendly projectiles can reorient mid flight to strike the most dangerous targets first. Crystals embedded in the structural periodically shoot out elemental projectiles at the most dangerous targets.",
-    "Tags": "Elemental, Odd, Lonely",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Master Rune of the Great Stag",
@@ -4156,20 +3008,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of the Lightning Bringer",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Structure emits lightning at airborne enemies",
-    "Tags": "Activation, IFF, Enchantment, Elemental, Offensive",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Master Rune of the Moonkiller",
@@ -4326,20 +3164,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Master Rune of Thunderclap",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Inscribed grants ammo sonic and explosive propperties",
-    "Tags": "Constant, Enchantment, Offensive, Elemental, Solo",
-    "Status": "Learned",
-    "Reagent(s)": "T3 Great Eagle's Heart",
-    "Known By": "Snorri Klausson\nValma Hilldasdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
     "Rune Name": "Master Rune of Thundering Fury",
     "Rune Category": "Talisman",
     "Rune Type": "Master Rune",
@@ -4366,34 +3190,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Thungni",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "???",
-    "Tags": "",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Snerra Magnasdottir",
-    "Notes/Development": "",
-    "Creator": "Thungni",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
-    "Rune Name": "Master Rune of Thungni's Brilliance",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "Runesmiths in a room or structure find their intuition and comprehension when striking Runes temporarily flaring, sometimes forgoing the need to use all but the most powerful and rare (T5) reagents.",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE, Odd, Lonely",
-    "Status": "Learned",
-    "Reagent(s)": "T4 Elder [Any] Wyrm's Brain x2",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "Ogra Iggunsdottir?",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Master Rune of Thungni's Endurance/Thungni's Succour",
@@ -4550,20 +3346,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Master Rune of Treacherous Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Enemies in rooms bearing this Rune suffer debilitating mental effects",
-    "Tags": "Constant, AOE, Mental, Curse",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
     "Rune Name": "Master Rune of Treachery",
     "Rune Category": "Banner",
     "Rune Type": "Master Rune",
@@ -4578,20 +3360,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Master Rune of Triage",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Occupants in a room have their survival greatly prolonged, bleeding and poison spread are slowed while vitality and willpower are strengthened.",
-    "Tags": "Constant, Augment, Civilian, Physical, AOE",
-    "Status": "Learned",
-    "Reagent(s)": "T3 Elder Troll's Heart\nor T4 Ancient Troll's Heart",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
     "Rune Name": "Master Rune of Trollslaying",
     "Rune Category": "Weapon",
     "Rune Type": "Master Rune",
@@ -4604,20 +3372,6 @@
     "Creator": "Thungni",
     "Lore": "",
     "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Unchained Elements",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Structures emit beam of deadly light, changing the focus material alters effect of beam",
-    "Tags": "Activation, Offensive, Light, Enchantment, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Master Rune of Ungradum Bungrimsson",
@@ -4704,20 +3458,6 @@
     "Attribution": "Canon (banner)\nVoikirum (weapon)"
   },
   {
-    "Rune Name": "Master Rune of Valaya's Fortitude",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Structure is reinforced by ambient and enemy magic, allies in the structure are unbreakable and have greatly improved endurance and magic resistance",
-    "Tags": "Constant, AOE, Magical, Augment, Defensive",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Master Rune of Valaya's Moon",
     "Rune Category": "Armour",
     "Rune Type": "Master Rune",
@@ -4751,34 +3491,6 @@
     "Rune Type": "Master Rune",
     "Effect": "Wounds inflicted will not heal on their own and at reduced rates if using magic",
     "Tags": "On Hit, Curse, Offensive",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Vengeful Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Master Rune",
-    "Effect": "Allies slain in room or on wall cause structure to create a blast of force and heat towards enemies",
-    "Tags": "Trigger, Enchantment, Elemental, Odd",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Master Rune of Vengeful Strikes",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune",
-    "Effect": "Grants war machine improved attack, ammo fired prevents or reduces ability to heal",
-    "Tags": "On Hit, Enchantment, Curse",
     "Status": "Unknown",
     "Reagent(s)": "",
     "Known By": "",
@@ -4996,20 +3708,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "wabbitking"
-  },
-  {
-    "Rune Name": "Master Rune of Wulrik Rivenstone",
-    "Rune Category": "Engineering",
-    "Rune Type": "Master Rune, Lonely Rune",
-    "Effect": "If war machine survives critical success attack, enemy suffers crit failure",
-    "Tags": "Trigger, Curse, Defensive, Physical, Grudge, Odd, Lonely",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Wulrik Rivenstone",
-    "Lore": "",
-    "Attribution": "Kebarton"
   },
   {
     "Rune Name": "Master Rune of Wutroth",
