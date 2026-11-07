@@ -8092,20 +8092,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of No Entry",
-    "Rune Category": "Structural (Floors)",
-    "Rune Type": "Rune",
-    "Effect": "Inclines in range become incredibly slippery/frictionless",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Null Resistance",
     "Rune Category": "All",
     "Rune Type": "Rune",
