@@ -87,7 +87,9 @@ function importCombos(data) {
         id: index + 1,
         name: combo["Combo Name"],
         //we put this in category because it lines up with what runes call "category"
-        category: combo["Combo Type"],
+        category: (combo["Combo Type"])
+            .split(",")
+            .map(type => type.trim()),
         description: combo["Effect"],
         components: [
             combo["Component 1"],
@@ -256,7 +258,8 @@ export default function App() {
         const searchText = query.toLowerCase();
 
         for (const entry of source) {
-            const nameMatches = entry.name.toLowerCase().includes(searchText);
+            //we want to be searching through tags as well - this is probably close but not quite working
+            const nameMatches = entry.name.toLowerCase().includes(searchText) || entry.tags?.some(x=> x.value === searchText);
             //tagmatches must be fixed now that categories is an array instead of a single value
             const tagMatches = selectedTags.length === 0 || selectedTags.some(x => x.value === entry.category);
             const masterMatches = tab != "runes" || !isMasterChecked || isMasterChecked && !isMasterRune(entry);
