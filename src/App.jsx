@@ -38,27 +38,7 @@ const TAGS = [
 ];
 
 const RUNES = importRunes(runeJson);
-
-// Example runes for each slot and one that fits anywhere
-// const RUNES = [
-//     { id: 1, name: "Standard Rune of Armor", tag: "Armor", description: "Example standard rune for the Armor slot." },
-//     { id: 2, name: "Standard Rune of Banner", tag: "Banner", description: "Example standard rune for the Banner slot." },
-//     { id: 3, name: "Standard Rune of Tailsman", tag: "Tailsman", description: "Example standard rune for the Tailsman slot." },
-//     { id: 4, name: "Standard Rune of Weapon", tag: "Weapon", description: "Example standard rune for the Weapon slot." },
-//     { id: 5, name: "Standard Rune of Example", tag: All_Tags, description: "Example standard rune that can go in any slot." },
-//     { id: 6, name: "Master Rune of Example", tag: Master_Rune, slotTag: All_Tags, description: "Example Master Rune that can be placed in any slot." },
-//     { id: 7, name: "Master Rune of Armor", tag: Master_Rune, slotTag: "Armor", description: "Master Rune that can only be placed in an Armor slot." },
-//     { id: 8, name: "Master Rune of Banner", tag: Master_Rune, slotTag: "Banner", description: "Master Rune that can only be placed in a Banner slot." },
-//     { id: 9, name: "Master Rune of Tailsman", tag: Master_Rune, slotTag: "Tailsman", description: "Master Rune that can only be placed in a Tailsman slot." },
-//     { id: 10, name: "Master Rune of Weapon", tag: Master_Rune, slotTag: "Weapon", description: "Master Rune that can only be placed in a Weapon slot." },
-// ];
-
 const COMBOS = importCombos(comboJson);
-
-// const COMBOS = [
-//     { id: 1, name: "Grimnir's Burning Wroth", tag: "Banner", runeCount: 3, description: "When charging at an enemy or specific point, the user rapidly picks up speed and gains a protective shell of flame around them, gathering more and more energy until it can be released as an explosion of heat and power strong enough to melt steel or condensed into the user's weapon, allies unharmed." }
-// ];
-
 
 // Items use one slot unless they have a custom cost
 const slotCost = (item) => {
@@ -90,7 +70,9 @@ function importRunes(data) {
     return data.map((rune, index) => ({
         id: index + 1,
         name: rune["Rune Name"],
-        category: rune["Rune Category"],
+        category: (rune["Rune Category"])
+            .split(",")
+            .map(type => type.trim()),
         description: rune["Effect"],
         //Types must be comma delimited
         runeTypes: (rune["Rune Type"])
@@ -115,7 +97,9 @@ function importCombos(data) {
         id: index + 1,
         name: combo["Combo Name"],
         //we put this in category because it lines up with what runes call "category"
-        category: combo["Combo Type"],
+        category: (combo["Combo Type"])
+            .split(",")
+            .map(type => type.trim()),
         description: combo["Effect"],
         components: [
             combo["Component 1"],
@@ -297,9 +281,11 @@ export default function App() {
         const searchText = query.toLowerCase();
 
         for (const entry of source) {
-            const nameMatches = entry.name.toLowerCase().includes(searchText);
+            //we want to be searching through tags as well - this is probably close but not quite working
+            const nameMatches = entry.name.toLowerCase().includes(searchText) || entry.tags?.some(x=> x.value === searchText);
+            //tagmatches must be fixed now that categories is an array instead of a single value
             const tagMatches = selectedTags.length === 0 || selectedTags.some(x => x.value === entry.category);
-            const masterMatches = tab != "runes" || !isMasterChecked || isMasterChecked && isMasterRune(entry);
+            const masterMatches = tab != "runes" || !isMasterChecked || isMasterChecked && !isMasterRune(entry);
 
             if (nameMatches && tagMatches && masterMatches) {
                 matchingEntries.push(Object.assign({}, entry, { type }));
@@ -483,7 +469,7 @@ export default function App() {
                         </div>
                         {tab == "runes" ?
                             (<div>
-                                <label>Show master runes only</label>
+                                <label>Hide master runes</label>
                                 <input type="checkbox"
                                     checked={isMasterChecked}
                                     onChange={e => setIsMasterChecked(e.target.checked)} />
@@ -536,7 +522,7 @@ export default function App() {
                                             <div>
                                                 <p>
                                                     {/* filtering only needed for components which may have empty entries */}
-                                                    {item.description} <em>Category: {item.category}</em> {item.runeTypes ? (<em>Type(s): {item.runeTypes.join(', ')}</em>) : ""} {item.tags ? (<em>Tag(s): {item.tags.join(', ')}</em>) : (<em>Component(s): {item.components.filter(Boolean).join(', ')}</em>)}
+                                                    {item.description} <em>Category: {item.category.join(", ")}</em> {item.runeTypes ? (<em>Type(s): {item.runeTypes.join(', ')}</em>) : ""} {item.tags ? (<em>Tag(s): {item.tags.join(', ')}</em>) : (<em>Component(s): {item.components.filter(Boolean).join(', ')}</em>)}
                                                 </p>
                                             </div>
                                         )}
