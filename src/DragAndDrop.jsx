@@ -9,6 +9,7 @@ import {
     useSensor,
     useSensors,
 } from '@dnd-kit/core';
+import { isMasterRune } from './dragRules';
 
 const MAX_PER_SLOT = 3;
 const BUILD_SLOTS = ['Banner', 'Weapon', 'Tailsman', 'Shield', 'Armor'];
@@ -22,8 +23,7 @@ const cursorCollisionDetection = (args) => {
 const slotCost = (item) => item.runeCount ?? 1;
 const slotUsed = (items) => items.reduce((total, item) => total + slotCost(item), 0);
 
-// Identify Master Runes and calculate compatible build slots 
-export const isMasterRune = (item) => item.runeTypes?.includes('Master Rune') ?? false;
+// Determines which build slot an item qualifies for
 const getCompatibleSlots = (item) => {
     const categoryText = item.category?.join(',').toLowerCase() ?? '';
     const slots = [];
@@ -33,7 +33,7 @@ const getCompatibleSlots = (item) => {
     }
 
     if (/\bbanner\b/.test(categoryText)) slots.push('Banner');
-    // Weapon subcategories, including "Weapons (thrown)", use the Weapon slot.
+    // Weapon subcategories, including "Weapons (thrown)", use the Weapon slot
     if (/\bweapons?\b/.test(categoryText)) slots.push('Weapon');
     if (/\btalisman\b/.test(categoryText)) slots.push('Tailsman');
     // Shield-only armor runes only work on shields; Regular armor runes will also works on shields
@@ -145,11 +145,11 @@ export default function DragAndDrop({
     // Enable Dragging
     const sensors = useSensors(
         useSensor(PointerSensor, {
-    activationConstraint: {
-        delay: 0,
-        tolerance: 0,
-    },
-})
+            activationConstraint: {
+                delay: 0,
+                tolerance: 0,
+            },
+        }),
     );
     const [draggedItem, setDraggedItem] = useState(null);
     const [pointerPosition, setPointerPosition] = useState(null);

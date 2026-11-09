@@ -1,6 +1,7 @@
 import { useState, useMemo, useRef } from "react";
 import BuildCard from './BuildCard';
-import DragAndDrop, { ListDropZone, isMasterRune } from './DragAndDrop';
+import DragAndDrop, { ListDropZone } from './DragAndDrop';
+import { isMasterRune } from './dragRules';
 import './App.css';
 import {toPng} from 'html-to-image';
 import runeJson from "/runes.json";
