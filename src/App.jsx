@@ -1,4 +1,4 @@
-import { useState, useMemo, useRef } from "react";
+import { useState, useMemo, useRef, useEffect } from "react";
 import BuildCard from './BuildCard';
 import './App.css';
 import {toPng} from 'html-to-image';
@@ -15,6 +15,16 @@ import {
 import runeJson from "/runes.json";
 import comboJson from "/combos.json";
 import Select from 'react-select';
+
+const createScaleModifier = (scale) => {
+    return ({ transform }) => {
+        return {
+            ...transform,
+            x: transform.x / (scale || 1),
+            y: transform.y / (scale || 1),
+        };
+    };
+};
 
 const SLOTS = ["Banner", "Weapon", "Tailsman", "Shield", "Armor", "Master"];
 const MAX_PER_SLOT = 3;
@@ -235,6 +245,19 @@ function ListDropZone({ children }) {
 }
 
 export default function App() {
+    const [scale, setScale] = useState(1);
+    useEffect(() => {
+        const handleResize = () => {
+            const scaleX = window.innerWidth / 1920;
+            const scaleY = window.innerHeight / 1080;
+            setScale(Math.min(scaleX, scaleY));
+        };
+
+        handleResize();
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     const [query, setQuery] = useState("");
     const [selectedTags, setSelectedTags] = useState([]);
     const [isMasterChecked, setIsMasterChecked] = useState(false);
@@ -411,35 +434,29 @@ export default function App() {
     );
 
     return (
+        
         <DndContext
             sensors={sensors}
             onDragStart={handleDragStart}
             onDragEnd={handleDragEnd}
             onDragCancel={() => setActiveItem(null)}
         >
+            <header
+                style={{
+                    padding: '16px 32px',
+                    backgroundColor: 'var(--dark, #3d362f)',
+                    color: 'var(--title, #f1e6cc)',
+                    fontSize: '28px',
+                    fontWeight: 'bold',
+                    letterSpacing: '0.3px',
+                    fontFamily: 'Georgia, "Times New Roman", serif',
+                }}
+            >
+                Runesmith's Forge
+            </header>
+
             <div style={{ display: 'flex', gap: '32px', padding: '24px', alignItems: 'flex-start' }}>
-                <aside style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                    <BuildCard ref={exportRef} slot={slot} />
-
-                    {/* Keep the error outside the exported card */}
-                    {error && (
-                        <p role="alert" style={{ color: '#e64553', fontWeight: 'bold', maxWidth: '300px' }}>
-                            {error}
-                        </p>
-                    )}
-
-                    <button
-                        onClick={handleExport}
-                        disabled={isExporting}
-                        style={{
-                            padding: '10px 16px',
-                            cursor: isExporting ? 'not-allowed' : 'pointer',
-                            fontWeight: 'bold',
-                        }}
-                    >
-                        {isExporting ? 'Exporting...' : 'Export as PNG'}
-                    </button>
-                </aside>
+                
                 <ListDropZone>
                     <div>
                         <div>
@@ -489,7 +506,16 @@ export default function App() {
                             ))}
                         </div>
 
-                        <ul style={{ listStyle: 'none', padding: 0 }}>
+                        <ul style={{ 
+                            listStyle: 'none', 
+                            padding: 0,
+                            margin: 0,
+                            height: '620px',
+                            maxHeight: '620px',
+                            overflowY: 'auto',
+                            overflowX: 'hidden',
+                            }}
+                            >
                             {entries.length === 0 && (
                                 <li>No matches. Clear the search or filter.</li>
                             )}
@@ -520,6 +546,29 @@ export default function App() {
                         </ul>
                     </div>
                 </ListDropZone>
+                
+                <aside style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                    <BuildCard ref={exportRef} slot={slot} />
+
+                    {/* Keep the error outside the exported card */}
+                    {error && (
+                        <p role="alert" style={{ color: '#e64553', fontWeight: 'bold', maxWidth: '300px' }}>
+                            {error}
+                        </p>
+                    )}
+
+                    <button
+                        onClick={handleExport}
+                        disabled={isExporting}
+                        style={{
+                            padding: '10px 16px',
+                            cursor: isExporting ? 'not-allowed' : 'pointer',
+                            fontWeight: 'bold',
+                        }}
+                    >
+                        {isExporting ? 'Exporting...' : 'Export as PNG'}
+                    </button>
+                </aside>
             </div>
 
             {/* Preview shown while dragging */}
@@ -533,6 +582,7 @@ export default function App() {
                             color: '#ffffff',
                             boxShadow: '0 4px 12px rgba(0,0,0,0.4)',
                             cursor: 'grabbing',
+                            pointerEvents: 'none',
                         }}
                     >
                         <strong>{activeItem.name}</strong>
