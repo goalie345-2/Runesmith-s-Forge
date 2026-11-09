@@ -146,8 +146,7 @@ export default function DragAndDrop({
     const sensors = useSensors(
         useSensor(PointerSensor, {
             activationConstraint: {
-                delay: 0,
-                tolerance: 0,
+                distance: 5,
             },
         }),
     );
