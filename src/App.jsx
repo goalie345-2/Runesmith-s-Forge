@@ -1,34 +1,13 @@
-import { useState, useMemo, useRef, useEffect } from "react";
+import { useState, useMemo, useRef } from "react";
 import BuildCard from './BuildCard';
+import DragAndDrop, { ListDropZone, isMasterRune } from './DragAndDrop';
 import './App.css';
 import {toPng} from 'html-to-image';
-import {
-    DndContext, 
-    DragOverlay, 
-    PointerSensor, 
-    KeyboardSensor, 
-    useSensor,
-    useSensors,
-    useDraggable, 
-    useDroppable, 
-} from "@dnd-kit/core";
 import runeJson from "/runes.json";
 import comboJson from "/combos.json";
 import Select from 'react-select';
 
-const createScaleModifier = (scale) => {
-    return ({ transform }) => {
-        return {
-            ...transform,
-            x: transform.x / (scale || 1),
-            y: transform.y / (scale || 1),
-        };
-    };
-};
-
-const SLOTS = ["Banner", "Weapon", "Tailsman", "Shield", "Armor", "Master"];
-const MAX_PER_SLOT = 3;
-const All_Tags = "All Tags";
+const SLOTS = ["Banner", "Weapon", "Tailsman", "Shield", "Armor"];
 const TAGS = [
     { value: 'Armor', label: 'Armor' },
     { value: 'Banner', label: 'Banner' },
@@ -39,32 +18,6 @@ const TAGS = [
 
 const RUNES = importRunes(runeJson);
 const COMBOS = importCombos(comboJson);
-
-// Items use one slot unless they have a custom cost
-const slotCost = (item) => {
-    if (item.runeCount !== null && item.runeCount !== undefined) {
-        return item.runeCount;
-    }
-
-    return 1;
-};
-
-const slotUsed = (items) => {
-    let totalSlots = 0;
-
-    for (const item of items) {
-        totalSlots += slotCost(item);
-    }
-
-    return totalSlots;
-};
-// Used to enforce one Master Rune per slot
-const isMasterRune = (item) => item.runeTypes.includes("Master Rune");
-const canPlaceInSlot = (item, slotName) =>
-    (isMasterRune(item) && (!item.slotTag || item.slotTag === All_Tags || item.slotTag === slotName)) ||
-    item.tag === All_Tags ||
-    item.tag === slotName ||
-    (item.tag === "Armor" && slotName === "Shield");
 
 function importRunes(data) {
     return data.map((rune, index) => ({
@@ -114,134 +67,7 @@ function importCombos(data) {
     }));
 }
 
-function DraggableListItem({ item, children }) {
-    const { attributes, listeners, setNodeRef, setActivatorNodeRef, isDragging } = useDraggable({
-        // Include the type because rune and combo IDs can overlap
-        id: `list-${item.type}-${item.id}`,
-        data: { item, from: null },
-    });
-
-    return (
-        // clicking and holding starts a drag, so the name can still be clicked
-        <li ref={setNodeRef} style={{ opacity: isDragging ? 0.4 : 1 }}>
-            <button
-                ref={setActivatorNodeRef}
-                {...listeners}
-                {...attributes}
-                aria-label={`Drag ${item.name} into a slot`}
-                style={{ cursor: 'grab' }}
-            >
-                ⠿
-            </button>
-            {children}
-        </li>
-    );
-}
-
-function PlacedItem({ item, slotName, onRemove }) {
-    const { attributes, listeners, setNodeRef, setActivatorNodeRef, isDragging } = useDraggable({
-        id: `placed-${item.uid}`,
-        // Keep track of the slot so the item can be moved or removed
-        data: { item, from: slotName },
-    });
-
-    return (
-        <div
-            ref={setNodeRef}
-            style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
-                gap: '8px',
-                padding: '4px 8px',
-                marginBottom: '4px',
-                borderRadius: '6px',
-                backgroundColor: '#313244',
-                opacity: isDragging ? 0.4 : 1,
-            }}
-        >
-            {/* Drag the item name to move it */}
-            <span
-                ref={setActivatorNodeRef}
-                {...listeners}
-                {...attributes}
-                style={{ cursor: 'grab', flex: 1, textAlign: 'left' }}
-            >
-                {item.name}
-            </span>
-            {/* Excludes unwanted elements from exported images */}
-            <button
-                data-no-export="true"
-                onClick={(e) => {
-                    e.stopPropagation();
-                    onRemove(slotName, item.uid);
-                }}
-                aria-label={`Remove ${item.name} from ${slotName}`}
-            >
-                x
-            </button>
-        </div>
-    );
-}
-
-function SlotDropZone({ name, items, onSelect, onRemove }) {
-    const { setNodeRef, isOver } = useDroppable({ id: name });
-
-    return (
-        <section
-            ref={setNodeRef}
-            onClick={() => onSelect(name)}
-            aria-label={`${name} slot`}
-            style={{
-                // Highlight the slot while an item is over it
-                border: `2px dashed ${isOver ? '#a6e3a1' : '#585b70'}`,
-                borderRadius: '8px',
-                padding: '8px',
-                minHeight: '56px',
-            }}
-        >
-            <h3 style={{ margin: '0 0 8px' }}>
-                {name} {slotUsed(items)}/{MAX_PER_SLOT}
-            </h3>
-            {items.map((item) => (
-                <PlacedItem key={item.uid} item={item} slotName={name} onRemove={onRemove} />
-            ))}
-        </section>
-    );
-}
-
-function ListDropZone({ children }) {
-    const { setNodeRef, isOver } = useDroppable({ id: "list" });
-
-    return (
-        <main
-            ref={setNodeRef}
-            style={{
-                flex: 1,
-                minWidth: '320px',
-                outline: isOver ? '2px dashed #a6e3a1' : '2px dashed transparent',
-                outlineOffset: '8px',
-            }}
-        >
-            {children}
-        </main>
-    );
-}
-
 export default function App() {
-    const [scale, setScale] = useState(1);
-    useEffect(() => {
-        const handleResize = () => {
-            const scaleX = window.innerWidth / 1920;
-            const scaleY = window.innerHeight / 1080;
-            setScale(Math.min(scaleX, scaleY));
-        };
-
-        handleResize();
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
-
     const [query, setQuery] = useState("");
     const [selectedTags, setSelectedTags] = useState([]);
     const [isMasterChecked, setIsMasterChecked] = useState(false);
@@ -255,15 +81,8 @@ export default function App() {
     const [, setTargetSlot] = useState("Banner");
 
     // Used for the drag preview and slot-full message
-    const [activeItem, setActiveItem] = useState(null);
     const [error, setError] = useState("");
     const errorTimer = useRef(null);
-
-    const sensors = useSensors(
-        // A small movement keeps normal clicks from starting a drag
-        useSensor(PointerSensor, { activationConstraint: { distance: 5 } }),
-        useSensor(KeyboardSensor)
-    );
 
     const entries = useMemo(() => {
         let source;
@@ -343,90 +162,16 @@ export default function App() {
         });
     };
 
-    const handleDragStart = (dragEvent) => {
-        const active = dragEvent.active;
-        setActiveItem(active.data.current.item);
-        setError("");
-    };
-
-    const handleDragEnd = (dragEvent) => {
-        const active = dragEvent.active;
-        const over = dragEvent.over;
-        setActiveItem(null);
-        if (!over) return;
-
-        const { item, from } = active.data.current;
-
-        // Dropping on the list removes the item from its slot
-        if (over.id === "list") {
-            if (from) removeFromSlot(from, item.uid);
-            return;
-        }
-
-        if (over.id === from) return;
-
-        if (!canPlaceInSlot(item, over.id)) {
-            const requiredSlot = item.slotTag || item.tag;
-            showError(`${item.name} can only be placed in the ${requiredSlot} slot.`);
-            return;
-        }
-
-        const hasMasterRune = build[over.id].some(isMasterRune);
-        if (isMasterRune(item) && hasMasterRune) {
-            showError(`${over.id} can only contain one Master Rune.`);
-            return;
-        }
-
-        // Makes it so you cannot exceed the maximum number of runes per slot
-        const used = slotUsed(build[over.id]);
-        if (used + slotCost(item) > MAX_PER_SLOT) {
-            showError(
-                `${over.id} is full (${used}/${MAX_PER_SLOT}). Remove a rune from it before adding ${item.name}.`
-            );
-            return;
-        }
-
-        setBuild((prev) => {
-            const next = Object.assign({}, prev);
-            if (from) {
-                const remainingItems = [];
-                for (const placedItem of prev[from]) {
-                    if (placedItem.uid !== item.uid) {
-                        remainingItems.push(placedItem);
-                    }
-                }
-                next[from] = remainingItems;
-            }
-
-            // Give placed items their own IDs
-            let itemId = item.uid;
-            if (itemId === null || itemId === undefined) {
-                itemId = crypto.randomUUID();
-            }
-
-            const placedItem = Object.assign({}, item, { uid: itemId });
-            next[over.id] = prev[over.id].concat(placedItem);
-            return next;
-        });
-    };
-
-    const slot = (slotName) => (
-        <SlotDropZone
-            name={slotName}
-            items={build[slotName]}
-            onSelect={setTargetSlot}
-            onRemove={removeFromSlot}
-        />
-    );
-
     return (
-        
-        <DndContext
-            sensors={sensors}
-            onDragStart={handleDragStart}
-            onDragEnd={handleDragEnd}
-            onDragCancel={() => setActiveItem(null)}
+        <DragAndDrop
+            build={build}
+            setBuild={setBuild}
+            showError={showError}
+            removeFromSlot={removeFromSlot}
+            setTargetSlot={setTargetSlot}
         >
+        {({ slot, DraggableListItem }) => (
+        <>
             <header
                 style={{
                     padding: '16px 32px',
@@ -557,25 +302,8 @@ export default function App() {
                 </aside>
             </div>
 
-            {/* Preview shown while dragging */}
-            <DragOverlay>
-                {activeItem ? (
-                    <div
-                        style={{
-                            padding: '6px 12px',
-                            borderRadius: '6px',
-                            backgroundColor: '#313244',
-                            color: '#ffffff',
-                            boxShadow: '0 4px 12px rgba(0,0,0,0.4)',
-                            cursor: 'grabbing',
-                            pointerEvents: 'none',
-                        }}
-                    >
-                        <strong>{activeItem.name}</strong>
-                        <p style={{ margin: '6px 0 0' }}>{activeItem.description}</p>
-                    </div>
-                ) : null}
-            </DragOverlay>
-        </DndContext>
+        </>
+        )}
+        </DragAndDrop>
     );
 }

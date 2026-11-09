@@ -152,7 +152,7 @@ body {
 }
 
 
-/* Each row: drag handle + name side by side, info underneath */
+/* Each row: name and info */
 #root main li:has(button) {
   display: flex;
   flex-wrap: wrap;
@@ -160,18 +160,25 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
-
-/* Drag handle  */
-#root main li > button:not([aria-expanded]) {
-  padding: 0 6px 0 10px;
-  border: none;
-  background: none;
-  color: var(--muted);
-  font-size: 16px;
-  line-height: 1;
+.drag-item.is-dragging,
+.placed-item.is-dragging {
+  opacity: 0.4;
 }
-#root main li > button:not([aria-expanded]):hover {
-  color: var(--gold);
+
+.placed-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 4px 8px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  background-color: var(--highlight);
+}
+
+.placed-item-name {
+  flex: 1;
+  text-align: left;
 }
 
 
@@ -186,7 +193,7 @@ body {
   font-size: 15px;
   font-weight: bold;
   text-align: left;
-  cursor: pointer;
+  touch-action: none;
 }
 #root main li:has(button):hover {
   background: var(--box);
@@ -278,6 +285,22 @@ body {
   border: 1.5px solid var(--border) !important;
   border-radius: 6px !important;
 }
+
+.slot-drop-zone {
+  border-radius: 8px;
+  padding: 8px;
+  min-height: 56px;
+}
+
+.slot-title {
+  margin: 0 0 8px;
+}
+
+.slot-drop-zone.is-over {
+  border-color: var(--gold) !important;
+  box-shadow: 0 0 0 3px rgba(200, 169, 107, 0.35);
+  background: var(--highlight);
+}
 #root .slot-box h3 {
   margin: 0 0 6px !important;
   font-size: 12px;
@@ -292,15 +315,6 @@ body {
   color: var(--muted);
   font-size: 11px;
   font-style: italic;
-}
-
-
-/* Slot glows gold while a rune is dragged over it */
-#root .slot-box section[style*="166, 227, 161"],
-#root .slot-box section[style*="a6e3a1"] {
-  border-color: var(--gold) !important;
-  box-shadow: 0 0 0 3px rgba(200, 169, 107, 0.35);
-  background: var(--highlight);
 }
 
 
@@ -330,6 +344,17 @@ body {
 }
 #root .slot-box section > div > button:hover {
   color: var(--error);
+}
+
+.list-drop-zone {
+  flex: 1;
+  min-width: 320px;
+  outline: 2px dashed transparent;
+  outline-offset: 8px;
+}
+
+.list-drop-zone.is-over {
+  outline-color: var(--gold);
 }
 
 
@@ -366,13 +391,23 @@ body {
 }
 
 
-/* Card that follows the cursor while dragging */
-#root [style*="grabbing"] {
+.drag-preview {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  padding: 8px 12px;
+  border: 1.5px solid var(--border);
+  border-radius: 6px;
   background-color: var(--panel) !important;
   color: var(--text) !important;
-  border: 1.5px solid var(--gold);
   box-shadow: 0 6px 16px rgba(61, 54, 47, 0.25) !important;
   max-width: 320px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 13px;
+  cursor: grabbing;
+  pointer-events: none;
+  z-index: 2147483647;
+}
+
+.drag-preview p {
+  margin: 6px 0 0;
 }
