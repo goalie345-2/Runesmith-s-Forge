@@ -9,7 +9,7 @@ import {
     useSensor,
     useSensors,
 } from '@dnd-kit/core';
-import { isMasterRune } from './dragRules';
+import { isLonelyRune, isMasterRune } from './dragRules';
 
 const MAX_PER_SLOT = 3;
 const BUILD_SLOTS = ['Banner', 'Weapon', 'Tailsman', 'Shield', 'Armor'];
@@ -204,6 +204,11 @@ export default function DragAndDrop({
         const hasMasterRune = destinationItems.some(isMasterRune);
         if (isMasterRune(item) && hasMasterRune) {
             showError(`${over.id} can only contain one Master Rune.`);
+            return;
+        }
+        const hasLonelyRune = destinationItems.some(isLonelyRune);
+        if ((isLonelyRune(item) && destinationItems.length > 0) || hasLonelyRune) {
+            showError(`${over.id} cannot contain other Runes when a Lonely Rune is present.`);
             return;
         }
 
