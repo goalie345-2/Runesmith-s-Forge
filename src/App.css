@@ -424,23 +424,11 @@ body {
   opacity: 0.6;
 }
 
-
-/* Logo watermark behind the build card */
-#root aside::after {
-  content: "";
-  width: 300px;
-  aspect-ratio: 676 / 568;  /* the logo's shape, so it isn't stretched */
-  margin-top: 16px;
-  background: url("/runesmith-logo.png") center / contain no-repeat;
-  opacity: 0.18;            
-  pointer-events: none;     /*Just so the locgo can't be clicked on*/
-}
-
-
 .drag-preview {
   position: fixed;
-  z-index: 1000;
-  transform: translate(14px, 14px); /* this sits just below  the cursor */
+  transform: translate(-50%, -50%);
+  z-index: 2147483647;
+  background-color: var(--panel) !important;
   pointer-events: none;             /* this is here so it doesn't block the drop target */
   max-width: 280px;
   padding: 8px 12px;
@@ -448,7 +436,7 @@ body {
   border: 1.5px solid var(--gold);
   border-radius: 6px;
   box-shadow: 0 6px 16px rgba(61, 54, 47, 0.25);
-  color: var(--text);
+  color: var(--text) !important;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 13px;
 }
