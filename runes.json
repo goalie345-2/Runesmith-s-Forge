@@ -127,7 +127,7 @@
   },
   {
     "Rune Name": "Master Rune of Ambition",
-    "Rune Category": "Banner, Talisman",
+    "Rune Category": "Banner, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "User makes enemies in range far more willing to attempt actions that would be considered too risky or dangerous to them",
     "Tags": "Trigger, Curse, Offensive, Mental, IFF, AOE",
@@ -141,7 +141,7 @@
   },
   {
     "Rune Name": "Master Rune of Amplification",
-    "Rune Category": "Banner, Talisman",
+    "Rune Category": "Banner, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Banner: Runesmiths under the effects of this Rune will have improved Rune Casting and dispelling attempts.\n\nTalisman: The user's ability to cast Runes and dispel enemy magic is improved.",
     "Tags": "All: Constant, Enchantment, Meta, Flexible, Odd, Power\n\nBanner: AOE\n\nTalisman: Solo",
@@ -183,7 +183,7 @@
   },
   {
     "Rune Name": "Master Rune of Arete",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune, Lonely Rune",
     "Effect": "Massively increases martial skill of wearer",
     "Tags": "Constant, Augment, Offensive, Physical, Solo, Lonely",
@@ -211,7 +211,7 @@
   },
   {
     "Rune Name": "Master Rune of Balance",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Weakens enemy spells by making the Winds of Magic around the user even out and resist being manipulated",
     "Tags": "Activation, Curse, Flexible, Magical, AOE",
@@ -281,7 +281,7 @@
   },
   {
     "Rune Name": "Master Rune of Bjorn Drazhklad",
-    "Rune Category": "Weapon, Armour, Talisman",
+    "Rune Category": "Weapon, Armour, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "All: Inscribed is covered in an incredibly tough and resistant oily, black substance.\n\nWeapon: The stronger the willpower of the weaponbearer, the more momentum and mass behind its strikes.\n\nArmour: wearer is also covered in the black substance, which grows tougher in relation to the wearer's strength of will and allows them to heal\n\nTalisman: Improves their magic resistance, scaling with willpower. Can cast to share magic resistance with one ally.",
     "Tags": "All: Activation, Augment, Enchantment, Physical, Solo, Odd\n\nWeapon: Solo, Weight\n\nArmour: Solo, Healing\n\nTalisman: Multi, Cast",
@@ -351,7 +351,7 @@
   },
   {
     "Rune Name": "Master Rune of Borrowed Time",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "The Rune builds a stockpile of regenerative energy attuned to the wearer until it reaches a set limit. Afterwards it continuously improves regeneration and health, the stockpile can be used to heal incredibly grevious injuries",
     "Tags": "Trigger, Augment, Defensive, Physical, Healing, Odd",
@@ -393,7 +393,7 @@
   },
   {
     "Rune Name": "Master Rune of Brotherhood",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Wearer temporarily assimilates the skills of allies in range, will improve the rate that the wearer permanently learns the greatest non magic skill known by one chosen ally.\n(Snorri specific) and allies in range to a vastly lesser degree.",
     "Tags": "Constant, Augment, Flexible, Mental, IFF, AOE, Odd",
@@ -463,7 +463,7 @@
   },
   {
     "Rune Name": "Master Rune of Catalysis",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Containers bearing this Rune reduce the threshold of chemical reactions for substances within them",
     "Tags": "Trigger, Enchantment, Civilian, Physical, Alchemy, Power",
@@ -491,7 +491,7 @@
   },
   {
     "Rune Name": "Master Rune of Challenge",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "The enemy who hears the wearer of this Rune challenge them must face them or flee.",
     "Tags": "Activation, Curse, Offensive, Mental, IFF, Solo",
@@ -757,7 +757,7 @@
   },
   {
     "Rune Name": "Master Rune of Destabilization",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Wearer can banish magical entities below the strength of Greater Daemons or Incarnate Elementals. Length of recharge before use corelates to strength of entity. Wearer radiates a small aura that is painful to and weakens magical entities",
     "Tags": "Cast, Curse, Offensive, Solo, Grudge, Magic",
@@ -799,7 +799,7 @@
   },
   {
     "Rune Name": "Master Rune of Disintegration",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Inscribed fires a concentrated beam of purple light (Shyish) at the target, forcefully aging them millennia in seconds and sapping their vitality for ten second or until they crumble to dust. Ageless entities will still be forcefully/unnaturally aged.",
     "Tags": "Activation, Cast, Offensive, Magical, Solo, Power",
@@ -813,7 +813,7 @@
   },
   {
     "Rune Name": "Master Rune of Dismay",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "The user emits an aura or wave that saps the wills of his foes.",
     "Tags": "Constant, Curse, Flexible, Mental, AOE",
@@ -827,7 +827,7 @@
   },
   {
     "Rune Name": "Master Rune of Dragon Strength",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune, Lonely Rune",
     "Effect": "The user's physical stats and heat resistance match a Dragon (Sun Dragon).",
     "Tags": " Constant, Augment, Flexible, Elemental, Physical, Odd, Power",
@@ -855,7 +855,7 @@
   },
   {
     "Rune Name": "Master Rune of Dragonform",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Allows the user to temporarily transform into a full fledged, fire-breathing, flight capable dragon. Requires a will of gromril to not be overwhelmed by draconic instincts.",
     "Tags": "Activation, Augment, Offensive, Defensive, Odd",
@@ -883,7 +883,7 @@
   },
   {
     "Rune Name": "Master Rune of Dreamwalking",
-    "Rune Category": "Talisman (Headgear)",
+    "Rune Category": "Talismanic (Headgear)",
     "Rune Type": "Master Rune",
     "Effect": "The wearer can project their mind out of their bodies in the form of an incorporeal phantom. The farther out, the shorter the duration.",
     "Tags": "Activation, Cast, Mental, Solo, Odd",
@@ -897,7 +897,7 @@
   },
   {
     "Rune Name": "Master Rune of Dum-Klangi",
-    "Rune Category": "Banner,\nTalisman\n",
+    "Rune Category": "Banner,\nTalismanic\n",
     "Rune Type": "Lonely Rune, Master Rune",
     "Effect": "Banner: Inscribed possesses 3 charges. Each charge alters fate, cancelling out an impending catastrophic failure that would cause a mass casualty event of allies in range but the result can be no better than a small success. Charges take nine years to recharge. \n\nTalisman: Inscribed possesses 7 charges. Each charge alters fate, cancelling out an impending catastrophic failure for the user but the result can be no better than a small success. Charges take nine years to recharge.",
     "Tags": "Trigger, Augment, Flexible, Magical, Elemental, Mental, Physical, Meta, Solo, AOE, Lonely, Odd",
@@ -925,7 +925,7 @@
   },
   {
     "Rune Name": "Master Rune of Echoed Memories",
-    "Rune Category": "Talisman (Headgear)",
+    "Rune Category": "Talismanic (Headgear)",
     "Rune Type": "Master Rune, Lonely Rune",
     "Effect": "The wearer can cast images of their memories onto a wall",
     "Tags": "Odd, Lonely",
@@ -967,7 +967,7 @@
   },
   {
     "Rune Name": "Master Rune of Endless Breath",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Removes wearer's need for air",
     "Tags": "Constant, Augment, Civilian, Physical, Solo",
@@ -1009,7 +1009,7 @@
   },
   {
     "Rune Name": "Master Rune of Expurgation",
-    "Rune Category": "Talisman, Structural",
+    "Rune Category": "Talismanic, Structural",
     "Rune Type": "Master Rune",
     "Effect": "Target is bound and surrounded by an inverted magical shield, their body burns from inside as nearby magic and spells cast against the user and target can be used to generate enough heat to vaporize them in a flash of light. Devastatingly effective against Magical entities.\n\nStructural: Enemies inside the inscribed produces mystical chains from the ground which wrap around and slow the target and begin to burn them from the inside out, being more effective on magical entities. These chains are, however, less effective than the equivalent effect applied through the Talisman form.",
     "Tags": "Activation, Cast, Curse, Offensive, Solo, Magical, Odd\n\n Structural: Activation, Cast, Curse, Offensive, multi, Magical, Odd",
@@ -1023,7 +1023,7 @@
   },
   {
     "Rune Name": "Master Rune of Fafnir Hreidmarson/Master Rune of Wyrm's Might",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune, Lonely Rune",
     "Effect": "The user's physical stats and heat resistance match an Elder Wyrm(Star Dragon), their pupils become slits, their skin increasingly scaly and nails pointed. User requires an Iron Will to resist being regularly beset by draconic instincts.",
     "Tags": "Constant, Augment, Flexible, Elemental, Physical, Odd, Power, Lonely ",
@@ -1051,7 +1051,7 @@
   },
   {
     "Rune Name": "Master Rune of Fateful Doom",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune, Lonely Rune",
     "Effect": "Wearer chooses one target, fate turns so that the user and the target will meet in battle. The wearer will have massively increased combat capability against that specific target, and will ignore any wounds or taunts taken by other enemies, the target is under a similar effect. Effect ends only when either the wearer or their target dies.",
     "Tags": "Activation, Augment, Curse, Offensive, Mental, Physical, Solo, Odd, Lonely",
@@ -1107,7 +1107,7 @@
   },
   {
     "Rune Name": "Master Rune of Fiery Defence",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "User summons a wall of flame that can be shaped upon time of creation, centered around the user, following them",
     "Tags": "Activation, Enchantment, Cast, Offensive, Defensive, Flexible, Elemental, AOE, Odd",
@@ -1177,7 +1177,7 @@
   },
   {
     "Rune Name": "Master Rune of Flork Florksson",
-    "Rune Category": "Armour, Talisman",
+    "Rune Category": "Armour, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Armour: Blows against the armour create explosions that partially scale to the strength of the original blow.\nTalisman: Wearer can periodically cast concussive blasts from parts of their body that can be strong enough to propel them.",
     "Tags": "All: Enchantment, Physical, Solo\n\nArmor: On Block, Defensive\n\nTalisman: Activation, Flexible",
@@ -1191,7 +1191,7 @@
   },
   {
     "Rune Name": "Master Rune of Forgeflame",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Absorbing the ambient heat of a room, the item bearing this Rune will condense it down into a set space that can burn hot enough to melt steel and almost deform Gromril. The finer and smaller the space the hotter it can become.",
     "Tags": "Constant, Elemental, Metal, Civilian, Teaching",
@@ -1261,7 +1261,7 @@
   },
   {
     "Rune Name": "Master Rune of Funnelling",
-    "Rune Category": "Talisman (Runestaves)",
+    "Rune Category": "Talismanic (Runestaves)",
     "Rune Type": "Master Rune, Lonely Rune",
     "Effect": "The user can dispell enemy casts and can direct the resulting Winds of Magic to a chosen target.",
     "Tags": "Activation, Enchantment, Cast, Flexible, Magic, Power, Odd, Lonely",
@@ -1387,7 +1387,7 @@
   },
   {
     "Rune Name": "Master Rune of Goldseeking",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Activates by glowing when in the presence of gold, purer the brighter",
     "Tags": "Trigger, Metal, Physical",
@@ -1429,7 +1429,7 @@
   },
   {
     "Rune Name": "Master Rune of Grimnir",
-    "Rune Category": "Weapon, Banner, Talisman",
+    "Rune Category": "Weapon, Banner, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Weapon: The Bearer will fight as if channelling the Ancestor’s will, unhindered by Injury or Hurt until either they or their quarry are killed.\n\nBanner: The Master Rune imbues Valiant Grimnir’s endurance, will and martial prowess to all under its aegis.\n\nTalisman: User gains increased reflexes and is made hyper aware of their immediate surroundings, especially the movements and actions of allies and enemies",
     "Tags": "All: Augment\n\nWeapon: Offensive \n\nBanner: Offensive, AOE \n\nTalisman: Defensive",
@@ -1457,7 +1457,7 @@
   },
   {
     "Rune Name": "Master Rune of Gromril",
-    "Rune Category": "Weapon,\nArmour,\nTalisman,\nEngineering",
+    "Rune Category": "Weapon,\nArmour,\nTalismanic,\nEngineering",
     "Rune Type": "Master Rune",
     "Effect": "Weapon: Grants inscribed the durability and weight of Gromril\nArmour: The armour becomes near inviolate to battle damage, nothing short of the most titanic blows can force it to move or contort.\nTalisman: Grants user the appearance and durability of Gromril for thirty minutes, recharges every three days\nEngineering: Grants inscribed the durability and weight of Gromril",
     "Tags": "Enchantment, Constant, Defensive, Physical, Metal",
@@ -1499,7 +1499,7 @@
   },
   {
     "Rune Name": "Master Rune of Grudging Shadow",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Target's shadow appears to become animate, and will actively attempt to hamper their movements by randomly moving, stopping, forcing the body to mimic it. The more crimes against Dwarfs the target has comitted the more powerful and corporeal the shadow becomes.",
     "Tags": "Activation, Cast, Curse, Offensive, IFF, Grudge, Solo, Odd",
@@ -1513,7 +1513,7 @@
   },
   {
     "Rune Name": "Master Rune of Grungni",
-    "Rune Category": "Weapon (Hammers, Picks), Banner, Talisman",
+    "Rune Category": "Weapon (Hammers, Picks), Banner, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Weapon: Picks and Hammers only, strikes channel either intense soundwaves through target or fling them away with an immense gust of wind\n\nBanner: The winds of magic are taken, absorbed and made into an array that blocks physical projectiles.\n\nTalisman: A more localized, and yet more potent version of its banner counterpart's effect. Projectiles are flung back at their source with twice the force.",
     "Tags": "All: Elemental\nWeapon: On Hit, Offensive, Solo Banner: AOE, Defensive Talisman: Defensive",
@@ -1527,7 +1527,7 @@
   },
   {
     "Rune Name": "Master Rune of Grungni's Sun",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "The wearer burns with mystic sunlight, and strikes are imbued with extremely hot flame and against Vampires, Night Goblins and nocturnal creatures, purifying fire.",
     "Tags": "Constant, Offensive, Elemental, Magical, Odd",
@@ -1583,7 +1583,7 @@
   },
   {
     "Rune Name": "Master Rune of Hearthward",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "The user has greatly improved resistance to both mundane and magically induced fatigue and disease, while their body temperature remains relatively constant and feels comfortable regardless of most weather conditions.",
     "Tags": "Constant, Augment, Flexible, Physical, Solo",
@@ -1653,7 +1653,7 @@
   },
   {
     "Rune Name": "Master Rune of Hugrim Peacemaker",
-    "Rune Category": "Weapon, Armour, Banner, Talisman",
+    "Rune Category": "Weapon, Armour, Banner, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "All: User enters a state of calm and becomes immune to rage inducing effects and resistant to other mental effects or compulsions.\n\nWeapon: Strikes deal increased damage to Khorne alligned enemies.\n\nArmour: Increases toughness against blows by Khorne alligned enemies.\n\nBanner: Khorne alligned enemies in range are struck with an overwhelming sense of fear, while daemons of Khorne suffer constant damage.\n\nTalisman: Wearer has increased stealth and deals more damage against Khorne alligned enemies.",
     "Tags": "All: Augment, Enchantment, Grudge\n\nWeapon: Offensive\n\nArmour: Defensive\n\nBanner: Curse, AOE\n\nTalisman: Odd",
@@ -1695,7 +1695,7 @@
   },
   {
     "Rune Name": "Master Rune of Impersonation",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Can disguise itself and other Runes on the inscribed object as mere Klinkharun, harder to dispell",
     "Tags": "Constant, Odd, Enchantment, Meta, Mental",
@@ -1751,7 +1751,7 @@
   },
   {
     "Rune Name": "Master Rune of Kingship",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Imbues the wearer with the wisdom of previous wearers",
     "Tags": "Constant, Augment, Civilian, Mental, Solo, Odd",
@@ -1807,7 +1807,7 @@
   },
   {
     "Rune Name": "Master Rune of Lightfury",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Like Master Rune of Spellspite, but also stores it and can release as lasers.",
     "Tags": "Trigger, Enchantment, Offensive, Magical, Power, Light",
@@ -1863,7 +1863,7 @@
   },
   {
     "Rune Name": "Master Rune of Memory",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "User becomes more skilled and aware of their target's flaws and errors as battle progresses and becomes better able to capitalize on them. Hearing whispers that tell them weaknesses or point out openings.",
     "Tags": "Activation, Cast, Augment, Flexible, Mental, Solo, Odd",
@@ -1905,7 +1905,7 @@
   },
   {
     "Rune Name": "Master Rune of Morek Hopebearer",
-    "Rune Category": "Weapon, Banner, Engineering, Talisman",
+    "Rune Category": "Weapon, Banner, Engineering, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "All: Inscribed dampens Nurgle alligned entities and corruption in range\nWeapon: Strikes against Nurgle alligned enemies redirect for vital areas and prevent or dampen regeneration.\nBanner: inscribed grants Allies in range of are immune to mental effects caused by Nurgle alligned enemies and resistant to disease and negative environmental effects.\nTalisman: Inscribed grants user regeneration and can surive from a mortal wound every 3 rounds of combat\nEngineering: Ammo fired from the inscribed have increased accuracy and destructive power against Nurgle alligned enemies, effect as well as rate of fire increases the longer the battle lasts.\n",
     "Tags": "All: Physical, Grudge\nWeapon: On Hit, Curse, Solo\nBanner: Constant, Augment, AOE\nTalisman: On Attack, Enchantment, Solo\nEngineering:\n",
@@ -1919,7 +1919,7 @@
   },
   {
     "Rune Name": "Master Rune of Morgrim",
-    "Rune Category": "Weapon, Talisman, Engineering",
+    "Rune Category": "Weapon, Talismanic, Engineering",
     "Rune Type": "Master Rune",
     "Effect": "Weapon: Mechanical parts of weapons have vastly improved effectiveness, longevity and durability. No chance of harmful mechanical failure.\n\nTalisman: Inscribed makes user tireless, has supreme coordination and greatly enhanced sight\n\nEngineering: Mechanical parts of machines have vastly improved effectiveness, longevity and durability. Do not degrade from regular wear and tear. No chance of harmful mechanical failure. Any structurally compromised or failing parts glow an angry red.",
     "Tags": "All: Constant, Physical, Flexible, Solo\nWeapon: Enchantment\n\nTalisman: Augment\n\nEngineering: Enchantment",
@@ -1961,7 +1961,7 @@
   },
   {
     "Rune Name": "Master Rune of Passage",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "The wearer moves more easily through even the most difficult terrain.",
     "Tags": "Constant, Augment, Flexible, Physical, Solo",
@@ -1989,7 +1989,7 @@
   },
   {
     "Rune Name": "Master Rune of Petrification",
-    "Rune Category": "Weapon, Talisman",
+    "Rune Category": "Weapon, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Weapon: Strikes cause actual petrification\nTalisman: Turns enemies to stone, more effective against mages and beasts",
     "Tags": "Weapon: On Hit, Offensive, Curse, Solo, Odd\n\nTalisman: Activation, Offensive, Curse, Solo, Odd",
@@ -2003,7 +2003,7 @@
   },
   {
     "Rune Name": "Master Rune of Phantasms",
-    "Rune Category": "Banner, Talisman",
+    "Rune Category": "Banner, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Banner: Creates a shield wall made up of a hundred ethereal Dwarf warriors. They cannot move out of formation or attack, but can take blows from enemies several times before dissipating. Given enough time they will regenerate if the Banner is still active.\n\nTalisman: The user summons seven ethereal Dwarf warriors. The warriors last for a day or until they are destroyed, dispelled, and automatically defend the user and/or attack their enemies. The warriors can be verbally commanded.",
     "Tags": "All: Odd, Power\n\nBanner: Defensive\n\nTalisman: Flexible",
@@ -2059,7 +2059,7 @@
   },
   {
     "Rune Name": "Master Rune of Pleasurebane",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "The wearer is immune to sensory illusions, and minor resistance to other artificial mental effects",
     "Tags": "Constant Augment, Solo, Mental",
@@ -2185,7 +2185,7 @@
   },
   {
     "Rune Name": "Master Rune of Retribution",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "More potent Master Rune of Spite, doesn't need to be hurt to activate",
     "Tags": "Trigger, Enchantment, Offensive, Physical, Solo, Power",
@@ -2199,7 +2199,7 @@
   },
   {
     "Rune Name": "Master Rune of Rising Fury",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "User becomes stronger as combat continues.",
     "Tags": "Constant, Augment, Physical, Offensive",
@@ -2227,7 +2227,7 @@
   },
   {
     "Rune Name": "Master Rune of Salvation",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune, Lonely Rune",
     "Effect": "Poison in the wearer's body will not spread beyond point of entry, is instead drawn out and burned away and the wound slowly healed",
     "Tags": "Trigger, Augment, Defensive, Solo, Odd, Lonely",
@@ -2255,7 +2255,7 @@
   },
   {
     "Rune Name": "Master Rune of Savagery",
-    "Rune Category": "Weapon, Armour, Talisman",
+    "Rune Category": "Weapon, Armour, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Weapon: Wielder gain increased ferocity and brutality comparable to an angry beast. In addition, they leave massive, horrible wounds on the enemy.\n\nArmour: Wearer is tireless, gains moderate regen, armor becomes flexible as leather yet hard as dragonscale, spreads to wearer's skin.\n\nTalisman: Massively enhances wearer's athleticism and primal instinct. Also increases their strength and toughness the angrier they get.",
     "Tags": "Constant, Augment, Offensive",
@@ -2339,7 +2339,7 @@
   },
   {
     "Rune Name": "Master Rune of Searing Light",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "High powered, controllable, laser beams.",
     "Tags": "Activation, Light, Offensive, Magical",
@@ -2367,7 +2367,7 @@
   },
   {
     "Rune Name": "Master Rune of Shadow Stepping",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "The wielder can turn into a living cloud of fog",
     "Tags": "Activation, Augment, Flexible, Magical, Solo, Odd",
@@ -2423,7 +2423,7 @@
   },
   {
     "Rune Name": "Master Rune of Skalla Honestheart",
-    "Rune Category": "Weapon, Armour, Engineering, Talisman",
+    "Rune Category": "Weapon, Armour, Engineering, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Weapon: Tzeentch alligned enemies are drawn to fight the wielder, strikes caused massively increased damage to Tzeentch alligned enemies\n\nArmour: Spells of Tzeentch or Tzeentchian mages cast against the wearer are broken down and can be used to heal them\n\nEngineering: Ammo fired from war machines bearing this Rune have increased accuracy, and will reorient and target closest Tzeentch alligned enemies to landing zone.\n\nTalisman: Tzeentchian entities, whether Tzangor or Changer of Ways or a horrific Vortex Beast bound to him, are attacked with runic energy. A fully mortal follower would be less effected than the blessed would be less effected than a true daemon.",
     "Tags": "Trigger, Enchantment, Flexible, Physical, Solo, Magic, Grudge",
@@ -2465,7 +2465,7 @@
   },
   {
     "Rune Name": "Master Rune of Slow Reaping",
-    "Rune Category": "Banner, Talisman",
+    "Rune Category": "Banner, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Prolongs the death of all who fight under the banner in proportion to the sum total 'stubbornness' of all allies.",
     "Tags": "Constant, IFF, Augment, Defensive",
@@ -2493,7 +2493,7 @@
   },
   {
     "Rune Name": "Master Rune of Smednir",
-    "Rune Category": "Weapon, Banner, Talisman",
+    "Rune Category": "Weapon, Banner, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Weapon: Wielder has improved coordination. Strikes impart a great amount of heat against equipment and have a chance of destroying it dependent on the quality of the equipment struck. Strikes remove physical impurities against own or allied metalwork\n\nBanner: Allies in range have the quality of their metal items greatly improved. Enemies in range have the quality of their metal items greatly reduced\n\nTalisman: Wearer has improved coordination, vision, is resistant to mundane flames, and has increased durability and stamina. When within a forge or smithy, these effects are greatly amplified and they become immune to mundane flame, tireless and gain minor regeneration.",
     "Tags": "All: Enchantment, Flexible, Physical, Metal\nWeapon: On Attack, Augment, IFF, Solo, Elemental, Physical\nBanner: Constant, Curse, IFF, AOE Talisman: Constant, Augment, Solo",
@@ -2549,7 +2549,7 @@
   },
   {
     "Rune Name": "Master Rune of Soulshredding",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Spells cast against the user are broken, the caster's very essence is shredded, the resulting energy used to rejuvenate the user.",
     "Tags": "Trigger, Solo, Magical, Curse, Flexible, Healing, Odd",
@@ -2563,7 +2563,7 @@
   },
   {
     "Rune Name": "Master Rune of Spellbinding",
-    "Rune Category": "Talisman (Runestaves)",
+    "Rune Category": "Talismanic (Runestaves)",
     "Rune Type": "Master Rune",
     "Effect": "Captures up to three spells to be cast out and used by the user, enemy magic suffers casting penalty",
     "Tags": "Trigger, Cast, Curse, Flexible, Magical",
@@ -2633,7 +2633,7 @@
   },
   {
     "Rune Name": "Master Rune of Spellspite",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Spells cast against user are broken, the caster is burned and the knowledge of the spell is removed from their mind for a time",
     "Tags": "Trigger, Enchantment, Offensive, Magical, Solo, Power",
@@ -2661,7 +2661,7 @@
   },
   {
     "Rune Name": "Master Rune of Spite",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Whenever the wearer suffers damage their attacker suffers that damage twice fold.",
     "Tags": "Trigger, Enchantment, Offensive, Physical, Solo, Power",
@@ -2703,7 +2703,7 @@
   },
   {
     "Rune Name": "Master Rune of Stabilization",
-    "Rune Category": "Weapon, Talisman ",
+    "Rune Category": "Weapon, Talismanic ",
     "Rune Type": "Master Rune",
     "Effect": "Talisman: Wearer's personal magic resistance is greatly improved, and creates a small aura that dampens magic around them as well.\n\nWeapon: Similar to the Talisman form in that it opposes magic. Instead of passive protection, magical protection of the enemy is turned into an aura that destroys the enemy's magical protection, and further making blows themselves likelier to wound.",
     "Tags": "Constant, Augment, Defensive, Magic, Solo, AOE\n\nWeapon: Trigger, Enchantment, Offensive, Magical, Solo,",
@@ -2815,7 +2815,7 @@
   },
   {
     "Rune Name": "Master Rune of Sturn the Furious",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Wearer no longers feel pain and ignores mortal wounds until end of battle",
     "Tags": "Constant, Augment, Defensive, Mental, Solo, Odd",
@@ -2829,7 +2829,7 @@
   },
   {
     "Rune Name": "Master Rune of Submersion",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Spells cast against user are used to fuel a pressure bubble around the caster",
     "Tags": "Odd, Power, Defensive, Magic",
@@ -2843,7 +2843,7 @@
   },
   {
     "Rune Name": "Master Rune of Summoned Sword",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "The user can create a mentally controlled ethereal blade that hovers near them that can be commanded to attack or defend.",
     "Tags": "Activation, Flexible, Elemental, Physical, Solo, Odd",
@@ -2941,7 +2941,7 @@
   },
   {
     "Rune Name": "Master Rune of the Certain",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Tzeentchian Daemons and casters of the Lore of Tzeentch in range of wearer have increased miscast chance",
     "Tags": "Constant, Curse, Offensive, Magic, Grudge,",
@@ -2969,7 +2969,7 @@
   },
   {
     "Rune Name": "Master Rune of the Fate-Claimer",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune, Lonely Rune",
     "Effect": "The wearer is drawn towards key turning points in battles, martial strength growing in proportion of its significance to that battle's outcome at the cost of greatly increased risk of mortality",
     "Tags": "Odd, Lonely",
@@ -2983,7 +2983,7 @@
   },
   {
     "Rune Name": "Master Rune of the Great Stag",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Wearer has vastly improved grace and reaction speed, and charges with greatly increased speed and effective mass.",
     "Tags": "Constant, On Attack, Augment, Flexible, Physical, Solo, Weight",
@@ -3039,7 +3039,7 @@
   },
   {
     "Rune Name": "Master Rune of the Punishing Guardian",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Mundane and Magical damage the wearer suffers is returned at twice the strength and lit with magical, Hysh-infused fire. Spellcasters and magical entities have a chance of also releasing a small wave of Hysh-infused fire around them.",
     "Tags": "Activation, Curse, Enchantment, Offensive, Magical, Solo, Power",
@@ -3095,7 +3095,7 @@
   },
   {
     "Rune Name": "Master Rune of the True Sun",
-    "Rune Category": "Talisman (Crystals)",
+    "Rune Category": "Talismanic (Crystals)",
     "Rune Type": "Master Rune",
     "Effect": "Inscribed must be on a [T4] Gemstone. When cast, it will begin to emit heat and light equivalent to the surface of the sun for two seconds after a short delay.",
     "Tags": "Activation, Enchantment, Offensive, Elemental, Light, Solo, Odd",
@@ -3109,7 +3109,7 @@
   },
   {
     "Rune Name": "Master Rune of the Twin-Tailed Comet",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "User calls down a flaming twin-tailed meteor that deals extra damage against Chaos and Skaven and greatly increased damage against Greenskins",
     "Tags": "Activation, Cast, Offensive, Elemental, Grudge, AOE",
@@ -3165,7 +3165,7 @@
   },
   {
     "Rune Name": "Master Rune of Thundering Fury",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Allows user to cast lightning bolts",
     "Tags": "Activation, Cast, Offensive, Elemental, Solo",
@@ -3193,7 +3193,7 @@
   },
   {
     "Rune Name": "Master Rune of Thungni's Endurance/Thungni's Succour",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "User gains greatly increased magic resistance, spells cast at them are turned into energy that is used to heal them. Can be cast to dispell other spells that also become healing energy for the user.",
     "Tags": "Constant, On Block, Activation, Augment, Defensive, Cast, Magic, Odd",
@@ -3207,7 +3207,7 @@
   },
   {
     "Rune Name": "Master Rune of Thungni's Eye",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune, Lonely Rune",
     "Effect": "Wearer is able to percieve the flaws and cause of those flaws in their own creations, this includes Runes, though in the latter's case it is less concrete and ephemeral feeling than practical knowledge",
     "Tags": "Activation, Augment, Civilian, Solo, Meta, Odd, Metal, Lonely",
@@ -3221,7 +3221,7 @@
   },
   {
     "Rune Name": "Master Rune of Thungni's Presence",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Enemies suffer greater casting debuff, spells cast around the user are broken up and used to improve the casting of all Runes around the user.",
     "Tags": "Constant, Curse, Augment, Flexible, AOE, Meta, Power",
@@ -3291,7 +3291,7 @@
   },
   {
     "Rune Name": "Master Rune of Tracking",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Greatly improves the user's sense of sight, smell and hearing",
     "Tags": "Constant, Enchantment, Flexible, Physical, Solo, Odd",
@@ -3389,7 +3389,7 @@
   },
   {
     "Rune Name": "Master Rune of Unicorns",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Wearer gains sense and awareness of nearby wizards, and has greatly improved anti magical defenses",
     "Tags": "Constant, Augment, Flexible, Solo, Magical, Odd",
@@ -3445,7 +3445,7 @@
   },
   {
     "Rune Name": "Master Rune of Valaya",
-    "Rune Category": "Weapon, Armour, Banner, Talisman ",
+    "Rune Category": "Weapon, Armour, Banner, Talismanic ",
     "Rune Type": "Master Rune",
     "Effect": "Weapon: Axes inscribed with this Rune gain a glow. Strikes deal increased damage to casters, and magical entities.\nArmour: A more localized and yet more potent version of its banner counterpart's effect. Enemy magic will not harm the bearer, they grow weary less quickly and heal from minor scrapes faster. The warmth of the hearth burns brightly.\nBanner: The Rune of Valaya emits an aura that negates the power of magic, weakening spells and improving one's natural magic resistance.\nTalisman: Enemy magic is absorbed and the energy is used to create a defensive shell of energy around the bearer.",
     "Tags": "All: Magical\n\nWeapon: Constant, Enchantment, Offensive, Solo, Grudge\n\nArmour: Trigger, Enchantment, Defensive, Solo\n\nBanner: Constant, Curse, Defensive, AOE\n\nTalisman: Trigger, Enchantment, Defensive, Solo",
@@ -3515,7 +3515,7 @@
   },
   {
     "Rune Name": "Master Rune of Vitality",
-    "Rune Category": "Armour,\nTalisman",
+    "Rune Category": "Armour,\nTalismanic",
     "Rune Type": "Master Rune",
     "Effect": "Wearer gains greater regeneration\n\nTalisman: User gains moderate Regeneration and improvement to toughness and endurance",
     "Tags": "Constant, Augment, Defensive, Solo, Healing",
@@ -3529,7 +3529,7 @@
   },
   {
     "Rune Name": "Master Rune of Vogran the Wise",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "When the user or target is possessed, they are given a third implanted personality that will attempt to overpower the possessing entity.",
     "Tags": "Activation, Trigger, Cast, Curse, Flexible, Mental, Solo, Odd",
@@ -3571,7 +3571,7 @@
   },
   {
     "Rune Name": "Master Rune of Waking",
-    "Rune Category": "Weapon, Armour, Engineering, Talisman",
+    "Rune Category": "Weapon, Armour, Engineering, Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Weapon: Allows the weapon to follow orders or act under its own power, but is still subject to the laws of physics (swords cannot levitate, crossbows can't reload without an existing mechanism, etc.).\n\nArmour: Allows a suit of armour to follow orders or act under its own power, or aid the wearer.\n\nEngineering: Used to animate Rune Golems/Ancestor Golems/Gronti Duraz. No longer limited to Bipedal/Dwarf body plans. Gronti are stronger, faster, and all-around better than standard Gronti.  Starts to suffer efficiency and power issues animating constructs with any dimension above 14m, getting exponentially worse until it fails completely by 21m\n\nTalisman: Allows talismans to act under its own power, activating effects on their own and under pre-set conditions with perfect control and timing without input.",
     "Tags": "Activation, Enchantment, Physical, Construct",
@@ -3585,7 +3585,7 @@
   },
   {
     "Rune Name": "Master Rune of Wandering",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "The user traverses rough terrain incredibly easily, and runs at speeds that should be near impossible with Dwarf legs.",
     "Tags": "Constant, Augment, Flexible, Physical, Solo",
@@ -3627,7 +3627,7 @@
   },
   {
     "Rune Name": "Master Rune of Water-Walking",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Boots inscribed with this Rune allow the user to walk on the surface of liquids if they so choose",
     "Tags": "Activation, Constant, Enchantment, Civilian, Physical, Odd",
@@ -3725,7 +3725,7 @@
   },
   {
     "Rune Name": "Master Rune of Wyrm Strength",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune, Lonely Rune",
     "Effect": "The user's physical stats and heat resistance match a Wyrm (Moon Dragon), their skin becomes slightly scaly and their digits grow webbed. User is occasionally beset by draconic instincts.",
     "Tags": "Constant, Augment, Flexible, Elemental, Physical, Odd, Power, Lonely ",
@@ -3753,7 +3753,7 @@
   },
   {
     "Rune Name": "Master Rune of Wyvern's Wrath",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Items inscribed with Rune can release a glob of highly corrosive acid and noxious, potentially lethal, fumes on command",
     "Tags": "Activation, Enchantment, Offensive",
@@ -3851,7 +3851,7 @@
   },
   {
     "Rune Name": "Rune of Aethyric/Otherworldly Warding",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Magical blows against the wearer cause the struck area to moderately become increasingly resistant against that type of damage.",
     "Tags": "On Block, Augment, Defensive, Magical, Solo",
@@ -3991,7 +3991,7 @@
   },
   {
     "Rune Name": "Rune of Apathy",
-    "Rune Category": "Banner, Talisman",
+    "Rune Category": "Banner, Talismanic",
     "Rune Type": "Rune",
     "Effect": "User deadens the emotions of enemies in range, making them listless and uncaring of wounds or mounting losses",
     "Tags": "Trigger, Curse, Offensive, Mental, IFF, AOE",
@@ -4145,7 +4145,7 @@
   },
   {
     "Rune Name": "Rune of Binding Shadow",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Target's shadow appears to become animate, and will actively attempt to hamper their movements by randomly moving, stopping, forcing the body to mimic it.",
     "Tags": "Activation, Cast, Curse, Offensive, IFF, Solo, Odd",
@@ -4229,7 +4229,7 @@
   },
   {
     "Rune Name": "Rune of Blunting",
-    "Rune Category": "Armour, Talisman",
+    "Rune Category": "Armour, Talismanic",
     "Rune Type": "Rune",
     "Effect": "Inscribed spreads impact over a larger area, Magical weapons less affected",
     "Tags": "Trigger,  Enchantment, Defensive, Physical, Solo",
@@ -4425,7 +4425,7 @@
   },
   {
     "Rune Name": "Rune of Burning Light",
-    "Rune Category": "Talisman (Gems)",
+    "Rune Category": "Talismanic (Gems)",
     "Rune Type": "Rune",
     "Effect": "Must be inscribed on a gemstone. The user can cast a concentrated ball of Hysh",
     "Tags": "Activation, Enchantment, Cast, Offensive, Magic",
@@ -4551,7 +4551,7 @@
   },
   {
     "Rune Name": "Rune of Choler",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "User's anger is heightened and they become almost immune to fear and terror",
     "Tags": "Constant, Augment, Defensive, Mental, Solo, Odd",
@@ -4579,7 +4579,7 @@
   },
   {
     "Rune Name": "Rune of Clarion Call",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "User grows more durable when fighting a more numerous foe",
     "Tags": "Trigger, Augment, Defensive, Physical, Solo",
@@ -4817,7 +4817,7 @@
   },
   {
     "Rune Name": "Rune of Dark Sight",
-    "Rune Category": "Talisman (Lenses)",
+    "Rune Category": "Talismanic (Lenses)",
     "Rune Type": "Rune",
     "Effect": "Must be inscribed on lenses. Allows the user to see in incredibly low light conditions.",
     "Tags": "Flexible, Constant, Odd",
@@ -4859,7 +4859,7 @@
   },
   {
     "Rune Name": "Rune of Deep Rest",
-    "Rune Category": "Banner,\nTalisman,\nStructural",
+    "Rune Category": "Banner,\nTalismanic,\nStructural",
     "Rune Type": "Rune",
     "Effect": "Talisman: Wearer enters a dreamless sleep\nStructural: All within the inscribed will have dreamless sleep.",
     "Tags": "Augment, Civilian, Mental, Odd\nTalisman: Solo\nBanner, Structural: AOE",
@@ -4887,7 +4887,7 @@
   },
   {
     "Rune Name": "Rune of Defiant Stone",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Improves general toughness. Wearer's endurance and durability increase proportionately to their willpower",
     "Tags": "Constant, Augment, Defensive, Physical, Mental",
@@ -4999,7 +4999,7 @@
   },
   {
     "Rune Name": "Rune of Distance",
-    "Rune Category": "Talisman ",
+    "Rune Category": "Talismanic ",
     "Rune Type": "Rune",
     "Effect": "Items inscribed allow the user to speak through a paired Rune of Distance within 100 kilometers for 10 minutes, additional copies increase duration and range by 50 kilometers and 5 minutes respectively.",
     "Tags": "Activation, Enchantment, Flexible, Physical, Meta, Solo, Odd, Stacking",
@@ -5167,7 +5167,7 @@
   },
   {
     "Rune Name": "Rune of Embers",
-    "Rune Category": "Talisman, Armour",
+    "Rune Category": "Talismanic, Armour",
     "Rune Type": "Rune",
     "Effect": "Enemy melee attacks create spray of hot coals that strike attacker",
     "Tags": "On Block, Curse, Defensive, Elemental, Solo",
@@ -5195,7 +5195,7 @@
   },
   {
     "Rune Name": "Rune of Emptiness",
-    "Rune Category": "Talisman (containers)",
+    "Rune Category": "Talismanic (containers)",
     "Rune Type": "Rune",
     "Effect": "Inscribed containers can empty their contents at high speed",
     "Tags": "Trigger, Enchantment, Flexible, Physical, Odd",
@@ -5237,7 +5237,7 @@
   },
   {
     "Rune Name": "Rune of Endless Voice",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "All: Targets are unable to injure throats or wear out voice.",
     "Tags": "All: Constant, Augment, Flexible, Physical, Odd",
@@ -5251,7 +5251,7 @@
   },
   {
     "Rune Name": "Rune of Enduring tracks",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "User can instinctively recall if they have stood here before, and a general sense of how far back. The fresher, the more accurate.",
     "Tags": "Activation, Augment, Flexible, Mental, Solo, Odd",
@@ -5321,7 +5321,7 @@
   },
   {
     "Rune Name": "Rune of Far Whispers",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "User can whisper to a single chosen target across a battlefield. Increasing the number of chosen recipients decreases range.",
     "Tags": "Activation, Enchantment, Flexible, Physical, Solo, IFF, Odd",
@@ -5461,7 +5461,7 @@
   },
   {
     "Rune Name": "Rune of Flamedrinking",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Magical and mundane flame fired against user is absorbed and turned into Runic energy",
     "Tags": "Constant, Enchantment, Solo, Elemental, Magic, Odd, Power",
@@ -5657,7 +5657,7 @@
   },
   {
     "Rune Name": "Rune of Forgeflame",
-    "Rune Category": "Structural, Talisman",
+    "Rune Category": "Structural, Talismanic",
     "Rune Type": "Rune",
     "Effect": "Talisman: Heat absorbed by the wearer is instead taken by the Rune and discharged into the air over time.\n\nStructural: Condenses heat generated in area into a specified space, but requires a constant source of heat to draw from.",
     "Tags": "Constant, Enchantment, Elemental, Odd, Metal, Teaching",
@@ -5699,7 +5699,7 @@
   },
   {
     "Rune Name": "Rune of Fortune",
-    "Rune Category": "Armour, \nTalisman, \nEngineering",
+    "Rune Category": "Armour, \nTalismanic, \nEngineering",
     "Rune Type": "Rune",
     "Effect": "Armour: Provides wearer brief vision of incoming blow every so often.\n\nTalisman: Provides wearer a brief glimpse of the day ahead, once per day. \n\nEngineering: Provides crew a glimpse at the landing spot they aim at upon firing.",
     "Tags": "Trigger, Enchantment, Fleixible, Mental, Solo",
@@ -5867,7 +5867,7 @@
   },
   {
     "Rune Name": "Rune of Gentle Repose",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Must be inscribed on a necklace. When the user is seriously injured or rendered unconscious, the Rune will begin to glow and attempt to prolongue their life by slowing down bodily processes and minimizing further damage.",
     "Tags": "Trigger, Augment, Defensive, Physical, Solo",
@@ -5923,7 +5923,7 @@
   },
   {
     "Rune Name": "Rune of Glasswall",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Hardens and soldifies air into a locked position. These chunks are mostly transparent and will keep their postion even if they are in mid air, but are sadly very fragile and brittle. If the chunks are broken, they turn back into normal air.",
     "Tags": "Activation, Cast, Enchantment, Physical, AOE, Odd",
@@ -5965,7 +5965,7 @@
   },
   {
     "Rune Name": "Rune of Greed",
-    "Rune Category": "Banner, Talisman",
+    "Rune Category": "Banner, Talismanic",
     "Rune Type": "Rune",
     "Effect": "User stokes the greed of enemies in range, making them target the user to the detriment of tactics",
     "Tags": "Trigger, Curse, Offensive, Mental, IFF, AOE",
@@ -5979,7 +5979,7 @@
   },
   {
     "Rune Name": "Rune of Grief",
-    "Rune Category": "Talisman (Gems)",
+    "Rune Category": "Talismanic (Gems)",
     "Rune Type": "Rune",
     "Effect": "Items bearing this Rune will glow so long as the one they are linked to is alive. Once deactivated, the Rune can be relit by adding a new person's blood to it.",
     "Tags": "Trigger, Enchantment, Civilian, Magical, Solo, Odd",
@@ -6077,7 +6077,7 @@
   },
   {
     "Rune Name": "Rune of Hearth and Home",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "",
     "Tags": "Activation, Cast, Enchantment, Mental, Group, Odd, Lonely",
@@ -6105,7 +6105,7 @@
   },
   {
     "Rune Name": "Rune of Heat Sight",
-    "Rune Category": "Talisman (Lenses)",
+    "Rune Category": "Talismanic (Lenses)",
     "Rune Type": "Rune",
     "Effect": "Must be inscribed on lenses. Allows the user to see differences in heat",
     "Tags": "Constant, Augment, Flexible, Physical, Solo, Light, Odd",
@@ -6119,7 +6119,7 @@
   },
   {
     "Rune Name": "Rune of Heft",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Increases weight of wearer",
     "Tags": "Constant, Augment, Flexible, Physical, Solo, Odd",
@@ -6259,7 +6259,7 @@
   },
   {
     "Rune Name": "Rune of Impalement",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Creates a field of spikes upon striking the ground, 50 meter range",
     "Tags": "Activation, Cast, Flexible, Elemental, AOE",
@@ -6301,7 +6301,7 @@
   },
   {
     "Rune Name": "Rune of Inner Courage",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "The wearer has increased bravery. They become generally aware of spells and items being used to negatively impact their mental state.",
     "Tags": "Constant, Augment, Flexible, Mental, Magic, Odd",
@@ -6343,7 +6343,7 @@
   },
   {
     "Rune Name": "Rune of Irongut",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Target's organs have increased durability and resistance to poison, intoxication and disease, multiple copies improve effect",
     "Tags": "Constant, Augment, Flexible, Physical, Solo, Stacking, Odd",
@@ -6497,7 +6497,7 @@
   },
   {
     "Rune Name": "Rune of Leaping",
-    "Rune Category": "Talisman, Engineering",
+    "Rune Category": "Talismanic, Engineering",
     "Rune Type": "Rune",
     "Effect": "Talisman: Wearer has increased jumping height, multiple copies enhance the effect\nEngineering: Inscribed has increased jumping height, multiple copies enhance the effect",
     "Tags": "Constant, Flexible, Physical, Solo, Odd, Stacking\nTalisman: Augment\nEngineering: Enchantment",
@@ -6679,7 +6679,7 @@
   },
   {
     "Rune Name": "Rune of Marking",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Emblems/Markers/Stamps inscribed with this Rune place a permanent imprint on any mundane material the user wishes to mark",
     "Tags": "Activation, Enchantment, Civilian, Physical, Odd, Metal",
@@ -6693,7 +6693,7 @@
   },
   {
     "Rune Name": "Rune of Messaging",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Items inscribed with this Rune can hold a 5 minute message for three days. Once used the message released or erased, the Rune can be reused a day later.",
     "Tags": "Activation, Enchantment, Flexible, Physical, Solo",
@@ -6777,7 +6777,7 @@
   },
   {
     "Rune Name": "Rune of Negation",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Inscribed grants user with greater magical resistance, when activated it greatly increases toughness for fifteen minutes. Charges restored once per day. Multiple copies improve maximum number of charges held.",
     "Tags": "Constant, Activation, Augment, Magical, Solo, Stacking",
@@ -6861,7 +6861,7 @@
   },
   {
     "Rune Name": "Rune of Paperwork",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Shelves/Desks/Surfaces inscribed with this Rune organize stray paper according to user's desire.",
     "Tags": "Activation, Enchantment, Civilian, Physical, Odd",
@@ -6903,7 +6903,7 @@
   },
   {
     "Rune Name": "Rune of Pearl",
-    "Rune Category": "Banner, Talisman",
+    "Rune Category": "Banner, Talismanic",
     "Rune Type": "Rune",
     "Effect": "Allies in range become difficult to follow, their silhouettes and forms blurring.",
     "Tags": "Constant, Augment, Defensive, Mental, AOE",
@@ -7001,7 +7001,7 @@
   },
   {
     "Rune Name": "Rune of Phantom Chains",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Allows the user to spawn two weak phantasmal chains that wrap around a target. Multiple copies increase the length and duration of the chains",
     "Tags": "Stacking",
@@ -7015,7 +7015,7 @@
   },
   {
     "Rune Name": "Rune of Phantom Gravel",
-    "Rune Category": "Talisman, Structural",
+    "Rune Category": "Talismanic, Structural",
     "Rune Type": "Rune",
     "Effect": "Target is struck by the sensation of being harmlessly pelted by gravel ",
     "Tags": "Trigger, Curse, Flexible, Mental, Odd\nTalisman: Cast, Solo\nStructural: AOE",
@@ -7029,7 +7029,7 @@
   },
   {
     "Rune Name": "Rune of Phantom Tongue",
-    "Rune Category": "Talisman, Structural",
+    "Rune Category": "Talismanic, Structural",
     "Rune Type": "Rune",
     "Effect": "Target is struck by the sensation of being hit by a tongue",
     "Tags": "Trigger, Curse, Flexible, Mental, Odd\nTalisman: Cast, Solo\nStructural: AOE",
@@ -7043,7 +7043,7 @@
   },
   {
     "Rune Name": "Rune of Piercing Sight",
-    "Rune Category": "Talisman (Lenses)",
+    "Rune Category": "Talismanic (Lenses)",
     "Rune Type": "Rune",
     "Effect": "Inscribed lenses allow user to see through skin, bone, muscle and/or organs on command",
     "Tags": "Activation, Enchantment, Civilian, Physical, Solo, Odd",
@@ -7239,7 +7239,7 @@
   },
   {
     "Rune Name": "Rune of Quick Wits",
-    "Rune Category": "Banner, Talisman, Engineering",
+    "Rune Category": "Banner, Talismanic, Engineering",
     "Rune Type": "Rune",
     "Effect": "Banner: Targets in range have slightly higher reaction speeds\nTalisman: User has moderately higher reaction speed.\nEngineering: Crew have moderately higher reaction speeds",
     "Tags": "Constant, Augment, Flexible, Mental\nTalisman: Solo\nBanner, Engineering: Multi",
@@ -7435,7 +7435,7 @@
   },
   {
     "Rune Name": "Rune of Rivers",
-    "Rune Category": "Armour,\nTalisman",
+    "Rune Category": "Armour,\nTalismanic",
     "Rune Type": "Rune",
     "Effect": "Wearer able to charge in a straight line and break through some obstacles until they hit enemy",
     "Tags": "Trigger, Augment, Offensive, Physical, Solo",
@@ -7449,7 +7449,7 @@
   },
   {
     "Rune Name": "Rune of Rooted Foes",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "User can cause the targeted area (2m diameter circle) to erupt in entangling roots that grab and try to pull anything they touch into the earth.",
     "Tags": "Activation, Cast, Offensive, Magical, AOE, Odd",
@@ -7477,7 +7477,7 @@
   },
   {
     "Rune Name": "Rune of Rubber Steel",
-    "Rune Category": "Armour, Talisman, Engineering",
+    "Rune Category": "Armour, Talismanic, Engineering",
     "Rune Type": "Rune",
     "Effect": "User and inscribed take on slightly elastic properties.",
     "Tags": "Constant, Flexible, Physical, Solo, Odd\nArmour: Augment, Enchantment\nTalisman: Augment\nEngineering: Enchantment",
@@ -7519,7 +7519,7 @@
   },
   {
     "Rune Name": "Rune of Sanctuary",
-    "Rune Category": "Armour, Banner, Talisman, Banner",
+    "Rune Category": "Armour, Banner, Talismanic, Banner",
     "Rune Type": "Rune",
     "Effect": "Magnifies Dwarfen anti-magic aura",
     "Tags": "Constant, Augment, Defensive, Magic",
@@ -7659,7 +7659,7 @@
   },
   {
     "Rune Name": "Rune of Sequestering",
-    "Rune Category": "Talisman (Storage)",
+    "Rune Category": "Talismanic (Storage)",
     "Rune Type": "Rune",
     "Effect": "Containers bearing this Rune can keep two different substances inside them separate from each other.",
     "Tags": "Trigger, Enchantment, Civilian, Physical, Alchemy",
@@ -7687,7 +7687,7 @@
   },
   {
     "Rune Name": "Rune of Shadow",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Creates a sphere of darkness around the rune similar in radius to a Rune of Light",
     "Tags": "Constant, Trigger, Activation, Cast, Flexible, Physical",
@@ -7701,7 +7701,7 @@
   },
   {
     "Rune Name": "Rune of Shadow Pocket",
-    "Rune Category": "Talisman (Cloak)",
+    "Rune Category": "Talismanic (Cloak)",
     "Rune Type": "Rune",
     "Effect": "User can store 15kg of material in shadows of the inscribed. If inscribed is taken off, items drop out",
     "Tags": "Constant, Enchantment, Civilian, Magical, Solo",
@@ -7715,7 +7715,7 @@
   },
   {
     "Rune Name": "Rune of Sharpening",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Quivers, Scabbards, Hilts and whetstones inscribed will self sharpern arrows/bolts, weapons, and bladed tools that are placed within/sharpened against them respectively. Minimizes material loss from sharpening.",
     "Tags": "Trigger, Enchantment, Flexible, Physical, Solo, Odd",
@@ -7869,7 +7869,7 @@
   },
   {
     "Rune Name": "Rune of Singing Steel",
-    "Rune Category": "Weapon, Armour, Talisman",
+    "Rune Category": "Weapon, Armour, Talismanic",
     "Rune Type": "Rune",
     "Effect": "Strikes against armour emit a sound proportional to the strenght of the strike, wielder unaffected",
     "Tags": "Trigger, Enchantment, Physical, Solo\nWeapon: Enchantment\nArmor: Augment, Enchantment\nTalisman: Augment",
@@ -7897,7 +7897,7 @@
   },
   {
     "Rune Name": "Rune of Siphoning",
-    "Rune Category": "Weapon, Banner, Talisman, Structural",
+    "Rune Category": "Weapon, Banner, Talismanic, Structural",
     "Rune Type": "Rune",
     "Effect": "Weapon: Items inscribed with this Rune recharge at roughly half again more quickly than normal by drawing on Deep Magic, increasing for the duration of a battle until reaching roughly double the recharge rate. When fully active the Rune begins to glow gold rather than Teal. Superseded by Banner and Structural effects.\n\nBanner: Runes in radius of this Rune can draw from the Deep Magic and recharge far faster than normal. The potency of this effect increases the longer the Rune stays in the same place, topping out at double the recharge rate. \n\nTalisman: Items inscribed with this Rune recharge roughly half again more quickly than normal by drawing on Deep Magic. Aesthetically causes related Runes to glow gold rather than teal. Two copies increase recharge rate to almost double. Superseded by Banner and Structural effects.\n\nEngineering: Constructs and War Machines inscribed with this Rune can draw on Deep Magic, roughly doubling the longevity or recharge rate of any other Runes inscribed onto them depending on function. When inscribed all Runes glow gold. Superseded by Structural effects.\n\nStructural: As banner but triple the range. Structural effect supersedes the Banner, and they do not stack. Multiple copies improve range.\nRunes in radius of this Rune can slightly draw from the Deep Magic and recharge faster.",
     "Tags": "Constant, Enchantment, Civilian, AOE, Meta, Magic, Power, Stacking",
@@ -8093,7 +8093,7 @@
   },
   {
     "Rune Name": "Rune of Sneakiness/Deceit",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "The environment in a small area around the wearer is rendered more conducive to sneakiness, leaves don't crackle, branches don't break, sounds are muffled, etc.",
     "Tags": "Constant, Enchantment, Flexible, Physics, AOE, Odd",
@@ -8135,7 +8135,7 @@
   },
   {
     "Rune Name": "Rune of Sobriety",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Wearer will have effects of intoxication purged or greatly reduced",
     "Tags": "Activation, Trigger, Flexible, Physical, Odd",
@@ -8149,7 +8149,7 @@
   },
   {
     "Rune Name": "Rune of Softening",
-    "Rune Category": "Talisman (Woven, Fur)",
+    "Rune Category": "Talismanic (Woven, Fur)",
     "Rune Type": "Rune",
     "Effect": "Items inscribed with this Rune are twice as soft or as soft is physicall possible for the material, whichever is softer.",
     "Tags": "Constant, Echantment, Civilian, Physical, Solo, Odd",
@@ -8275,7 +8275,7 @@
   },
   {
     "Rune Name": "Rune of Spellbinding",
-    "Rune Category": "Talisman (Runestaves)",
+    "Rune Category": "Talismanic (Runestaves)",
     "Rune Type": "Rune",
     "Effect": "Captures a spell to be cast out and used by the user",
     "Tags": "Trigger, Enchantment, Flexible, Magical, Solo, Odd",
@@ -8471,7 +8471,7 @@
   },
   {
     "Rune Name": "Rune of Stone and Steel",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "",
     "Tags": "Activation, Cast, Enchantment, Physical, Solo, AOE, Odd, Lonely",
@@ -8625,7 +8625,7 @@
   },
   {
     "Rune Name": "Rune of Sympathetic Guidance",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Highlights objects and persons related or connected to a chosen object",
     "Tags": "",
@@ -8709,7 +8709,7 @@
   },
   {
     "Rune Name": "Rune of the Berserker/Slayer",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Wearer has increased pain tolerance",
     "Tags": "Constant, Augment, Defensive, Mental, Solo, Odd",
@@ -8779,7 +8779,7 @@
   },
   {
     "Rune Name": "Rune of the Forgotten Path",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Allows the user to make those nearby to temporarily forget their presence and the path they took",
     "Tags": "Odd, Curse, Mental",
@@ -8793,7 +8793,7 @@
   },
   {
     "Rune Name": "Rune of the Frustrated Matron",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "The inscribed will create a trail of lights towards the place the Rune's creator considers home at the time of its creation.",
     "Tags": "Activation, Flexible, Magical, Solo, Odd",
@@ -8919,7 +8919,7 @@
   },
   {
     "Rune Name": "Rune of the Needful Bag",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Reaching into containers that bear this Rune will always ensure the user grabs what they \"need\" from its contents, or what best fits.",
     "Tags": "Trigger, Enchantment, Civilian, Physical, Odd",
@@ -9003,7 +9003,7 @@
   },
   {
     "Rune Name": "Rune of the Sun",
-    "Rune Category": "Talisman (Crystals), Structural",
+    "Rune Category": "Talismanic (Crystals), Structural",
     "Rune Type": "Rune",
     "Effect": "Talisman: Inscribed gives of a light equivalent to staring at the sun\nStructural: Inscribed room radiates heat equivalent to being in direct sunlight of current latitude",
     "Tags": "Constant, Enchantment, Civilian, Elemental, Light, AOE, Odd",
@@ -9017,7 +9017,7 @@
   },
   {
     "Rune Name": "Rune of the Tracker",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "The wearer can more easily track a target so long as they are hidden, the target glows red to the wearer's vision",
     "Tags": "Trigger, Augment, Flexible, Physics, Solo,Odd",
@@ -9129,7 +9129,7 @@
   },
   {
     "Rune Name": "Rune of Thungni's Endurance",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Items and Runes inscribed on the same item as this Rune have increased durability and energy efficiency. Moderately lowers the duration and potency of curses and magic targeting the wearer.\n(Emphasizes the Rune's Wind ordering effect; better breaking apart hostile magic at the cost of weaker smoothing and waste reduction.)",
     "Tags": "Constant, Enchantment, Flexible, Physical, Meta, Solo, Power",
@@ -9157,7 +9157,7 @@
   },
   {
     "Rune Name": "Rune of Thungni's Presence",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Dispelled spells around the user are converted to improve the casting of Runes around the user.",
     "Tags": "Constant, Augment, Flexible, Magical, AOE, Meta, Power",
@@ -9227,7 +9227,7 @@
   },
   {
     "Rune Name": "Rune of Transcription",
-    "Rune Category": "Talisman, Engineering",
+    "Rune Category": "Talismanic, Engineering",
     "Rune Type": "Rune",
     "Effect": "Will write down the user's words when applied on the appropriate mechanism",
     "Tags": "Trigger, Enchantment, Civilian, Mental, Construct, Odd",
@@ -9437,7 +9437,7 @@
   },
   {
     "Rune Name": "Rune of Vanity/Beardlings",
-    "Rune Category": "Armour, Banner, Talisman",
+    "Rune Category": "Armour, Banner, Talismanic",
     "Rune Type": "Rune",
     "Effect": "Dwarfs more easily notice wearer",
     "Tags": "Constant, Augment, Flexible, Mental, Grudge",
@@ -9633,7 +9633,7 @@
   },
   {
     "Rune Name": "Rune of Water",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Waterskins/Barrels inscribed with this Rune fill with water a max of four times a day, the amount inversely related to the size of the container",
     "Tags": "Activation, Enchantment, Civilian, Physical, Odd",
@@ -9661,7 +9661,7 @@
   },
   {
     "Rune Name": "Rune of Weeping Winter",
-    "Rune Category": "Talisman (Runestaves)",
+    "Rune Category": "Talismanic (Runestaves)",
     "Rune Type": "Rune",
     "Effect": "User can cast a shard of razor sharp ice every twenty seconds.",
     "Tags": "Activation, Cast, Enchantment, Offensive, Elemental, Solo",
@@ -9745,7 +9745,7 @@
   },
   {
     "Rune Name": "Rune of Worldly Warding",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Blows against the wearer cause the struck area to become increasingly resistant against that type of damage",
     "Tags": "On Block, Augment, Defensive, Physical, Solo",
@@ -9801,7 +9801,7 @@
   },
   {
     "Rune Name": "Master Rune of Pure Gromril",
-    "Rune Category": "Weapon,\nArmour,\nTalisman",
+    "Rune Category": "Weapon,\nArmour,\nTalismanic",
     "Rune Type": "Master Rune",
     "Effect": "Weapon: Grants inscribed the durability and weight of Pure Gromril\nArmour: Grants inscribed and user the appearance and durability of Pure Gromril, greatly dampens effects of concussive force on both\nTalisman: Grants the user the appearance and properties of Pure Gromril for one hour, recharges every two days",
     "Tags": "All: Enchantment, Defensive, Physical, Solo\nArmour, Talisman: Augment \n",
@@ -9899,7 +9899,7 @@
   },
   {
     "Rune Name": "Master Rune of Sisterhood",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Master Rune",
     "Effect": "Wearer temporarily disseminates skills to allies in range, will improve the rate that the wearer teaches their greatest non magic skill known to one chosen ally in range.",
     "Tags": "Constant, Augment, Flexible, Mental, IFF, Multi, Odd",
@@ -9913,7 +9913,7 @@
   },
   {
     "Rune Name": "Rune of Sisterhood",
-    "Rune Category": "Talisman",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Lets a dwarf temporarily disseminate skills used to close comrades in range.",
     "Tags": "Constant, Augment, Flexible, Mental, Multi, Odd",
@@ -9927,7 +9927,7 @@
   },
   {
     "Rune Name": "Master Rune of Gromrilseeking/Dumduraz",
-    "Rune Category": "Talisman ",
+    "Rune Category": "Talismanic ",
     "Rune Type": "Master Rune",
     "Effect": "Inscribed glows when near the presence of Warpstone",
     "Tags": "Trigger, Enchantment, Flexible, Physical, Solo, Odd",
