@@ -1,0 +1,23 @@
+/* Loads the design. App.jsx doesn't import App.css, so it's pulled in here. */
+
+@import "./App.css";
+
+ 
+
+*,
+
+*::before,
+
+*::after {
+
+ box-sizing: border-box;
+
+}
+
+ 
+
+body {
+
+ margin: 0;
+
+}
