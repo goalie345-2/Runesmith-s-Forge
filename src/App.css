@@ -1,7 +1,8 @@
 /*  design only.
-   App.jsx and BuildCard.jsx set some colors inline (style={{...}}), and inline
-   styles beat normal CSS. The rules marked !important override those.
-   Nothing in the JSX needs to change. */
+App.jsx and BuildCard.jsx still set some styles inline (style={{...}}), and inline
+styles beat normal CSS. The rules marked !important override those.
+DragAndDrop.jsxuses class names instead, so its rules don't need !important.
+Noththing in JSX needs needs to change*/
 
 
 /* Softer colors: same warm brown / cream / gold, lower contrast */
@@ -29,42 +30,32 @@ body {
 }
 
 
-/* Header — the JSX has no header element, so CSS draws one.
-   If a real <header> gets added later, delete this block. */
-#root::before {
-  content: "Runesmith's Forge";
-  display: block;
-  padding: 16px 36px;
-  background: var(--dark);
+
+/* Header — App.jsx sets its colors and font inline; this adds the gold line */
+#root header {
   border-bottom: 4px solid var(--gold);
-  color: var(--title);
-  font-size: 28px;
-  font-weight: bold;
-  letter-spacing: 0.3px;
 }
 
 
-/* Page layout: rune list on the left, build on the right (like the in slides).. */
-#root > div:first-child {
+/* Page layout the row under the header (rune list left, build right) */
+#root header + div {
   gap: 40px !important;
   padding: 30px 36px !important;
 }
-#root > div:first-child > main {
-  order: 1;
-  flex: 0 1 480px !important;
+#root .list-drop-zone {
+  flex: 0 1 480px;
+  min-width: 320px;
 }
-#root > div:first-child > aside {
-  order: 2;
+#root header + div > aside {
   flex: 1;
   align-items: center;
 }
 
 
-/* Drop-back-to-list outline (shows while dragging a placed rune over the list) */
-#root main[style*="166, 227, 161"],
-#root main[style*="a6e3a1"] {
-  outline-color: var(--gold) !important;
-  outline-style: solid !important;
+/* Drop back to list outline  */
+#root .list-drop-zone.is-over {
+  outline: 2px solid var(--gold);
+  outline-offset: 8px;
   border-radius: 8px;
 }
 
@@ -76,12 +67,14 @@ body {
   gap: 12px;
   margin-bottom: 10px;
 }
-#root label {
-  width: 44px;
+#root main label {
   font-weight: bold;
 }
-#root #search,
-#root #filter {
+#root main label[for] {
+  width: 44px; /* Search/Filter labels line up */
+}
+#root #search {
+  width: 290px;
   padding: 6px 10px;
   border: 1.5px solid var(--border);
   border-radius: 6px;
@@ -90,21 +83,83 @@ body {
   font-family: inherit;
   font-size: 14px;
 }
-#root #search {
-  width: 290px;
-}
-#root #filter {
-  width: 145px;
-  cursor: pointer;
-}
 #root #search::placeholder {
   color: var(--muted);
 }
-#root #search:focus,
-#root #filter:focus {
+#root #search:focus {
   outline: none;
   border-color: var(--gold);
   box-shadow: 0 0 0 3px rgba(200, 169, 107, 0.25);
+}
+
+/* Filter box. its parts has random names so [class*="-control"] finds them */
+#root main [class*="-container"] {
+  width: 290px;
+  font-size: 14px;
+}
+#root main [class*="-control"] {
+  min-height: 34px;
+  border: 1.5px solid var(--border);
+  border-radius: 6px;
+  background: var(--panel);
+  box-shadow: none;
+  cursor: pointer;
+}
+#root main [class*="-control"]:hover {
+  border-color: var(--border);
+}
+#root main [class*="-control"]:focus-within {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(200, 169, 107, 0.25);
+}
+#root main [class*="-placeholder"] {
+  color: var(--muted);
+}
+#root main [class*="-indicatorSeparator"] {
+  background: var(--line);
+}
+#root main [class*="-indicatorContainer"] {
+  color: var(--muted);
+}
+#root main [class*="-indicatorContainer"]:hover {
+  color: var(--text);
+}
+/* Chosen tags inside the box */
+#root main [class*="-multiValue"] {
+  background: var(--highlight);
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+}
+#root main [class*="-multiValue"] > div {
+  color: var(--text);
+}
+/* Dropdown list */
+#root main [class*="-menu"] {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(61, 54, 47, 0.15);
+}
+#root main [class*="-option"] {
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+#root main [class*="-option"]:hover {
+  background: var(--highlight);
+}
+
+/* "Hide master runes" checkbox row */
+#root main div:has(> input[type="checkbox"]) {
+  gap: 8px;
+  font-size: 14px;
+}
+#root main input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: var(--dark);
+  cursor: pointer;
 }
 
 
@@ -137,55 +192,38 @@ body {
 #root main ul {
   margin: 0;
   padding: 6px !important;
-  min-height: 216px;
   background: var(--panel);
+  scrollbar-color: var(--border) transparent;
   border: 1.5px solid var(--border);
   border-radius: 8px;
 }
 
 
 /* "No matches" message */
-#root main li:not(:has(button)) {
+#root main li:not(.drag-item) {
   padding: 12px;
   color: var(--muted);
   font-style: italic;
 }
 
 
-/* Each row: name and info */
-#root main li:has(button) {
+/* Each row: name on top, info underneath. Click and drag to put it in a slot */
+#root .drag-item {
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
   border-bottom: 1px solid var(--line);
 }
 
-.drag-item.is-dragging,
-.placed-item.is-dragging {
+/* Row fades while it's being dragged */
+#root .drag-item.is-dragging {
   opacity: 0.4;
-}
-
-.placed-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  padding: 4px 8px;
-  margin-bottom: 4px;
-  border-radius: 6px;
-  background-color: var(--highlight);
-}
-
-.placed-item-name {
-  flex: 1;
-  text-align: left;
 }
 
 
 /* Rune / combo name */
-#root main li > button[aria-expanded] {
+#root .drag-item > button[aria-expanded] {
   flex: 1;
-  padding: 9px 12px 9px 4px;
+  padding: 9px 12px;
   border: none;
   background: none;
   color: var(--text);
@@ -193,35 +231,35 @@ body {
   font-size: 15px;
   font-weight: bold;
   text-align: left;
-  touch-action: none;
+  cursor: pointer;
 }
-#root main li:has(button):hover {
+#root .drag-item:hover {
   background: var(--box);
 }
 
 
 /* Arrow (the empty <span> before the name) */
-#root main li > button[aria-expanded] > span::before {
+#root .drag-item > button[aria-expanded] > span::before {
   content: "\25B8"; /* ▸ */
   display: inline-block;
   margin-right: 8px;
   color: var(--muted);
   font-size: 11px;
 }
-#root main li > button[aria-expanded="true"] > span::before {
+#root .drag-item > button[aria-expanded="true"] > span::before {
   transform: rotate(90deg);
 }
 
 
 /* Open accordion */
-#root main li:has(> button[aria-expanded="true"]) {
+#root .drag-item:has(> button[aria-expanded="true"]) {
   margin: 4px 0;
   background: var(--highlight);
   border: 1.5px solid var(--gold);
   border-radius: 6px;
   overflow: hidden;
 }
-#root main li > div {
+#root .drag-item > div {
   flex-basis: 100%;
   padding: 8px 12px;
   background: var(--box);
@@ -229,10 +267,10 @@ body {
   color: var(--muted);
   font-size: 13px;
 }
-#root main li > div p {
+#root .drag-item > div p {
   margin: 0;
 }
-#root main li > div em {
+#root .drag-item > div em {
   display: block;
   margin-top: 6px;
   color: var(--text);
@@ -258,14 +296,17 @@ body {
 }
 
 
-/* Cross layout: Banner on top, Weapon / Talisman / Shield across, Armor on the bottom */
+/* Cross layout: Banner on top, Weapon / Talisman / Shield across, Armor at the bottom */
 #root .slots-wrapper {
   display: grid !important;
   grid-template-columns: repeat(3, 150px);
   grid-template-areas:
-    ".      banner   ."
+".      banner   ."
+
     "weapon talisman shield"
+
     ".      armor    .";
+
   gap: 8px !important;
   justify-content: center;
 }
@@ -277,38 +318,22 @@ body {
 
 
 /* Each slot */
-#root .slot-box section {
+#root .slot-drop-zone {
   height: 100%;
-  min-height: 112px !important;
-  padding: 6px !important;
+  min-height: 112px;
+  padding: 6px;
   background: var(--box);
-  border: 1.5px solid var(--border) !important;
-  border-radius: 6px !important;
+  border: 1.5px solid var(--border);
+  border-radius: 6px;
 }
-
-.slot-drop-zone {
-  border-radius: 8px;
-  padding: 8px;
-  min-height: 56px;
-}
-
-.slot-title {
-  margin: 0 0 8px;
-}
-
-.slot-drop-zone.is-over {
-  border-color: var(--gold) !important;
-  box-shadow: 0 0 0 3px rgba(200, 169, 107, 0.35);
-  background: var(--highlight);
-}
-#root .slot-box h3 {
-  margin: 0 0 6px !important;
+#root .slot-title {
+  margin: 0 0 6px;
   font-size: 12px;
 }
 
 
 /* Empty slot hint */
-#root .slot-box section:not(:has(div))::after {
+#root .slot-drop-zone:not(:has(.placed-item))::after {
   content: "Empty";
   display: block;
   padding-top: 18px;
@@ -318,22 +343,42 @@ body {
 }
 
 
+/* Slot glows gold while a rune is dragged over it */
+#root .slot-drop-zone.is-over {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(200, 169, 107, 0.35);
+  background: var(--highlight);
+}
+
+
 /* Runes placed in a slot */
-#root .slot-box section > div {
-  padding: 3px 6px !important;
-  margin-bottom: 3px !important;
-  background-color: var(--highlight) !important;
+#root .placed-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 3px 6px;
+  margin-bottom: 3px;
+  background: var(--highlight);
   border: 1px solid var(--gold);
-  border-radius: 4px !important;
+  border-radius: 4px;
   color: var(--text);
   font-size: 11px;
   font-weight: bold;
   line-height: 1.25;
 }
+#root .placed-item.is-dragging {
+  opacity: 0.4;
+}
+#root .placed-item-name {
+  flex: 1;
+  text-align: left;
+  cursor: grab;
+}
 
 
 /* The x button on a placed rune */
-#root .slot-box section > div > button {
+#root .placed-item > button {
   padding: 0 4px;
   border: none;
   background: none;
@@ -342,19 +387,8 @@ body {
   font-size: 12px;
   cursor: pointer;
 }
-#root .slot-box section > div > button:hover {
+#root .placed-item > button:hover {
   color: var(--error);
-}
-
-.list-drop-zone {
-  flex: 1;
-  min-width: 320px;
-  outline: 2px dashed transparent;
-  outline-offset: 8px;
-}
-
-.list-drop-zone.is-over {
-  outline-color: var(--gold);
 }
 
 
@@ -390,24 +424,28 @@ body {
   opacity: 0.6;
 }
 
-
 .drag-preview {
   position: fixed;
   transform: translate(-50%, -50%);
-  padding: 8px 12px;
-  border: 1.5px solid var(--border);
-  border-radius: 6px;
+  z-index: 2147483647;
   background-color: var(--panel) !important;
+  pointer-events: none;             /* this is here so it doesn't block the drop target */
+  max-width: 280px;
+  padding: 8px 12px;
+  background: var(--panel);
+  border: 1.5px solid var(--gold);
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(61, 54, 47, 0.25);
   color: var(--text) !important;
-  box-shadow: 0 6px 16px rgba(61, 54, 47, 0.25) !important;
-  max-width: 320px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 13px;
-  cursor: grabbing;
-  pointer-events: none;
-  z-index: 2147483647;
+}
+.drag-preview p {
+  margin: 4px 0 0;
+  color: var(--muted);
 }
 
-.drag-preview p {
-  margin: 6px 0 0;
+/* Grabbing hand while dragging */
+body:has(.drag-preview) {
+  cursor: grabbing;
 }
