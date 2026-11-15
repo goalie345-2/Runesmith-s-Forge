@@ -126,6 +126,7 @@ export default function App() {
             setIsExporting(true);
             const dataUrl = await toPng(exportRef.current, {
                 cacheBust: true,
+                pixelRatio: 4,
                 filter: (node) => !(node.dataset && node.dataset.noExport),
             });
         
