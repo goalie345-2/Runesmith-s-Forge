@@ -3780,20 +3780,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Abrasion",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Item inscribed remains free of rust and mundane corrosion.\n\nEngineering (Gronti): Gronti become more aero and hydrodynamic",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Bizzare",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Thungni",
-    "Lore": "",
-    "Attribution": "Voikirum"
-  },
-  {
     "Rune Name": "Rune of Acceptance",
     "Rune Category": "Banner",
     "Rune Type": "Rune",
@@ -3878,34 +3864,6 @@
     "Attribution": "kinglugia"
   },
   {
-    "Rune Name": "Rune of Alert",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Beings without appropriate seal glow and are weakened when in room",
-    "Tags": "Trigger, Curse, Defensive, Physical, IFF, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "Snorri Klausson",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Alloys",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Furnaces, Anvils or Crucibles bearing this Rune ensure that alloys made follow the exact recipe of a chosen alloy. Cannot work with pure metals or ingredients that do not create the chosen alloy.",
-    "Tags": "Trigger, Enchantment, Physical, Odd, Metal",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
     "Rune Name": "Rune of Amber",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -3920,20 +3878,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Rune of Ambient Light",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Creates sourceless light to illuminate area",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Amelioration",
     "Rune Category": "Banner",
     "Rune Type": "Rune",
@@ -3946,48 +3890,6 @@
     "Creator": "Kazrik Pleasurebane",
     "Lore": "",
     "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Rune of Amplified Leverage",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Fulcrums bearing this Rune will act as if one side of a lever is longer than the other",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Odd, Construct",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Annealing",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Weakens metal temporarily through the use of heat and magic, letting it be pliable to mold into Wire",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Odd, Metal, Teaching",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Snorri Klausson",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
-    "Rune Name": "Rune of Anti-Spark",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Rooms or Structures inscribed with this Rune prevent the creation of any sparks",
-    "Tags": "Constant, Enchantment, Civilian, Physical",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Dragonofelder"
   },
   {
     "Rune Name": "Rune of Apathy",
@@ -4270,20 +4172,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Braided Limbs",
-    "Rune Category": "Prosthetic",
-    "Rune Type": "Rune",
-    "Effect": "User gains fine motor control over their head hair ",
-    "Tags": "Constant, Augment, Flexible, Physical, Solo, Construct, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "KIWIBOI95"
-  },
-  {
     "Rune Name": "Rune of Breakshot",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -4438,20 +4326,6 @@
     "Attribution": "Soulcake"
   },
   {
-    "Rune Name": "Rune of Calcination",
-    "Rune Category": "Structural (Furnaces)",
-    "Rune Type": "Rune",
-    "Effect": "Furnaces bearing this Rune instead burn with magical flame, burning away everything until it leaves only ash infused with a single wind, often the predominant one of the item that was burned",
-    "Tags": "Trigger, Enchantment, Civilian, Alchemy, Magic, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "Snorri Klausson",
-    "Notes/Development": "Turn 48: DISCOVERED, INCOMPLETE",
-    "Creator": "Snorri Klausson",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
     "Rune Name": "Rune of Calm",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -4464,20 +4338,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Calm Scent",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Induces a pleasant smell specific to each individual in room",
-    "Tags": "Constant, Enchantment, Civilian, Mental, AOE, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Rune of Cascading Bolts",
@@ -4520,20 +4380,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Charcoal",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Removes mundane impurities from metal in forges inscribed with or within rooms incribed with this Rune",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE, Metal",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Byrrnoth Stonehide",
-    "Lore": "",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Rune of Chivalry",
@@ -4648,20 +4494,6 @@
     "Attribution": "Canon"
   },
   {
-    "Rune Name": "Rune of Climate",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Temperature and humidity regulation",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Cold",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -4674,20 +4506,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Comfort",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Keeps temperature comfortable in room",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Rune of Confrontation",
@@ -4712,34 +4530,6 @@
     "Status": "Unknown",
     "Reagent(s)": "",
     "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Rune of Cookery",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Food cooked in room less likely to turn out poorly",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Rune of Copper",
-    "Rune Category": "Structural (Furnaces, Smelters)",
-    "Rune Type": "Rune",
-    "Effect": "Furnaces/Smelters only, mundane metals inside have their melting point lowered",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE, Metal, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "Snorri Klausson",
     "Notes/Development": "",
     "Creator": "",
     "Lore": "",
@@ -4817,7 +4607,7 @@
   },
   {
     "Rune Name": "Rune of Dark Sight",
-    "Rune Category": "Talismanic (Lenses)",
+    "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Must be inscribed on lenses. Allows the user to see in incredibly low light conditions.",
     "Tags": "Flexible, Constant, Odd",
@@ -4850,20 +4640,6 @@
     "Effect": "Wearer does not feel the weight of their armour, but weight and functions of gear are as normal",
     "Tags": "Odd",
     "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Deep Rest",
-    "Rune Category": "Banner,\nTalismanic,\nStructural",
-    "Rune Type": "Rune",
-    "Effect": "Talisman: Wearer enters a dreamless sleep\nStructural: All within the inscribed will have dreamless sleep.",
-    "Tags": "Augment, Civilian, Mental, Odd\nTalisman: Solo\nBanner, Structural: AOE",
-    "Status": "Learned",
     "Reagent(s)": "",
     "Known By": "",
     "Notes/Development": "",
@@ -4942,20 +4718,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Direction",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "User can send mental commands to Runes that would require verbal control",
-    "Tags": "Activation, Enchantment, Flexible, Mental, Meta, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Snorri Klausson/Yorri",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Discord",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -4982,20 +4744,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Disruptive Stone",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Structures radiate an anti-magic aura. multiple copies enhance effect",
-    "Tags": "Constant, Curse, Flexible, Magical, AOE",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
   },
   {
     "Rune Name": "Rune of Distance",
@@ -5138,34 +4886,6 @@
     "Attribution": "Soulcake"
   },
   {
-    "Rune Name": "Rune of Egress",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Walls and rock surfaces inscribed can act like doors",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Rune of Elemental Swarm",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Rooms or structures bearing this Rune spawn motes of fire, ice and rock that fly towards enemies in range. Multiple copies increase the number and frequency of these motes.",
-    "Tags": "Construct, Odd, Stacking",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Carcer"
-  },
-  {
     "Rune Name": "Rune of Embers",
     "Rune Category": "Talismanic, Armour",
     "Rune Type": "Rune",
@@ -5194,20 +4914,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Emptiness",
-    "Rune Category": "Talismanic (containers)",
-    "Rune Type": "Rune",
-    "Effect": "Inscribed containers can empty their contents at high speed",
-    "Tags": "Trigger, Enchantment, Flexible, Physical, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Enchantment",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -5220,20 +4926,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Endless Snowfall",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Rooms and structures inscribed with this Rune can have a layer of snow form on their floor",
-    "Tags": "Activation, Enchantment, Elemental, AOE, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Carcer"
   },
   {
     "Rune Name": "Rune of Endless Voice",
@@ -5306,20 +4998,6 @@
     "Attribution": "Mayto"
   },
   {
-    "Rune Name": "Rune of False Surfaces",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Projects a false image on a surface in a room",
-    "Tags": "Constant, Activation, Trigger, Enchantment, Flexible, Physical, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Dragonofelder"
-  },
-  {
     "Rune Name": "Rune of Far Whispers",
     "Rune Category": "Talismanic",
     "Rune Type": "Rune",
@@ -5339,20 +5017,6 @@
     "Rune Type": "Rune",
     "Effect": "Lenses inscribed allow user to see unobstructed objects from a kilometre and a half away",
     "Tags": "Constant, Enchantment, Flexible, Physical, Solo",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Farwhistling",
-    "Rune Category": "All ",
-    "Rune Type": "Rune",
-    "Effect": "Inscribed can create a sound only hearable to Brana",
-    "Tags": "Activation, Enchantment, Flexible, Physical, Solo, IFF, Odd",
     "Status": "Future",
     "Reagent(s)": "",
     "Known By": "",
@@ -5404,22 +5068,8 @@
     "Attribution": "Soulcake"
   },
   {
-    "Rune Name": "Rune of Fermentation",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Speeds fermentation",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Ferocity",
-    "Rune Category": "Engineering",
+    "Rune Category": "Banner",
     "Rune Type": "Rune",
     "Effect": "Increases anger and brutality of allies in range, stacking 2nd Increases strength and amplifies natural instinct",
     "Tags": "Constant, Augment, Offensive, Mental, AOE, Stacking",
@@ -5486,20 +5136,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Rune of Flatness",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Inscribed item becomes more levelled",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Solo, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Rune of Flaying",
@@ -5586,76 +5222,6 @@
     "Attribution": "Shard"
   },
   {
-    "Rune Name": "Rune of Forged Ear",
-    "Rune Category": "Prosthetic",
-    "Rune Type": "Rune",
-    "Effect": "Gives user a normal sense of hearing",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Solo, Odd, Construct",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Yorri",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
-    "Rune Name": "Rune of Forged Eye",
-    "Rune Category": "Prosthetic",
-    "Rune Type": "Rune",
-    "Effect": "Gives user a normal sense of sight",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Solo, Odd, Construct",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Yorri",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
-    "Rune Name": "Rune of Forged Limb",
-    "Rune Category": "Prosthetic",
-    "Rune Type": "Rune",
-    "Effect": "Upgraded Rune of Prosthesis, Tactile Sense, as strong as career Warrior and dexterous as experienced Craftsman",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Solo, Odd, Construct",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "Turn 28: Developed from the Rune of Prosthesis",
-    "Creator": "Yorri",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
-    "Rune Name": "Rune of Forged Nose",
-    "Rune Category": "Prosthetic",
-    "Rune Type": "Rune",
-    "Effect": "Gives user a normal sense of smell",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Solo, Odd, Construct",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Yorri",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
-    "Rune Name": "Rune of Forged Tongue",
-    "Rune Category": "Prosthetic",
-    "Rune Type": "Rune",
-    "Effect": "Gives user a normal sense of taste",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Solo, Odd, Construct",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Yorri",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
     "Rune Name": "Rune of Forgeflame",
     "Rune Category": "Structural, Talismanic",
     "Rune Type": "Rune",
@@ -5712,20 +5278,6 @@
     "Attribution": "Canon"
   },
   {
-    "Rune Name": "Rune of Freezing",
-    "Rune Category": "Engineering",
-    "Rune Type": "Rune",
-    "Effect": "Grants war machines freezing attacks",
-    "Tags": "Constant, Enchantment, Offensive, Elemental",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Freezing Agony",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -5780,20 +5332,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "ArchAlngel"
-  },
-  {
-    "Rune Name": "Rune of Furious Strikes",
-    "Rune Category": "Engineering",
-    "Rune Type": "Rune",
-    "Effect": "Grants war machine more powerful attacks based on the anger of the crew",
-    "Tags": "Constant, Enchantment, Offensive, Physical, Solo",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "Derivative of the Rune of Fury",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
   },
   {
     "Rune Name": "Rune of Fury",
@@ -6048,20 +5586,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Grungni's Fist",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Walls can periodically create temporary, fist-shaped protrusions from their surface",
-    "Tags": "Activation, Trigger, Offensive, Physical, AOE, Odd",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
     "Rune Name": "Rune of Guarding",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -6087,20 +5611,6 @@
     "Notes/Development": "",
     "Creator": "Kurgaz",
     "Lore": "Named after the historical term for casting Runes done pre Anvil of Doom",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Hearty Soup",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Containers fill with bland but filling soup, max 3 charges a day",
-    "Tags": "Activation, Enchantment, Civilian, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
     "Attribution": ""
   },
   {
@@ -6130,20 +5640,6 @@
     "Creator": "",
     "Lore": "Used for resistance training",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Herding",
-    "Rune Category": "Banner",
-    "Rune Type": "Rune",
-    "Effect": "Livestock in range are calmed and will more easily obey the wielder. Weakwilled Skaven and Beastmen sometimes ignore the bearer or are rendered insensate",
-    "Tags": "Constant, Augment, Civilian, Defensive, AOE, Grudge, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Rune of Hoarfrost",
@@ -6214,20 +5710,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Rune of Hungering Stone",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Projectiles fired at structure are sometimes consumed and used as repair material",
-    "Tags": "",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Rune of Hunting",
@@ -6384,20 +5866,6 @@
     "Attribution": "Soulcake"
   },
   {
-    "Rune Name": "Rune of Irrigation",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Irrigates soil in room.",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Kadrin",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -6410,20 +5878,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Kazrik Farshot",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Increases artillery range by better imparting more energy into the projectile, multiple copies increase the effect and resulting range.",
-    "Tags": "Trigger, Enchantment, Offensive, Physical, Solo, Stacking",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Kazrik Farshot",
-    "Lore": "",
-    "Attribution": "Voikirium"
   },
   {
     "Rune Name": "Rune of Kinguard",
@@ -6446,20 +5900,6 @@
     "Effect": "Strikes are more likely to hit targets at nearby joints and similar points of articulation.",
     "Tags": "On Attack, Offensive, Physical",
     "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Labyrinth",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Enemies in structure find it almost completely unnavigable and become lost far more easily.",
-    "Tags": "Trigger, Curse, Defensive, Mental, AOE",
-    "Status": "Unknown",
     "Reagent(s)": "",
     "Known By": "",
     "Notes/Development": "",
@@ -6538,20 +5978,6 @@
     "Attribution": "Dragonofelder"
   },
   {
-    "Rune Name": "Rune of Light's Judgement",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Rooms of structures can cast a beam of Hysh infused light that burn those with malicious intent",
-    "Tags": "IFF",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Carcer"
-  },
-  {
     "Rune Name": "Rune of Lightfright",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -6580,20 +6006,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Lightning Strikes",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "A war machine bearing this Rune fires electrified Ammo",
-    "Tags": "Constant, Enchantment, Offensive, Elemental",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "Derived from the Rune of Lightning",
-    "Creator": "",
-    "Lore": "Debate rages as to whether this Rune is simply a variant or not among certain circles",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Lightspite",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -6608,20 +6020,6 @@
     "Attribution": "Soulcake"
   },
   {
-    "Rune Name": "Rune of Load Bearing",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Machine is capable of tolerating higher weight loads",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Odd, Construct",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Long Death",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -6634,20 +6032,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Kebarton"
-  },
-  {
-    "Rune Name": "Rune of Longbeard's Nose",
-    "Rune Category": "Prosthetic",
-    "Rune Type": "Rune",
-    "Effect": "Prosthetics inscribed give the user an enhanced sense of smell, equivalent to a hound",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Solo, Odd, Construct",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "Derivative of the Rune of Forged Nose",
-    "Attribution": "Dragonofelder"
   },
   {
     "Rune Name": "Rune of Loyalty",
@@ -6692,20 +6076,6 @@
     "Attribution": "Dragonofelder"
   },
   {
-    "Rune Name": "Rune of Messaging",
-    "Rune Category": "Talismanic",
-    "Rune Type": "Rune",
-    "Effect": "Items inscribed with this Rune can hold a 5 minute message for three days. Once used the message released or erased, the Rune can be reused a day later.",
-    "Tags": "Activation, Enchantment, Flexible, Physical, Solo",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "Snorri Klausson",
-    "Notes/Development": "Turn 61: DISCOVERED?\nINCOMPLETE",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
     "Rune Name": "Rune of Might",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -6748,20 +6118,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Mist",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Creates cooling mist in room",
-    "Tags": "Constant, Enchantment, Civilian, Elemental, AOE",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Morgrim",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -6790,40 +6146,12 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of No Entry",
-    "Rune Category": "Structural (Floors)",
-    "Rune Type": "Rune",
-    "Effect": "Inclines in range become incredibly slippery/frictionless",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Null Resistance",
     "Rune Category": "All",
     "Rune Type": "Rune",
     "Effect": "Wearer has reduced drag when going through the air",
     "Tags": "Odd",
     "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Obfuscation",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Muffles and distorts the words spoken by those in the room for those outside and instills a desire to leave the vicinity",
-    "Tags": "Constant, Enchantment, Curse, Flexible, Physical, Mental, AOE",
-    "Status": "Learned",
     "Reagent(s)": "",
     "Known By": "",
     "Notes/Development": "",
@@ -6844,34 +6172,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Rune of Ordinary Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Obfuscates structures bearing this Rune from mundane perception.",
-    "Tags": "Constant, Curse, Defensive, Mental, AOE, IFF, Odd",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "Ogra Iggunsdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Paperwork",
-    "Rune Category": "Talismanic",
-    "Rune Type": "Rune",
-    "Effect": "Shelves/Desks/Surfaces inscribed with this Rune organize stray paper according to user's desire.",
-    "Tags": "Activation, Enchantment, Civilian, Physical, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Dragonofelder"
   },
   {
     "Rune Name": "Rune of Paralysis",
@@ -6938,34 +6238,6 @@
     "Status": "Learned",
     "Reagent(s)": "",
     "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Peppermint",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Noxious and foul smelling fumes will be replaced with the scent of peppermint or some other pleasant smell.",
-    "Tags": "Trigger, Civilian, Physical, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Rune of Perception",
-    "Rune Category": "Engineering",
-    "Rune Type": "Rune",
-    "Effect": "Crew are more aware of their surroundings.",
-    "Tags": "Constant, Augment, Defensive, Mental",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "Lorna Dernasdottir, \nValma Hilldasdottir",
     "Notes/Development": "",
     "Creator": "",
     "Lore": "",
@@ -7042,20 +6314,6 @@
     "Attribution": "abominable"
   },
   {
-    "Rune Name": "Rune of Piercing Sight",
-    "Rune Category": "Talismanic (Lenses)",
-    "Rune Type": "Rune",
-    "Effect": "Inscribed lenses allow user to see through skin, bone, muscle and/or organs on command",
-    "Tags": "Activation, Enchantment, Civilian, Physical, Solo, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "Snerra Magnasdottir",
-    "Notes/Development": "Must be inscribed on mastercrafted lenses",
-    "Creator": "Snerra Magnasdottir",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
     "Rune Name": "Rune of Pincushions",
     "Rune Category": "Banner",
     "Rune Type": "Rune",
@@ -7126,20 +6384,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Preparation",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Components of items bearing this Rune are better maintained. Bowstring waxed, gears oiled, ropes tarred, etc.",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Constuct, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Preservation",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -7154,20 +6398,6 @@
     "Attribution": "Canon"
   },
   {
-    "Rune Name": "Rune of Productivity",
-    "Rune Category": "Weapon",
-    "Rune Type": "Rune",
-    "Effect": "Wielder has vastly improved crafting speed, but needs to have necessary skill to handle that speed",
-    "Tags": "Augment, Activation, Physical, Solo, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "NSMS"
-  },
-  {
     "Rune Name": "Rune of Prospecting",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -7178,34 +6408,6 @@
     "Known By": "Brynna Kargasdottir",
     "Notes/Development": "",
     "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Prospector's Strength",
-    "Rune Category": "Weapon",
-    "Rune Type": "Rune",
-    "Effect": " Greatly increases the effects of strength increasing and forces increasing runes on the pickaxe. Only works when mining and buff does not trigger when in use with combat.",
-    "Tags": " Trigger, Enchantment, Civilian, Meta, Solo",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "BananaBuddy"
-  },
-  {
-    "Rune Name": "Rune of Prosthesis",
-    "Rune Category": "Prosthetic",
-    "Rune Type": "Rune",
-    "Effect": "Allows for simple, mentally controlled prosthetics. Weak, no tactile senses.",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Solo, Odd, Construct",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "Turn 28: Rendered Redundant by Rune of Forged Limb",
-    "Creator": "Yorri",
     "Lore": "",
     "Attribution": ""
   },
@@ -7253,7 +6455,7 @@
   },
   {
     "Rune Name": "Rune of Rain",
-    "Rune Category": "All",
+    "Rune Category": "Banner",
     "Rune Type": "Rune",
     "Effect": "Rain falls in range of banner, does not inhibit allies but causes enemies to have loose grip on weapons and footing",
     "Tags": "Odd",
@@ -7292,34 +6494,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Tobtorp"
-  },
-  {
-    "Rune Name": "Rune of Reflection",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Bends any light that hits the rune to a single point",
-    "Tags": "Constant, Trigger, Activation, Cast, Civilian, Physical",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "Rendered Redundant by Rune of Refraction",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Refraction",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Allows for very rudimentary manipulation of light that hits the Rune. Changing the direction, the colour, even splitting it into multiple weaker beams.",
-    "Tags": "Constant, Trigger, Activation, Cast, Civilian, Physical",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Rune of Reloading",
@@ -7392,20 +6566,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Rune of Righted Ship",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Prevents ship from capsizing, even if sunk",
-    "Tags": "Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Rime Armour",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -7462,20 +6622,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Roots",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Structure projects materially appropriate \"roots\" into the ground that anchor and stabilize it",
-    "Tags": "Constant, Enchantment, Defensive, Physical",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
     "Rune Name": "Rune of Rubber Steel",
     "Rune Category": "Armour, Talismanic, Engineering",
     "Rune Type": "Rune",
@@ -7519,7 +6665,7 @@
   },
   {
     "Rune Name": "Rune of Sanctuary",
-    "Rune Category": "Armour, Banner, Talismanic, Banner",
+    "Rune Category": "Armour, Banner, Talismanic,",
     "Rune Type": "Rune",
     "Effect": "Magnifies Dwarfen anti-magic aura",
     "Tags": "Constant, Augment, Defensive, Magic",
@@ -7530,20 +6676,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Canon"
-  },
-  {
-    "Rune Name": "Rune of Sanitization",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Removes blood, filth and unclean substances from surface/room",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Rune of Scattering",
@@ -7588,34 +6720,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Seafaring",
-    "Rune Category": "Armour,\nEngineering",
-    "Rune Type": "Rune",
-    "Effect": "Reduce drag from water",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Solo",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Sealing",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Engineering: Machinery bearing this Rune have all unplanned gaps sealed\nStructural: Rooms and structures bearing this Rune are air tight\nTalisman: Vessels and items bearing this Rune do not leak",
-    "Tags": "All: Constant, Enchantment, Civilian, Physical",
-    "Status": "Learned (Structural, Talisman)\nFuture (Engineering)",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Searing Agony",
     "Rune Category": "Weapon",
     "Rune Type": "Rune",
@@ -7628,48 +6732,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Security",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Reinforces door hinges and locks against tampering",
-    "Tags": "Trigger, Enchantment, Defensive, Physical, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Seeking/ Flakkson's Rune of Seeking",
-    "Rune Category": "Engineering (Bolt Thrower)",
-    "Rune Type": "Rune",
-    "Effect": "Ammo can partially orient itself in the air to better hit target",
-    "Tags": "Trigger, Enchantment, Offensive, Physical, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Flakkson",
-    "Lore": "",
-    "Attribution": "Canon"
-  },
-  {
-    "Rune Name": "Rune of Sequestering",
-    "Rune Category": "Talismanic (Storage)",
-    "Rune Type": "Rune",
-    "Effect": "Containers bearing this Rune can keep two different substances inside them separate from each other.",
-    "Tags": "Trigger, Enchantment, Civilian, Physical, Alchemy",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "BananaBuddy"
   },
   {
     "Rune Name": "Rune of Serenity",
@@ -7798,20 +6860,6 @@
     "Attribution": "kinglugia"
   },
   {
-    "Rune Name": "Rune of Shocking",
-    "Rune Category": "Engineering",
-    "Rune Type": "Rune",
-    "Effect": "Grants war machines electrifying attacks",
-    "Tags": "Constant, Enchantment, Offensive, Elemental",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Shredding",
     "Rune Category": "Weapon",
     "Rune Type": "Rune",
@@ -7824,20 +6872,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Sieving",
-    "Rune Category": "Weapon",
-    "Rune Type": "Rune",
-    "Effect": "When the inscribed strikes ore, the most valuable fragments will remain stuck to it like a magnet.",
-    "Tags": "On Hit, Enchantment, Civilian, Physical, AOE, Odd",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "fictionfan"
   },
   {
     "Rune Name": "Rune of Silence/Lightstep",
@@ -7882,20 +6916,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Singular Path",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Doors to structure or room are seen as only openable in one direction by enemies",
-    "Tags": "Constant, Curse, Defensive, Mental, IFF, AOE, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Siphoning",
     "Rune Category": "Weapon, Banner, Talismanic, Structural",
     "Rune Type": "Rune",
@@ -7924,82 +6944,12 @@
     "Attribution": "BananaBuddy"
   },
   {
-    "Rune Name": "Rune of Skimming",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Highlights key concepts in the eyes of texts being read by the wearer",
-    "Tags": "Constant, Augment, Civilian, Mental, Solo, Odd",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Skimming Stone",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Grants war machine skipping stone like attacks",
-    "Tags": "",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Borri Bjornsson",
-    "Lore": "Inspired by how a pebble is able to skim on water when certain conditions are fulfilled, a Runesmith struck this Rune upon having an epiphany after overhearing some grumbling from an elder at the local hold's Engineers Guild.",
-    "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Rune of Skyfalling",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Living beings fired from the War machine gain a short lived protective shield and increased durability, letting them land largely unhurt",
-    "Tags": "",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Skystrike",
     "Rune Category": "All",
     "Rune Type": "Rune",
     "Effect": "Ammo fired will transform all momentum into vertical force at apex of its firing arc",
     "Tags": "",
     "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Slickness",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Surface of inscribed item becomes slippery",
-    "Tags": "Constant, Enchantment, Flexible, Physical, AOE, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Slippery Stones",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Structures bearing this Rune become more difficult to scale",
-    "Tags": "",
-    "Status": "Unknown",
     "Reagent(s)": "",
     "Known By": "",
     "Notes/Development": "",
@@ -8064,20 +7014,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Smelting",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Metal smelted in Room is higher purity",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE, Alchemy, Metal",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Smog",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -8104,20 +7040,6 @@
     "Creator": "Kallon Runemaker",
     "Lore": "",
     "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Rune of Snorri's Swiftness",
-    "Rune Category": "Engineering (Transports)",
-    "Rune Type": "Rune",
-    "Effect": "Transport has its speed increased temporarily",
-    "Tags": "Activation, Enchantment, Physical, Solo, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Carcer"
   },
   {
     "Rune Name": "Rune of Snow",
@@ -8162,67 +7084,11 @@
     "Attribution": "Shard"
   },
   {
-    "Rune Name": "Rune of Soil",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Reduces nutrient depletion of soil in room",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Solidity",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Reduces kickback from artillery",
-    "Tags": "",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Sorting",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Dwarfs in a room bearing this Rune will instinctively know where to put things away",
-    "Tags": "Constant, Augment, Civilian, Mental, AOE, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Xepheria, Dragonofelder?"
-  },
-  {
     "Rune Name": "Rune of Sound",
     "Rune Category": "All",
     "Rune Type": "Rune",
     "Effect": "Propagates sound in the direction it faces",
     "Tags": "Trigger, Enchantment, Civilian, Physical",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Spark Suppression",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Strikes against stone or metal will not create sparks",
-    "Tags": "Odd",
     "Status": "Learned",
     "Reagent(s)": "",
     "Known By": "",
@@ -8582,34 +7448,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Sturdy Foundations",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Structures are hardened against undermining, other sources of foundation damage and better anchored to earth. multiple copies increase potency",
-    "Tags": "Constant, Enchantment, Defensive, Physical, Stacking",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Sudden Slides",
-    "Rune Category": "Structural (Stairs)",
-    "Rune Type": "Rune",
-    "Effect": "Steps will transform into a smooth slide when enemies attempt to climb them",
-    "Tags": "Trigger, Enchantment, Defensive, Physical, IFF",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Dragonofelder"
-  },
-  {
     "Rune Name": "Rune of Surestrike",
     "Rune Category": "Weapon (Ranged), Engineering",
     "Rune Type": "Rune",
@@ -8628,20 +7466,6 @@
     "Rune Category": "Talismanic",
     "Rune Type": "Rune",
     "Effect": "Highlights objects and persons related or connected to a chosen object",
-    "Tags": "",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Tar",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Engineering: Grants war machines aoe tar attack",
     "Tags": "",
     "Status": "Unknown",
     "Reagent(s)": "",
@@ -8722,48 +7546,6 @@
     "Attribution": "ThatOneGuy050"
   },
   {
-    "Rune Name": "Rune of the Charge Breaker",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "War machines emit aura of trepidation and minor aversion around them",
-    "Tags": "Constant, Curse, Defensive, Mental, IFF, AOE",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Rune of the Cleansing Sun",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Creates a field or fills a room with Hysh in the form of sunlight, weakening undead and vampires",
-    "Tags": "",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Rune of the Crucible",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Increases heat capacity and generation of room/structure",
-    "Tags": "Constant, Enchantment, Civilian, Elemental, AOE, Power, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
     "Rune Name": "Rune of the Fierce",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -8820,20 +7602,6 @@
     "Attribution": "Canon"
   },
   {
-    "Rune Name": "Rune of the Guard Tower",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Vision and vocal volume of those in the room are increased. multiple copies improve the effect",
-    "Tags": "Constant, Augment, Defensive, Physical, AOE, Odd, Stacking",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "Brynna Kargasdottir",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
     "Rune Name": "Rune of the Hawk",
     "Rune Category": "Banner",
     "Rune Type": "Rune",
@@ -8877,7 +7645,7 @@
   },
   {
     "Rune Name": "Rune of the Ironbreaker",
-    "Rune Category": "Armour (Platemail)",
+    "Rune Category": "Armour",
     "Rune Type": "Rune",
     "Effect": "Strikes against armour cause greater wear and tear, magical weapons immune",
     "Tags": "On Block, Curse",
@@ -8974,34 +7742,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Rune of the Sentry",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Enemies approaching a structure with this rune glow and physically concealed enemies are easier to see. Enemy casters have a brighter glow",
-    "Tags": "",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of the Stalwart",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Bonus to will, two copies make crew Unbreakable near their War Machine",
-    "Tags": "Constant, Augment, Flexible, Mental, Multi, IFF, Stacking",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of the Sun",
     "Rune Category": "Talismanic (Crystals), Structural",
     "Rune Type": "Rune",
@@ -9030,20 +7770,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Rune of the Unchained Oven",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Subtly improves cooking done by competent chefs in room",
-    "Tags": "Constant, Augment, Civilian, Mental, Multi",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of the Unknown",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -9070,20 +7796,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": "Canon"
-  },
-  {
-    "Rune Name": "Rune of the Walking Goat",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Room allows walking on wall and ceiling",
-    "Tags": "",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Rune of the Wasp",
@@ -9170,34 +7882,6 @@
     "Attribution": "Soulcake"
   },
   {
-    "Rune Name": "Rune of Tin",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Structures and rooms bearing this Rune have metal being worked on within made more malleable",
-    "Tags": "Constant, Curse, Civilian, Physical, AOE, Metal",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Voikirium"
-  },
-  {
-    "Rune Name": "Rune of Torsion",
-    "Rune Category": "Engineering, Structural (axles)",
-    "Rune Type": "Rune",
-    "Effect": "Housed axles in items bearing this Rune will attempt to complete 1 rotation per day, if the inscribed item is taken off the ground the axle will continue to spin without slowing for ten days before stopping completely, needing to connect to the ground for a tenth of the time it spent away. Multiple copies increase the number of rotations per day.",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Construct, Stacking, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "steampvnc1880"
-  },
-  {
     "Rune Name": "Rune of Toxins",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -9226,20 +7910,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Transcription",
-    "Rune Category": "Talismanic, Engineering",
-    "Rune Type": "Rune",
-    "Effect": "Will write down the user's words when applied on the appropriate mechanism",
-    "Tags": "Trigger, Enchantment, Civilian, Mental, Construct, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "Snorri Klausson",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
     "Rune Name": "Rune of Translation",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -9250,20 +7920,6 @@
     "Known By": "",
     "Notes/Development": "Rendered Redundant by Rune of Speech",
     "Creator": "Yorri",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Transparency",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Light can be allowed to pass through walls in room",
-    "Tags": "Constant, Enchantment, Flexible, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
     "Lore": "",
     "Attribution": ""
   },
@@ -9294,20 +7950,6 @@
     "Creator": "Thungni",
     "Lore": "",
     "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Rune of Tugging",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Randomly tugs at wearer, more likely to trip and mishandle equipment",
-    "Tags": "Constant, Curse, Flexible, Physical, Solo, Odd",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
   },
   {
     "Rune Name": "Rune of Tunes",
@@ -9450,20 +8092,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Ventilation",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Air in room is freshened and moved towards surface",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Verglas",
     "Rune Category": "Weapon (Melee)",
     "Rune Type": "Rune",
@@ -9478,95 +8106,11 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Rune of Verminfate",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Rooms or Structures bearing this Rune actively repel or kill rats and other unwanted vermin. Skaven are also affected, but to a lesser degree",
-    "Tags": "Constant, Flexible, Defensive, AOE, Grudge, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "Canon"
-  },
-  {
-    "Rune Name": "Rune of Vigilant Stone",
-    "Rune Category": "Structural",
-    "Rune Type": "Rune",
-    "Effect": "Room can detect and reveal magically concealed beings inside of it. Two copies cause the stealthed target to be burned and their equipment to begin failing",
-    "Tags": "Trigger, Curse, Flexible, Magical, AOE, Odd",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "kinglugia"
-  },
-  {
-    "Rune Name": "Rune of Vigorous Furnace",
-    "Rune Category": "Structural (Furnaces, Smelters)",
-    "Rune Type": "Rune",
-    "Effect": "Structures or items inscribed with this Rune burn fuel with increased efficiency and at temperatures much higher than what is naturally possible",
-    "Tags": "Constant, Enchantment, Civilian, Physical, AOE, Metal",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Vileful Guts",
     "Rune Category": "Weapon, Engineering",
     "Rune Type": "Rune",
     "Effect": "Ammo fired releases a burst of caustic energy, two copies make effect linger, three increase range of explosion",
     "Tags": "On Hit, Curse, Offensive, Elemental, Solo, Odd, Stacking",
-    "Status": "Unknown",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Vitriol",
-    "Rune Category": "Engineering",
-    "Rune Type": "Rune",
-    "Effect": "Grants war machines acid attacks",
-    "Tags": "Constant, Enchantment, Offensive, Elemental",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": "fischicles"
-  },
-  {
-    "Rune Name": "Rune of Waking Elements",
-    "Rune Category": "Engineering",
-    "Rune Type": "Rune",
-    "Effect": "Activating this Rune causes the inscribed keystone to draw in surrounding stone and soil to form a Dwarf sized humanoid construct. These persist until dismissed or they run out of magic to fuel themselves. These constructs can regenerate by pulling in new material so long as the keystone is intact.",
-    "Tags": "Activation, Cast, Enchantment, Flexible, Elemental, Construct, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "Snorri Klausson",
-    "Notes/Development": "Turn 61: COMPLETED",
-    "Creator": "Snorri Klausson",
-    "Lore": "",
-    "Attribution": "Soulcake"
-  },
-  {
-    "Rune Name": "Rune of Walled Stabbing",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "A field of forearm-length spikes portrude from the walls of structures and rooms bearing this Rune, multiple copies improve strength and amount of spikes",
-    "Tags": "Activation Enchantment, Flexible, Physical, AOE, Stacking",
     "Status": "Unknown",
     "Reagent(s)": "",
     "Known By": "",
@@ -9618,20 +8162,6 @@
     "Attribution": ""
   },
   {
-    "Rune Name": "Rune of Washing",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Clothes and equipment worn and wielded by the user respectively are kept clean",
-    "Tags": "Constant, Enchantment, Civilian, Physical, Odd",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Water",
     "Rune Category": "Talismanic",
     "Rune Type": "Rune",
@@ -9674,20 +8204,6 @@
     "Attribution": "Voikirium"
   },
   {
-    "Rune Name": "Rune of Weightlessness",
-    "Rune Category": "All",
-    "Rune Type": "Rune",
-    "Effect": "Causes temporary levitation",
-    "Tags": "Activation, Augment, Flexible, Physical, Solo, Odd",
-    "Status": "Future",
-    "Reagent(s)": "",
-    "Known By": "",
-    "Notes/Development": "",
-    "Creator": "",
-    "Lore": "",
-    "Attribution": ""
-  },
-  {
     "Rune Name": "Rune of Wildpeace",
     "Rune Category": "All",
     "Rune Type": "Rune",
@@ -9700,20 +8216,6 @@
     "Creator": "",
     "Lore": "",
     "Attribution": ""
-  },
-  {
-    "Rune Name": "Rune of Windsight",
-    "Rune Category": "Prosthetic",
-    "Rune Type": "Rune",
-    "Effect": "Prosthetics with this let Wearer can see the colors of the respective Winds within, around or associated with a chosen object they view. There is a size limit, no focusing on the sky, but a storm is possible for instance, and Runes mysteriously look no different from before.",
-    "Tags": "Activation, Constant, Enchantment, Flexible, Odd, Magic, Construct",
-    "Status": "Learned",
-    "Reagent(s)": "",
-    "Known By": "Snorri Klausson",
-    "Notes/Development": "Turn 48: DEVELOPED\nTurn 58: COMPLETED",
-    "Creator": "Snorri Klausson",
-    "Lore": "",
-    "Attribution": "Soulcake"
   },
   {
     "Rune Name": "Rune of Wolf's Peace",
