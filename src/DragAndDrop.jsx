@@ -100,13 +100,12 @@ function PlacedItem({ item, slotName, onRemove }) {
 }
 
 // Render one build slot and its contents
-function SlotDropZone({ name, items, onSelect, onRemove }) {
+function SlotDropZone({ name, items, onRemove }) {
     const { setNodeRef, isOver } = useDroppable({ id: name });
 
     return (
         <section
             ref={setNodeRef}
-            onClick={() => onSelect(name)}
             aria-label={`${name} slot`}
             className={`slot-drop-zone${isOver ? ' is-over' : ''}`}
         >
@@ -139,7 +138,6 @@ export default function DragAndDrop({
     setBuild,
     showError,
     removeFromSlot,
-    setTargetSlot,
     children,
 }) {
     // Enable Dragging
@@ -160,9 +158,20 @@ export default function DragAndDrop({
         const handlePointerMove = (event) => {
             setPointerPosition({ x: event.clientX, y: event.clientY });
         };
+        const clearDragState = () => {
+            setDraggedItem(null);
+            setPointerPosition(null);
+        };
 
         window.addEventListener('pointermove', handlePointerMove);
-        return () => window.removeEventListener('pointermove', handlePointerMove);
+        window.addEventListener('blur', clearDragState);
+        window.addEventListener('pointercancel', clearDragState);
+
+        return () => {
+            window.removeEventListener('pointermove', handlePointerMove);
+            window.removeEventListener('blur', clearDragState);
+            window.removeEventListener('pointercancel', clearDragState);
+        };
     }, [draggedItem]);
 
     // Item gets "stored" when you begin to drag
@@ -237,7 +246,6 @@ export default function DragAndDrop({
         <SlotDropZone
             name={slotName}
             items={build[slotName]}
-            onSelect={setTargetSlot}
             onRemove={removeFromSlot}
         />
     );

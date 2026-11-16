@@ -79,7 +79,6 @@ export default function App() {
         startingBuild[slotName] = [];
     }
     const [build, setBuild] = useState(startingBuild);
-    const [, setTargetSlot] = useState("Banner");
 
     // Used for the drag preview and slot-full message
     const [error, setError] = useState("");
@@ -170,7 +169,6 @@ export default function App() {
             setBuild={setBuild}
             showError={showError}
             removeFromSlot={removeFromSlot}
-            setTargetSlot={setTargetSlot}
         >
         {({ slot, DraggableListItem }) => (
         <>
