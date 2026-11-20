@@ -35,7 +35,12 @@ body {
 #root header {
   border-bottom: 4px solid var(--gold);
 }
-
+header {
+    background-image: url('/runesmith-logo.png');
+    background-repeat: no-repeat;
+    background-position: right 32px center;
+    background-size: auto 100%;
+}
 
 /* Page layout the row under the header (rune list left, build right) */
 #root header + div {
