@@ -185,9 +185,16 @@ export default function App() {
             >
                 Runesmith's Forge
             </header>
+            <div style={{
+                display: 'flex',
+                flex:'1',
+                minHeight: 0,
+                justifyContent: 'space-between',
+                gap: '0px',
+                padding: '24px',
+                alignItems: 'stretch',
+            }}>
 
-            <div style={{ display: 'flex', gap: '32px', padding: '24px', alignItems: 'flex-start' }}>
-                
                 <ListDropZone>
                     <div>
                         <div>
@@ -277,8 +284,8 @@ export default function App() {
                         </ul>
                     </div>
                 </ListDropZone>
-                
-                <aside style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+
+                <aside style={{display: 'flex', flexDirection: 'column', gap: '12px' }}>
                     <BuildCard ref={exportRef} slot={slot} />
 
                     {/* Keep the error outside the exported card */}

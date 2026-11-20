@@ -39,15 +39,19 @@ body {
 
 /* Page layout the row under the header (rune list left, build right) */
 #root header + div {
-  gap: 40px !important;
+  display: flex;
+  justify-content: center !important;
+  gap: clamp(0px, calc(100vw - 1120px), 80px) !important;
   padding: 30px 36px !important;
 }
 #root .list-drop-zone {
-  flex: 0 1 480px;
-  min-width: 320px;
+  flex: 0 0 480px !important;
+  width: 480px !important;
+  margin: 0 !important;
 }
 #root header + div > aside {
-  flex: 1;
+  flex: 0 0 auto !important;
+  flex-shrink: 0 !important;
   align-items: center;
 }
 
