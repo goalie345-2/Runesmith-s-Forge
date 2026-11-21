@@ -23,9 +23,9 @@ import { forwardRef } from 'react';
             >
                 <div className="slot-box">{slot('Banner')}</div>
                 <div className="slot-box">{slot('Weapon')}</div>
-                <div className="slot-box">{slot('Tailsman')}</div>
+                <div className="slot-box">{slot('Talismanic')}</div>
                 <div className="slot-box">{slot('Shield')}</div>
-                <div className="slot-box">{slot('Armor')}</div>
+                <div className="slot-box">{slot('Armour')}</div>
             </div>
         </div>
     );

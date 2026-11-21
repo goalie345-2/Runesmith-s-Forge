@@ -8,13 +8,13 @@ import runeJson from "/runes.json";
 import comboJson from "/combos.json";
 import Select from 'react-select';
 
-const SLOTS = ["Banner", "Weapon", "Tailsman", "Shield", "Armor"];
+const SLOTS = ["Banner", "Weapon", "Talismanic", "Shield", "Armour"];
 const TAGS = [
-    { value: 'Armor', label: 'Armor' },
+    { value: 'Armour', label: 'Armour' },
     { value: 'Banner', label: 'Banner' },
-    { value: 'Talisman', label: 'Talisman' },
+    { value: 'Talismanic', label: 'Talismanic' },
     { value: 'Weapon', label: 'Weapon' },
-    { value: 'Armor', label: 'Armor' }
+    { value: 'Armour (Shields)', label: 'Shield' }
 ];
 
 const RUNES = importRunes(runeJson);
@@ -103,7 +103,7 @@ export default function App() {
             //we want to be searching through tags as well - this is probably close but not quite working
             const nameMatches = entry.name.toLowerCase().includes(searchText) || entry.tags?.some(x=> x.value === searchText);
             //tagmatches must be fixed now that categories is an array instead of a single value
-            const tagMatches = selectedTags.length === 0 || selectedTags.some(x => x.value === entry.category);
+            const tagMatches = selectedTags.length === 0 || selectedTags.some(x => entry.category.includes(x.value));
             const masterMatches = tab != "runes" || !isMasterChecked || isMasterChecked && !isMasterRune(entry);
 
             if (nameMatches && tagMatches && masterMatches) {
