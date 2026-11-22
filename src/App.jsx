@@ -248,8 +248,8 @@ export default function App() {
                             listStyle: 'none', 
                             padding: 0,
                             margin: 0,
-                            height: '620px',
-                            maxHeight: '620px',
+                            flex: '1',
+                            minHeight: 0,
                             overflowY: 'auto',
                             overflowX: 'hidden',
                             }}

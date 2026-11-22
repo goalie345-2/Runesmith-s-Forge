@@ -42,9 +42,19 @@ header {
     background-size: auto 100%;
 }
 
+#root,
+#root > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
 /* Page layout the row under the header (rune list left, build right) */
 #root header + div {
   display: flex;
+  flex: 1;
+  min-height: 0;
   justify-content: center !important;
   gap: clamp(0px, calc(100vw - 1120px), 80px) !important;
   padding: 30px 36px !important;
@@ -53,6 +63,18 @@ header {
   flex: 0 0 480px !important;
   width: 480px !important;
   margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+#root .list-drop-zone > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 #root header + div > aside {
   flex: 0 0 auto !important;
@@ -199,6 +221,10 @@ header {
 
 /* Rune / combo list*/
 #root main ul {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
   margin: 0;
   padding: 6px !important;
   background: var(--panel);

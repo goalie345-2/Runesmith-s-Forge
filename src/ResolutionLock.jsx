@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const MIN_CONTENT_WIDTH = 1120;
-const MIN_CONTENT_HEIGHT = 860;
+const MIN_CONTENT_HEIGHT = 920;
 
 export default function ResolutionLock({ children }) {
     const [stageStyle, setStageStyle] = useState({
