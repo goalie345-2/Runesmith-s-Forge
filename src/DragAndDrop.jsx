@@ -12,7 +12,7 @@ import {
 import { isLonelyRune, isMasterRune } from './dragRules';
 
 const MAX_PER_SLOT = 3;
-const BUILD_SLOTS = ['Banner', 'Weapon', 'Tailsman', 'Shield', 'Armor'];
+const BUILD_SLOTS = ['Banner', 'Weapon', 'Talismanic', 'Shield', 'Armour'];
 
 // Only use the slot directly under the cursor
 const cursorCollisionDetection = (args) => {
@@ -35,11 +35,11 @@ const getCompatibleSlots = (item) => {
     if (/\bbanner\b/.test(categoryText)) slots.push('Banner');
     // Weapon subcategories, including "Weapons (thrown)", use the Weapon slot
     if (/\bweapons?\b/.test(categoryText)) slots.push('Weapon');
-    if (/\btalisman\b/.test(categoryText)) slots.push('Tailsman');
+    if (/\btalismanic\b/.test(categoryText)) slots.push('Talismanic');
     // Shield-only armor runes only work on shields; Regular armor runes will also works on shields
-    if (/\barmou?r\b/.test(categoryText)) {
+    if (/\b(?:armour|armor)\b/.test(categoryText)) {
         const isShieldOnly = /\bshield/.test(categoryText) && !/\bnot shields?\b/.test(categoryText);
-        slots.push(isShieldOnly ? 'Shield' : 'Armor');
+        slots.push(isShieldOnly ? 'Shield' : 'Armour');
         if (!isShieldOnly && !/\bnot shields?\b/.test(categoryText)) slots.push('Shield');
     }
 
